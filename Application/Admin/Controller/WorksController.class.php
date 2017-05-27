@@ -228,93 +228,29 @@ class WorksController extends Controller{
 	 * 更新漫画作品信息
 	 */
 	public function updateComin(){
-		$sub=$_GET['sub'];
-	    $username=base64_decode(base64_decode(base64_decode($sub)));   //解密的用户电话号码
-	    $title = $_POST['svphoneNum'];
-		$comicintroduce=$_POST['comicintroduce'];
-		$picauthor=$_POST['picauthor'];
-		$textauthor=$_POST['textauthor'];
-		$type=$_POST['type'];
-		$themes=$_POST['themes'];
-		$theme= implode('|',$themes);
-		$comicintroduce=$_POST['comicintroduce'];
-		$writerprofile=$_POST['writerprofile'];
-		$yonger=$_POST['yonger'];
-		$taged=$_POST['taged'];
-		$status=$_POST['comicgress'];
-		$planed=$_POST['planed'];
-		$publishstatus=$_POST['publishstatus'];
-		$copyright=$_POST['copyright'];
-		$authornotice=$_POST['authornotice'];
-		$headphoto=$_POST['headphoto'];
-	    $applookphoto = $_POST['applookphoto'];
-	   
-		$time=date('Y-m-d H:i');
-		$strlen = mb_strwidth($taged)/2;
-        if($strlen%2==0){
-			for($i=0;$i<$strlen;$i=$i+2){
-		    $charset="utf-8";
-			$array[]=mb_substr($taged,$i,2,$charset);
-		   }
-		   $totallaber= implode('|',$array);
-		}else{
-			$arrs = explode("萌",$taged);
-			$class= implode('',$arrs);
-			$strlens = mb_strwidth($class)/2;
-			for($k=0;$k<$strlens;$k=$k+2){
-				$charset="utf-8";
-				$array[]=mb_substr($class,$k,2,$charset);
-		    }
-				$totall= implode('|',$array);
-				$totallaber=$totall.'|'.'萌';
-		}
-		$Formadder = M('adder');
-		$author = $Formadder->where("mobile='$username'")->getfield('nickname');
-		$authorphoto =  $Formadder->where("mobile='$username'")->getfield('photo');
-		$Formcreateauther = M('createauther');
-		$number = $Formcreateauther->where("id>0")->order("id desc")->limit("0,1")->select();
-		$val =$number[0][val]+1;
-		session_start();
-		$_SESSION['val']=$val;
-		$createdata = array(
-			'username'=>$username,
-			'authorphoto'=>$authorphoto,
-			'catidca'=>$type,
-			'audiences'=>$yonger,
-			'title'=>$title,
-			'author'=>$author,
-			'totaltag'=>$totallaber,
-			'planed'=>$planed,
-			'status'=>$status,
-			'firstpublish'=>$publishstatus,
-			'exclusive'=>$copyright,
-			'say'=>$comicintroduce,
-			'announcement'=>$authornotice,
-			'description'=>$writerprofile,
-			'photopath'=>$headphoto,
-			'applookphoto'=>$applookphoto,
-			'protocol'=>'同意',
-			'time'=>$time,
-			'updatetime'=>$time,
-			'besure'=>'审核中',
-			'val'=>$val,
-			'quatityword'=>0,
-			'moods'=>100,
-			'paypassage'=>0,
-			'countpassage'=>0,
-			'subscribe'=>0,
-			'class'=>2,
-			'vipe'=>0,
-			'picauthor'=>$picauthor,	
-			'textauthor'=>$textauthor,
-			'theme'=>$theme,
-			'appshow'=>0
-			);
-		$Formcreateautherdata = $Formcreateauther->add($createdata);
-		if($Formcreateautherdata){
-			echo "1"; 
-		}else{
-			echo "2"; 
+		$val = $_POST['val'];
+
+		//数组分割成字符串
+		$totaltag = implode('|',$_POST['totaltag']);
+		$data = array(
+			'status' => $_POST['status'],
+			'planed' => $_POST['planed'],
+			'firstpublish' => $_POST['firstpublish'],
+			'exclusive' => $_POST['exclusive'],
+			'totaltag' => $totaltag,
+			'say' => trim($_POST['say']),
+			'description' => trim($_POST['description']),
+			'announcement' => trim($_POST['announcement']),
+			'photopath' => $_POST['photopath'],
+			'applookphoto' => $_POST['applookphoto'],
+			'updatetime' => date('Y-m-d', time()),
+		);
+
+		$Form = M('createauther');
+		if($Form->where("val = '$val'")->save($data)){
+			$this->ajaxReturn(1);
+		} else {
+			$this->ajaxReturn(0);
 		}
 	}
     /**
@@ -347,5 +283,4 @@ class WorksController extends Controller{
     public function worknumber(){
         $this->display();
     }
-
 }

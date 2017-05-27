@@ -11,6 +11,7 @@
     <link rel="stylesheet" href="__PUBLIC__/Admin/Common/Css/comicwork.css">
     <link rel="stylesheet" href="__PUBLIC__/Admin/css/jquery.Jcrop.css" type="text/css" />
     <script type="text/javascript" src="__PUBLIC__/Admin/Common/Js/jquery-2.2.3.js"></script>
+    <script src="__PUBLIC__/Admin/Js/jquery-1.7.1.min.js" type="text/javascript"></script>
     <script src="__PUBLIC__/Admin/Common/jedate/jquery.jedate.js"></script>
     <script src="__PUBLIC__/Admin/Js/jquery.Jcrop.js" type="text/javascript"></script>
     <script language="javascript" src="__PUBLIC__/Admin/Js/Ajax.class.js"></script>
@@ -266,18 +267,21 @@
         <div class="work-control clearfix">
             <div class="m_left fl clearfix">
                 <div class="modify-work-face">
-                    <div class="modify-images">
+                    <div class="modify-images" id="longpath">
                         <img style="width:158px; height:200px" src="__PUBLIC__/Admin/Common/imgs/comic-icon.png" alt="">
                     </div>
                     <div class="modify-face-btn anbtn">修改封面</div>
+                    <div id="button_up">
+                        <input type="hidden" name="hidden" id="head_photo" value="{$vol.photopath}">
+                    </div>
                 </div>
                 <div class="phonePic">
                     <div class="changePic">
                         <img src="__PUBLIC__/Admin/Common/imgs/pictureicon.png" alt="">
                     </div>
-                    <div class="modify-phone-btn anbtn">
+                    <div class="modify-phone-btn anbtn" onclick="changeFace()">
                         修改封面
-                        <input type="file" name="changeFace" class="changeFace">
+                        <input name="changeFace" class="changeFace" id="changeFace" type="file">
                     </div>
                 </div>
             </div>
@@ -391,7 +395,7 @@
         </div>
     </div>
     <div class="lst clearfix">
-        <span class="lst-confirm anbtn fl">确定</span>
+        <span class="lst-confirm anbtn fl" onclick="nexted()">确定</span>
         <span class="lst-delete anbtn fr">取消</span>
         <input type="hidden" class="hideval" val=""/>
     </div>
@@ -406,18 +410,25 @@
             <i class="txt-r">预览225 x 288像素</i>
         </div>
         <div class="pictur-zone clearfix">
-            <div class="picture-l"></div>
-            <div class="picture-r">
+            <div class="picture-l" id="imageadd" style="overflow:hidden;"></div>
+            <div class="picture-r" id="phototwo" style="overflow:hidden;width:225px;height:300px;">
                 <div class="small-pic"></div>
                 <p>(请注意头像预览是否清晰)</p>
             </div>
+            <form action="" method="post" onsubmit="return checkCoords();">
+                <div id="formphoto"></div>
+                <input type="hidden" id="x" name="x" />
+                <input type="hidden" id="y" name="y" />
+                <input type="hidden" id="w" name="w" />
+                <input type="hidden" id="h" name="h" />
+            </form>
         </div>
         <div class="bot-btn">
             <span class="p-relative">
                 <label>选择本地图片</label>
-                <input class="loacl-file p-absolute" id="uploadpic" name="uploadpic" type="file">
+                <input class="loacl-file p-absolute" id="uploadpic" name="uploadpic" type="file" style="position: absolute; top: 0; left: 0;">
             </span>
-            <span>保存</span>
+            <span onclick="confirmOk()">保存</span>
             <span class="cutPicDelete">取消</span>
         </div>
     </div>
@@ -586,6 +597,7 @@
 								alert("上架失败！");
 							} else if(data.status == 2){
 								alert("已经上架了！");
+                                $(".picturePop,.putAwayPop").hide();
 							}
 							$('.upbookSure').unbind("click"); 
 						},
@@ -675,13 +687,10 @@
                 }else {
                     alert("标签不能重复")
                 }
-
             }else{
                 flag = true;
                 alert("不超过6个标签")
             }
-
-
             $(".titleBox .tag").each(function () {
                 $(this).find('a').click(function (e) {
                     e.stopPropagation();
@@ -690,7 +699,6 @@
                     rsObj[elem] = false;
                     $(this).parent().remove();
                 });
-
             })
         })
     });
@@ -739,7 +747,6 @@
 			url : "<?php echo U('Works/getComin');?>",
 			type : 'GET',
 			success : function(data){
-				console.log(data);
 				$('.m-l17').html(data.title);
 				$(".work-type").find("input[type='radio']").each(function(){
 					if($(this).val() == data.catidca){
@@ -779,7 +786,7 @@
 				var str = '';
 				$('.tagsinput2').html('');
 				$.each(data.totaltag,function(i,obj){
-					str += '<span class="tag2"> <span>' + obj + '</span> <a href="javascript:;">X</a> </span>';
+					str += '<span class="tag2"> <span>' + obj + '</span> <a href="javascript:;" onclick="remove(this)" >X</a> </span>';
 				});
 				$('.tagsinput2').append(str);
 				$('.comicintro').find("input").val(data.say);
@@ -802,7 +809,6 @@
     $(function () {
         var textinput2 = $(".tag2>span").html();
         var i=0;
-    //var array=[];
         $(".recommended_tag2 ul li").each(function () {
             var textli = $(this).find("a").html();
             var flag = false;
@@ -812,16 +818,12 @@
             $(this).find("a").on("click",function () {
                 var $li = $(".tag2").length-1;
                 elem=this[i];
-
                 if($li < 5 && !flag){
                     if(!rsObj[elem] && !t){
                         $('<span class="tag2"> <span> textinput </span> <a href="javascript:;">X</a> </span>').prependTo(".tagsinput2");
                         textinput2 = $(".tag2").eq(i).find('span').html(textli);
-
                         arr.push(elem);
-    //console.log(arr)
                         rsObj[elem] = true;
-
                     }else {
                         alert("标签不能重复")
                     }
@@ -830,7 +832,6 @@
                     flag = true;
                     alert("不超过6个标签")
                 }
-
 
                 $(".tagsinput2 .tag2").each(function () {
                     $(this).find('a').click(function (e) {
@@ -846,7 +847,6 @@
         });
 
     });
-
     $(function () {
         $(".tagsinput2").click(function () {
 
@@ -856,7 +856,6 @@
             $(".recommended_tag2").hide();
         })
     });
-
     //    修改封面图片剪切
     $(".modify-face-btn").click(function () {
         $(".all-bg").css("display","block");
@@ -1045,42 +1044,199 @@
         $(".picturePop,.deletePop") .hide();
     });
 </script>
+
+<script type="text/javascript">
+    function nexted(){
+        var catidca = '';
+        var status = '';
+        var planed = '';
+        var firstpublish = '';
+        var exclusive = '';
+        var totaltag= [];
+        var say = '';
+        var description ='';
+        var announcement = '';
+        var photopath = '';
+        var applookphoto ='';
+
+        //作品类别
+        $(".work-type").find("input[type='radio']").each(function(){
+            if($(this).is(":checked")){
+                catidca = $(this).val();
+            }
+        });
+        //创作进程
+        $(".create-progress").find("input[type='radio']").each(function(){
+            if($(this).is(":checked")){
+                status = $(this).val();
+            }
+        });
+        //更新计划
+        $(".updataplan").find("input[type='radio']").each(function(){
+            if($(this).is(":checked")){
+                planed = $(this).val();
+            }
+        });
+        //首发状态
+        $(".published-state").find("input[type='radio']").each(function(){
+            if($(this).is(":checked")){
+                firstpublish = $(this).val();
+            }
+        });
+        //版权状态
+        $(".copyright-state").find("input[type='radio']").each(function(){
+            if($(this).is(":checked")){
+                exclusive = $(this).val();
+            }
+        });
+        //标签
+        $(".tagsinput2 .tag2").each(function(i) {
+            totaltag[i] = $(this).children('span').html();
+        });
+        //一句话介绍
+        say = $('.comicintro').find("input").val();
+        //作者公告
+        announcement = $('.author-notice').find("textarea").val();
+        //作品简介
+        description = $('.work-description').find("textarea").val();
+        //封面图片
+        photopath = $('.modify-work-face').find("img").attr('src');
+        //app封面图片
+        applookphoto = $('.phonePic').find("img").attr('src');
+            
+        if(say>23 || say==0){       
+            alert("一句话简介限23字以内!");
+            return false;
+        } else if(description < 10){
+            alert("作品简介请输入10-500个字!");
+            return false;
+        } else if(status==undefined){                                          
+            alert("请选择创作进程");
+            return false;
+        } else if(planed==undefined){                       
+            alert("请选择更新计划");
+            return false;
+        } else if(catidca==undefined){
+            alert("请选择作品类别");
+            return false;
+        } else if(totaltag==""){
+            alert("请选择作品标签.");
+            return false;
+        } else if(announcement==""){
+            alert("请填写作者公告.");
+            return false;
+        } else if(photopath==undefined){
+            alert("请上传封面图片.");
+            return false;
+        } else if(applookphoto==undefined){ 
+            alert("请上传封面图片，谢谢!");
+            return false;
+        } else {
+            $.ajax({
+                data : {
+                    'val' : $('.msgChangePop .hideval').val(),
+                    'catidca' : catidca,
+                    'status' : status,
+                    'planed' : planed,
+                    'firstpublish' : firstpublish,
+                    'exclusive' : exclusive,
+                    'totaltag' : totaltag,
+                    'say' : say,
+                    'description' : description,
+                    'announcement' : announcement,
+                    'photopath' : photopath,
+                    'applookphoto' : applookphoto,
+                },
+                url : "<?php echo U('Works/updateComin');?>",
+                type : 'POST',
+                success : function(data){
+                    if(data == 1){
+                        $(".picturePop,.msgChangePop").hide();
+                        alert("保存信息成功！");
+                    } else {
+                        alert("保存信息失败！");
+                    }
+                },
+                error : function(){
+                    alert("网络错误！");
+                }
+            });    
+        }
+    }                                                                      
+</script>
+
+<!-- 移除信息修改标签 -->
+<script type="text/javascript">
+    function remove(obj){
+        $(obj).parent(".tag2").remove();
+    }
+</script>
+
 </html>
 <!-- 图片上传 -->
 <script type="text/javascript">
-    //异步上传
-    XHRUploader.init({
-        handlerUrl:'/Admin/Works/Upload',
-        input: '_imgs[]'
-    }).uploadFile('uploadpic', {
-        'partition' : 'date',
-        'space'     : 'article.image',
-        'thumb'     : 2,
-        'width'     : 0,
-        'height'    : 0
-    },{
-        ready: function(ret){
-            //alert('zhengzai');正在上传
-        },
-        complete: function(ret){
-            //alert(ret.data);
-            if(ret.info=="1"){
-                $('#imageadd').html("");
-                $('#phototwo').html("");
-                $('#formphoto').html("");
-                //alert("上传成功!");
-                var html = '<img id="target"  src="'+ret.data+'">';
-                $('#imageadd').prepend(html);
-                var htmltwo = '<img  style="float:left;" id="preview2" src="'+ret.data+'">';
-                $('#phototwo').prepend(htmltwo);
-                var htmlthree = '<input type="hidden" id="z" value="'+ret.data+'"  />';
-                $("#formphoto").prepend(htmlthree); 
-                $(fun());
-            }else{
-                alert("图片大小不符合请选择核实的大小上传!");
+    function changeFace(){
+        XHRUploader.init({
+            handlerUrl:'/Api/Base/Uploadface',
+            input: '_imgs[]'
+        }).uploadFile('changeFace', {
+            'partition' : 'date',
+            'space'     : 'article.image',
+            'thumb'     : 2,
+            'width'     : 0,
+            'height'    : 0
+        },{
+            ready: function(ret){
+                //alert('zhengzai');正在上传
+            },
+            complete: function(ret){
+                //alert(ret.data);
+                if(ret.info=="1"){
+                    //alert(ret.data);
+                    $("#alertid").html("您的图片不符合规范,参数错误");
+                    $(".tipPop").css("display","block");
+                    $(myCount());
+                }
+                else if(ret.info=="2"){
+                    //alert(ret.data);
+                    $("#alertid").html("您的图片不符合规范,上传错误");
+                    $(".tipPop").css("display","block");
+                    $(myCount());
+                }
+                else if(ret.info=="3"){
+                    //alert(ret.data);
+                    var html = '<img  style="float:left;"  src="'+ret.data+'" width=250 height=141>';
+                    $("#appgraph").html("");
+                    $("#appgraph").prepend(html);
+                    var htmlone ='<input type="hidden" name="hidden" id="applookphoto" value="'+ret.data+'">';
+                    $("#fixphoto").html("");
+                    $("#fixphoto").html(htmlone);
+                }
+                else if(ret.info=="4"){
+                    //alert(ret.data);
+                    $("#alertid").html("您的图片不符合规范，图片尺寸为750*460像素");
+                    $(".tipPop").css("display","block");
+                    $(myCount());
+                }
             }
+        });
+    }
+    var i = 5;
+    function myCount(){
+        i--;
+        if(i == 0){
+            $(".tipPop").fadeOut();
+            return;
         }
-    });
+        if(i<0){
+            i=3;
+         }
+        setTimeout(myCount,900);
+    }
+</script>
+
+<!-- 图片上传+截图 -->
+<script type="text/javascript">
     //插件截图
     function fun(){
         xsize = "225";   //控制截图区域的大小比例
@@ -1113,6 +1269,39 @@
             }
         }
     } 
+    //异步上传
+    XHRUploader.init({
+        handlerUrl:'/Api/Base/Upload',
+        input: '_imgs[]'
+    }).uploadFile('uploadpic', {
+        'partition' : 'date',
+        'space'     : 'article.image',
+        'thumb'     : 2,
+        'width'     : 0,
+        'height'    : 0
+    },{
+        ready: function(ret){
+            //alert('zhengzai');正在上传
+        },
+        complete: function(ret){
+            //alert(ret.data);
+            if(ret.info=="1"){
+                $('#imageadd').html("");
+                $('#phototwo').html("");
+                $('#formphoto').html("");
+                //alert("上传成功!");
+                var html = '<img id="target"  src="'+ret.data+'">';
+                $('#imageadd').prepend(html);
+                var htmltwo = '<img  style="float:left;" id="preview2" src="'+ret.data+'">';
+                $('#phototwo').prepend(htmltwo);
+                var htmlthree = '<input type="hidden" id="z" value="'+ret.data+'"  />';
+                $("#formphoto").prepend(htmlthree); 
+                $(fun());
+            }else{
+                alert("图片大小不符合请选择核实的大小上传!");
+            }
+        }
+    });
     function confirmOk(){
         var x = $("#x").val();
         var y = $("#y").val();
@@ -1121,7 +1310,7 @@
         var z = $("#z").val();
            if(x!=""){
                  $.post(
-                '/Book/Createnovel/cropsubmit',
+                '/Api/Base/cropsubmit',
                 {"x":x,"y":y,"w":w,"h":h,"z":z},
                 function(data){
                     //alert(data);
@@ -1146,23 +1335,5 @@
         } else {
             alert("请上传图片!");
         }
-    }
-</script>
-<script type="text/javascript">
-    function inputed(obj){
-        alert(321);return;
-        var did = $(obj).attr("did");
-        $.post(
-            '/admin/Works/comicinputed',
-            {"did":did},
-            function(data){
-                if(data=="1"){
-                    window.location.reload();
-                }else{
-                    alert("已经上架了!");
-                }
-            },
-            "html"
-        )
     }
 </script>
