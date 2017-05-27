@@ -1,0 +1,46 @@
+<html>
+<head>
+    <title></title>
+    <meta name="Keywords" content="{site.keywords}"/>
+    <meta name="Description" content="{site.desc}"/>
+    <link rel="stylesheet" type="text/css" href="/Public/Css/list_gai.css"/>
+    <link rel="stylesheet" type="text/css" href="/Public/Css/top-foot_gai.css"/>
+</head>
+<body>
+<include file="./Application/Home/View/share/public/head_gai.html" />
+<div class="main">
+    <div class="c-box">
+		<table style="color:#fff;">
+			<form action="__URL__/deng" method="post">
+				<tr><td>用户名：</td><td><input type="text" name="user" /></td></tr>
+				<tr><td>密码：</td><td><input type="password" name="pwd" /></td></tr>
+				<tr><td><input type="hidden" name="act" value="add"/></td><td><input type="submit" name="btn" value="登陆"/></td></tr>
+			</form>
+        </table>
+    </div>
+ 	<div id="alist">	
+	</div>   
+</div>
+
+
+<include file="./Application/Home/View/share/public/foot_gai.html" />
+<script src="/Public/Js/jquery.js"></script>
+<script>
+    function getdata(){        
+	   $.get('/Api/Article/alist',null,function(ret){
+		   var json = eval(ret);
+		  
+		   var len = json.length;
+		   
+		   var html ='';
+		   for(var i = 0; i<len; i++){
+		   html += '<div><p>'+json[i].id+':'+json[i].content+'</p></div>'; 
+		  }  
+		   $('#alist').append(html);
+		   
+	   });
+	}
+	getdata();
+ </script>
+ </body>
+</html>

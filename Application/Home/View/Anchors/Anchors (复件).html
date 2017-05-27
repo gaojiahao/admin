@@ -1,0 +1,647 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Title</title>
+    <link rel="stylesheet" href="../Static/css/public.css" />
+    <link rel="stylesheet" href="../Static/css/header.css">
+    <link rel="stylesheet" href="css/personlive.css">
+    <script src="../Static/js/jquery-3.0.0.js"></script>
+    <script src="../Static/js/loginreg.js"></script>
+    <script src="js/personlive.js"></script>
+</head>
+<body class="live-room-body top-nav-light-theme">
+<!--登录注册-->
+    <div id="login" class="login">
+        <div class="login-page">
+            <div id="close" class="close"></div>
+            <div class="tab-nav clearfix">
+                <div id="active" class="t activ" for="login">登录</div>
+                <div id="act" class="t " for="register">注册</div>
+            </div>
+            <!--登录-->
+            <div id="login-nomal" class="panel cur">
+                <div class="row unmane-row">
+                    <div class="input phoneNum">
+                        <input id="login-phoneNum" type="text"  placeholder="请输入您的手机号码" autocomplete="off">
+                    </div>
+                    <p class="phonemessage message" for="username"></p>
+                </div>
+
+                <div class="row password-row">
+                    <div class="input password">
+                        <input id="login-passwd" type="password" placeholder="请输入密码">
+                    </div>
+                    <p class="passwdmessage message" for="passwd"></p>
+                </div>
+
+                <div class="row check-row">
+                    <div class="input">
+                        <input id="login-captcha" class="short" placeholder="请输入验证码" type="text">
+                        <img class="captcha-img" src="../Static/images/captcha.jpg" alt="">
+                    </div>
+                    <p class="captchamessage message" for="captcha"></p>
+                </div>
+                <div id="keep-me-in" class="row checkbox-row">
+                    <a id="forget-passwd" href="../Findpasswd/findpasswd.html">忘记密码</a>
+                    <input id="keep-login" type="checkbox" checked="checked">
+                    <label for="keep-login">记住我</label>
+                </div>
+                <div class="row">
+                    <div id="login-enter" class="btn logreg-btn">
+                        <span class="text">登录</span>
+                    </div>
+                </div>
+
+
+            </div>
+           <!--  注册 -->
+            <div id="register-nomal" class="panel">
+                <div class="row unmane-row">
+                    <div class="input phoneNum">
+                        <input id="reg-phone" type="text"  placeholder="请输入您的手机号码" autocomplete="off">
+                    </div>
+                    <p class="nummessage message" for="reg-phone"></p>
+                </div>
+                <div class="row check-row">
+                    <div class="input">
+                        <input id="phone-captcha" class="short" placeholder="手机验证码" type="text">
+                        <input id="btn-captcha" class="p-btn btn" type="button" value="点击获取">
+                    </div>
+                    <p id="checkmessage" class="checkmessage message" for="phone-captcha"></p>
+                </div>
+                <div class="row unmane-row">
+                    <div class="input phoneNum">
+                        <input id="reg-username" type="text"  placeholder="昵称(3-30)个字符组成" autocomplete="off">
+                    </div>
+                    <p class="namemessage message" for="username"></p>
+                </div>
+                <div class="row password-row">
+                    <div class="input password">
+                        <input id="reg-passwd" type="password" placeholder="密码(6-16位字符组成，区分大小写)">
+                    </div>
+                    <p class="passmessage message" for="passwd"></p>
+                </div>
+                <div id="agreeread" class="row checkbox-row">
+
+                    <input id="agree" type="checkbox" checked="checked">
+                    <label for="keep-login">记住我</label>
+                    <a id="agreement" href="#">《用户注册协议》</a>
+                </div>
+                <div class="row">
+                    <div id="register" class="btn logreg-btn">
+                        <span class="text">注册</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="body-container p-relative p-zero sidebar-left-open">
+        <div class="w-100 h-100 room-bk p-absolute p-zero clearfix ">
+            <div class="bk-img w-100 h-100" style="background-image:url('images/bg-pic.png')">
+                
+            </div>
+        </div>
+        <div id="header">
+                <div class="head w1198">
+                    <!--logo-->
+                    <a class="head_logo fl" href="/"><img src="../Static/images/logo.png" alt="" /></a>
+                    <!--头部中间部分-->
+                    <ul class="head_nav fl">
+                        <li class="fl index">
+                            <a href="../Home/home.html">首页</a>
+                        </li>
+                        <li class="fl all">
+                            <a href="#">全部</a>
+                        </li>
+                        <li class="fl client">
+                            <a href="#">客户端</a>
+                        </li>
+                    </ul>
+                    <div class="head_r fr">
+                        <div class="a-search fl  ">
+                            <input class="fl search" type="text" autocomplete="off" placeholder="搜房间/主播">
+                            <a class="a-icon fr" href="#">
+                                <i class="iconfont s-icon"></i>
+                            </a>
+                        </div>
+                        <!--历史-->
+                        <div class="a-history fl a-hovhide">
+                            <span class="iconfont h-icon"></span>
+                            <span class="h-tex col">历史</span>
+                            <div class="a-hismess-hide a-hide">
+                                <i></i>
+                                <ul class="his-list">
+                                    <li class="list-item list-item-sup">
+                                        <img src="../Static/images/per-avatar1.png" alt="">
+                                        <div class="text-fr">
+                                            <h3>子恩、宇宙第一貂蝉</h3>
+												<span>
+													<a class="head-icon1"><img src="../Static/images/head-icon_04.gif" alt="">已停播</a>
+													<a class="head-icon2">4小时前观看</a>
+												</span>
+                                        </div>
+                                    </li>
+                                    <li class="list-item list-item-sub">
+                                        <img src="../Static/images/per-avatar2.png" alt="">
+                                        <div class="text-fr">
+                                            <h3>简单，简简单单</h3>
+												<span>
+													<a class="head-icon1"><img src="../Static/images/head-icon_04.gif" alt="">以停播</a>
+													<a class="head-icon2">4小时前观看</a>
+												</span>
+                                        </div>
+                                    </li>
+                                    <li class="list-item list-item-sub">
+                                        <img src="../Static/images/per-avatar2.png" alt="">
+                                        <div class="text-fr">
+                                            <h3>简单，简简单单</h3>
+												<span>
+													<a class="head-icon1"><img src="../Static/images/head-icon_05.gif" alt="">直播</a>
+													<a class="head-icon2">4天前观看</a>
+												</span>
+                                        </div>
+                                    </li>
+                                    <li class="list-item list-item-sub">
+                                        <img src="../Static/images/per-avatar2.png" alt="">
+                                        <div class="text-fr">
+                                            <h3>简单，简简单单</h3>
+												<span>
+													<a class="head-icon1"><img src="../Static/images/head-icon_05.gif" alt="">直播</a>
+													<a class="head-icon2">4天前观看</a>
+												</span>
+                                        </div>
+                                    </li>
+                                </ul>
+                            </div>
+                        </div>
+                        <!--关注-->
+                        <div class="a-follow fl a-hovhide">
+                            <span class="iconfont f-icon"></span>
+                            <span class="f-tex col">关注</span>
+                            <div id="a-hid" class="a-hismess-hide a-hid aftlog">
+                                <i></i>
+                                <ul class="a-list">
+                                    <li class="list-item list-item-sup">
+                                        <img src="../Static/images/per-avatar1.png" alt="">
+                                        <div class="text-fr">
+                                            <h3>子恩、宇宙第一貂蝉</h3>
+												<span>
+													<a class="head-icon1"><img src="../Static/images/head-icon_01.gif" alt="">已播233分钟</a>
+													<a class="head-icon2"><img src="../Static/images/head-icon_03.gif" alt="">278人</a>
+												</span>
+                                        </div>
+                                    </li>
+                                    <li class="list-item list-item-sub">
+                                        <img src="../Static/images/per-avatar2.png" alt="">
+                                        <div class="text-fr">
+                                            <h3>简单，简简单单</h3>
+												<span>
+													<a class="head-icon1"><img src="../Static/images/head-icon_01.gif" alt="">已播233分钟</a>
+													<a class="head-icon2"><img src="../Static/images/head-icon_03.gif" alt="">278人</a>
+												</span>
+                                        </div>
+                                    </li>
+                                </ul>
+                                <div class="list-item-buttom">
+                                    <div class="a-alllook">查看全部</div>
+                                </div>
+                            </div>
+                        </div>
+                        <!--未登录-->
+                        <div class="a-unlogin fl prelogin">
+                            <span class="iconfont p-icon fl"></span>
+                            <a id="l-login" class="l-login fl col">登录</a>
+                            <em class="fl">|</em>
+                            <a id="r-register" class="r-reg fl col">注册</a>
+                        </div>
+                        <!--登陆后-->
+                        <div class="afterlogin fl aftlog">
+								<span class="youravatar">
+									<img src="../Static/images/youavatar.png" alt="" />
+								</span>
+                            <a class="username col-tex" href="#">1sY仔</a>
+                            <i class="bigarrow"></i>
+                            <div class="selfmessages hovshow">
+                                <i></i>
+                                <div class="avat-head">
+                                    <a href="#"><img src="../Static/images/youavatar.png" alt=""></a>
+                                    <p class="name texcol col-tex">1sY仔</p>
+                                </div>
+                                <div class="middle-tex">
+                                    <div class="progress ">
+                                        <span class="user-level-text fl">UL.1</span>
+											<span class="progress-bar fl">
+												<span class="bar fl"></span>
+											</span>
+                                        <span class="user-level-text fr">UL.2</span>
+                                    </div>
+                                    <div class="gift">
+                                        <div class="gift-left fl">
+                                            <span><img src="../Static/images/ciyuanbi.png" alt=""></span>
+                                            次元币:0
+                                        </div>
+                                        <div class="gift-right fr">
+                                            <span><img src="../Static/images/ciyuanbi.png" alt=""></span>
+                                            肥皂:0
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="personcenter">
+                                    <a class="percen per-info fl" href="#">
+                                        <span></span>
+                                        <i>个人中心</i>
+                                    </a>
+                                    <a class="news per-info fr" href="#">
+                                        <span></span>
+                                        <i>消息</i>
+                                    </a>
+                                </div>
+                                <div class="exit">退出</div>
+                            </div>
+                        </div>
+                        <!--主播专区-->
+                        <div class="a-spcial fl">
+                            <a href="../Livezone/livezone.html">
+                                <span class="iconfont v-icon"></span>
+									<span class="v-tex">主创专区
+									</span>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+        </div>
+        <div id="room-left-sidebar" class="room-left-sidebar">
+            <div class="left-sidebar-mess">
+                <a class="videoer-mess videoer" href="#">
+                    <img src="images/video-mess.png" alt="">
+                    <b>主创档案</b>
+                </a>
+                <div class="per-avatar">
+                    <img src="images/peravtar.png" alt="">
+                    <div class="dashen l-space t-align">大神</div>
+                    <p class="l-space">尝谕</p>
+                </div>
+                <div class="text-mess">
+                    <p>大神画家,网络文学知名作家,</p>
+                    <p>非常擅长任务的刻画,塑造了</p>
+                    <p>很多经典形象。</p>
+                </div>
+                <a href="#" class="enter-in l-space t-align">
+                    进入领域
+                </a>
+                <hr>
+                <div class="sign-pay clearfix">
+                    <div class="button sign-in float-left"></div>
+                    <a class="button pay-in float-left" href="#"></a>
+                </div>
+                <hr>
+                <a class="videoer suggest l-space" href="#">
+                    <img src="images/suggest.png" alt="">
+                    <b>主播推荐</b>
+                </a>
+                <ul class="suggest-person">
+                    <li>
+                        <a class="per-list a-list" href="#">
+                            <span class="perpictuer"><img src="images/perpictuer.png" alt=""></span>
+                                <span class="pictext l-space">
+                                    <h2>男变女？怎么办</h2>
+                                    <p>少年啊呸,少女的逆袭</p>
+                                </span>
+                        </a>
+                    </li>
+                    <hr>
+                    <li>
+                        <a class="per-list2 a-list" href="#">
+                            <span class="perpictuer"><img src="images/perpictuer.png" alt=""></span>
+                                <span class="pictext l-space">
+                                    <h2>男变女？怎么办</h2>
+                                    <p>少年啊呸,少女的逆袭</p>
+                                </span>
+                        </a>
+                    </li>
+                    <hr>
+                    <li>
+                        <a class="per-list3 a-list" href="#">
+                            <span class="perpictuer"><img src="images/perpictuer.png" alt=""></span>
+                                <span class="pictext l-space">
+                                    <h2>男变女？怎么办</h2>
+                                    <p>少年啊呸,少女的逆袭</p>
+                                </span>
+                        </a>
+                    </li>
+                    <hr>
+
+                </ul>
+                <div class="help-and-link">
+                    <a class="wantvideo button" href="#"></a>
+                    <div class="link">
+                        <a href="#">帮助中心</a>
+                        <a href="#">联系客服</a>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+        <div class="room-main-ctnr p-relative m-auto">
+            <div class="room-body m-auto clearfix">
+                <div class="video-section clearfix">
+                    <div class="left-part player-area p-relative float-left">
+                        <!--直播头-->
+                        <div id="head-info-panel" class="head-info-panel clearfix ">
+                            <div class="anchor-avatar p-relative float-left">
+                                <img src="images/avatarper.jpg" alt="">
+                                <a href="#" class="anchor-cover-wrap">
+                                    <div class="cover"></div>
+                                    <div class="text">进入TA的空间</div>
+                                </a>
+
+                            </div>
+                            <div class="info-ctnr float-right clearfix">
+                                <div class="room-info float-left">
+                                    <div class="room-title-row">
+                                        <h2 class="db-inline-block room-title">三眼哮天录线稿直播</h2>
+                                        <ul class="row-list">
+                                            <li>
+                                                <a class="report-link h-link" href="#">
+                                                    <i class="live-icon-small gray report v-middle"></i>
+                                                    <span>举报</span>
+                                                </a>
+                                            </li>
+                                            <li>
+                                                |
+                                            </li>
+                                            <li>
+                                                <a class="clienter-link h-link" href="#">
+                                                    <i class="live-icon-small gray clienter v-middle"></i>
+                                                    <span>客服</span>
+                                                </a>
+                                            </li>
+                                        </ul>
+
+                                    </div>
+                                    <div class="panel-text l-space"><i>分区:</i><a href="#">绘画专区</a></div>
+                                    <div class="acinfo-fs-con clearfix">
+                                        <ul class="r-else clearfix">
+                                            <li>
+                                                <div class="zb-name-com">
+                                                    <i class="zb-name-icon live-icon-small v-middle icon-avatar"></i>
+                                                    <a class="zb-name" title="好一个蟹黄">好一个蟹黄</a>
+                                                </div>
+                                            </li>
+                                            <li>
+                                                <div class="zb-com">
+                                                    <i class="zb-icon v-middle icon-avatar"><img src="images/soft-icon.png" alt=""></i>
+                                                    344.1万
+                                                </div>
+                                            </li>
+                                            <li>
+                                                <p class="playerSum l-space">累计播放: <i>880</i>分钟</p>
+                                            </li>
+                                        </ul>
+                                    </div>
+
+                                </div>
+                                <div class="head-right-contation float-right p-relative">
+                                    <div class="focus-box clearfix">
+                                        <a id="focus" class="r-com-btn r-com follow-btn float-left l-space" href="javascript:;">
+                                            <i class="heart"><img src="images/focus.png" alt=""></i>
+                                           关注
+                                        </a>
+                                       <!--  点击关注 -->
+                                        <a class="r-com-btn follow-btn yetbg float-left l-space" href="javascript:;">
+                                            已关注
+                                        </a>
+                                        <p class="r-num float-left">
+                                            <span id="z-number">2415</span>
+                                        </p>
+                                    </div>
+                                    <div class="head-rab clearfix p-relative">
+                                        <span><i class="live-icon-small people v-middle"></i>13人</span>
+                                        <span class="col-line"></span>
+                                        <span><i class="live-icon-small share v-middle"></i><a class="a-color" href="#">分享</a></span>
+                                    </div>
+                                </div>
+
+
+                            </div>
+                        </div>
+                        <!--直播中-->
+                        <div id="player-container" class="player-ctnr p-relative main-section">
+
+                        </div>
+                        <!--弹幕-->
+                        <div class="danmu-hide p-absolute">
+                            <div class="talk-section p-relative">
+                                <i class="smile"></i>
+                                <div class="expressViews clearfix p-relative">
+                                    <input id="danmu" maxlength="30" spellcheck="false" class="danmu-textbox float-left" placeholder="请输入弹幕">
+                                    <div id="danmu-send-btn" class="danmu-send-bbtn float-right l-space">发送</div>
+                                </div>
+                            </div>
+
+                        </div>
+                        <!--直播尾-->
+                        <div id="gift-panel" class="gift-pael main-section">
+                            <div class="gifts-ctnr clearfix">
+                                <div class="tesk float-left p-relative">
+                                    <img src="images/tesk-icon.png" alt="">
+                                    <a class="l-space a-color" href="#">
+                                        任务
+                                        <i class="tesk-news">1</i>
+                                    </a>
+                                </div>
+                                <div class="float-right many-gifts p-relative">
+                                    <ul class="clearfix">
+                                        <li><img src="images/1.png" alt=""></li>
+                                        <li><img src="images/2.png" alt=""></li>
+                                        <li><img src="images/3.png" alt=""></li>
+                                        <li><img src="images/4.png" alt=""></li>
+                                        <li><img src="images/5.png" alt=""></li>
+                                        <li><img src="images/6.png" alt=""></li>
+                                        <li><img src="images/7.png" alt=""></li>
+                                        <li><img src="images/8.png" alt=""></li>
+                                    </ul>
+                                </div>
+                            </div>
+                            <div class="crease-pay float-right l-space">
+                                <span><i><img src="images/soft-icon.png" alt=""></i>次元币: 0</span>
+                                <span><i><img src="images/soft-icon.png" alt=""></i>肥皂:0</span>
+                                <span><a class="crepay-btn" href="#">充值</a></span>
+
+                            </div>
+                        </div>
+                    </div>
+                    <!--直播右边粉丝排行榜-->
+                    <div class="right-part chat-ctnr main-section p-relative float-right">
+                        <div class="fensi-head clearfix">
+                            <div class="head-title l-space">
+                                <span>
+                                <img src="images/fensi.png" alt="">
+                                粉丝排行榜
+                                </span>
+                                <span><a class="a-color" href="#">更多 ></a></span>
+                            </div>
+                            <ul class="fensi-list">
+                                <li class="heroVideo hero">
+                                    <span class="ranking pre-three float-left ranking-one">1</span>
+                                    <span class="float-left rank-text">
+                                        <h2>夜冷情深风蓝</h2>
+                                        <p>1500004粉丝值</p>
+                                    </span>
+                                    <span class="rank-right">
+                                        <img src="images/herovatar.png" alt="">
+                                        <div class="a-men mengzu-one l-space">盟主</div>
+                                    </span>
+                                </li>
+                                <li class="heroVideo hero">
+                                    <span class="ranking pre-three float-left ranking-two">2</span>
+                                    <span class="float-left rank-text">
+                                        <h2>夜冷情深风蓝</h2>
+                                        <p>1500004粉丝值</p>
+                                    </span>
+                                    <span class="rank-right">
+                                        <img src="images/herovatar.png" alt="">
+                                        <div class="b-men mengzu-one l-space">盟主</div>
+                                    </span>
+                                </li>
+                                <li class="heroVideo ">
+                                    <div class="ranking pre-three float-left ranking-three">3</div>
+                                    <div class="rank-mess no-name clearfix float-left">
+                                        <span class="float-left rank-tex ">
+                                            <h2>夜冷情深风蓝</h2>
+                                            <p>1500004粉丝值</p>
+                                        </span>
+                                        <span class="rank-rig float-left">
+                                            <img src="images/herovatar.png" alt="">
+                                            <div class="c-men mengzu-one l-space">盟主</div>
+                                        </span>
+                                    </div>
+                                </li>
+                                <li>
+                                    <div class="ranking float-left other-rank"> 4 </div>
+                                    <div class="no-name rank-intruduce float-left">
+                                        <span class="only-tex">谜之传说</span>
+                                        <span class="only-num">1500004</span>
+                                    </div>
+                                </li>
+                                <li>
+                                    <div class="ranking float-left other-rank"> 5 </div>
+                                    <div class="no-name rank-intruduce float-left">
+                                        <span class="only-tex">谜之传说</span>
+                                        <span class="only-num">1500004</span>
+                                    </div>
+                                </li>
+                                <li>
+                                    <div class="ranking float-left other-rank">6</div>
+                                    <div class="no-name rank-intruduce float-left">
+                                        <span class="only-tex">谜之传说</span>
+                                        <span class="only-num">1500004</span>
+                                    </div>
+                                </li>
+                                <li>
+                                    <div class="ranking float-left other-rank">7</div>
+                                    <div class="no-name rank-intruduce float-left">
+                                        <span class="only-tex">谜之传说</span>
+                                        <span class="only-num">1500004</span>
+                                    </div>
+                                </li>
+                                <li>
+                                    <div class="ranking float-left other-rank">8</div>
+                                    <div class="no-name rank-intruduce float-left">
+                                        <span class="only-tex">谜之传说</span>
+                                        <span class="only-num">1500004</span>
+                                    </div>
+                                </li>
+                                <li>
+                                <div class="ranking float-left other-rank">9</div>
+                                <div class="no-name rank-intruduce float-left">
+                                    <span class="only-tex">谜之传说</span>
+                                    <span class="only-num">1500004</span>
+                                </div>
+                                </li>
+                                <li>
+                                    <div class="ranking float-left other-rank">10</div>
+                                    <div class="last-no-name rank-intruduce float-left">
+                                        <span class="only-tex">谜之传说</span>
+                                        <span class="only-num">1500004</span>
+                                    </div>
+                                </li>
+                            </ul>
+
+                        </div>
+                        <div class="speacking">
+
+                        </div>
+
+                    </div>
+
+                </div>
+            </div>
+        </div>
+        <footer>
+            <footer>
+                <div id="footer">
+                    <div class="foot">
+                        <div class="fl ciyuan">
+                            <h2>次元直播</h2>
+                            <div class="links">
+                                <ul>
+                                    <li>
+                                        <a href="#">
+                                            关于我们
+                                        </a>
+                                    </li>
+                                    <li>
+                                        <a href="#">
+                                            联系我们
+                                        </a>
+                                    </li>
+                                </ul>
+                                <ul>
+                                    <li>
+                                        <a href="#">
+                                            友情链接
+                                        </a>
+                                    </li>
+                                    <li>
+                                        <a href="#">
+                                            加入我们
+                                        </a>
+                                    </li>
+                                </ul>
+                            </div>
+                        </div>
+                        <div class="z-line"></div>
+                        <div class="fl help">
+                            <h2>主播帮忙</h2>
+                            <ul>
+                                <li>
+                                    <a href="#">
+                                        主播工具下载
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href="#">
+                                        主播工具教程
+                                    </a>
+                                </li>
+                            </ul>
+                        </div>
+                        <div class="social fl">
+                            <a class="service" href="#"><p>联系客服</p></a>
+
+                            <a class="downLoad" href="#"><p>下载次元</p></a>
+                            <a class="weChat" href="#"><p>官方微信</p></a>
+                            <a class="weibo" href="#"><p>官方微博</p></a>
+                        </div>
+                    </div>
+                </div>
+            </footer>
+        </footer>
+    </div>
+
+</body>
+</html>

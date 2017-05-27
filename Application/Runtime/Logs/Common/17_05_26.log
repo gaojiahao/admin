@@ -1,0 +1,4650 @@
+[ 2017-05-26T09:04:06+08:00 ] 127.0.0.1 /crop/upload/time/901668.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000005s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000031s ]
+ERR: 无法加载模块:Crop
+
+[ 2017-05-26T09:04:06+08:00 ] 127.0.0.1 /crop/upload/time/379875.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000004s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000031s ]
+ERR: 无法加载模块:Crop
+
+[ 2017-05-26T09:04:06+08:00 ] 127.0.0.1 /crop/upload/time/901668.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000004s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000025s ]
+ERR: 无法加载模块:Crop
+
+[ 2017-05-26T09:04:06+08:00 ] 127.0.0.1 /crop/upload/time/379875.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000004s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000025s ]
+ERR: 无法加载模块:Crop
+
+[ 2017-05-26T09:15:56+08:00 ] 127.0.0.1 /crop/upload/time/901668.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000004s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000025s ]
+ERR: 无法加载模块:Crop
+
+[ 2017-05-26T09:15:56+08:00 ] 127.0.0.1 /crop/upload/time/379875.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000004s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000026s ]
+ERR: 无法加载模块:Crop
+
+[ 2017-05-26T09:38:58+08:00 ] 127.0.0.1 /Public/Cy/images/logo.png
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000012s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000075s ]
+ERR: 无法加载模块:Public
+
+[ 2017-05-26T09:39:00+08:00 ] 127.0.0.1 /Public/Cy/images/logo.png
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000012s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000074s ]
+ERR: 无法加载模块:Public
+
+[ 2017-05-26T09:39:28+08:00 ] 127.0.0.1 /crop/upload/time/901668.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000005s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000032s ]
+ERR: 无法加载模块:Crop
+
+[ 2017-05-26T09:39:28+08:00 ] 127.0.0.1 /crop/upload/time/379875.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000005s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000032s ]
+ERR: 无法加载模块:Crop
+
+[ 2017-05-26T09:39:28+08:00 ] 127.0.0.1 /crop/upload/time/379875.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000004s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000027s ]
+ERR: 无法加载模块:Crop
+
+[ 2017-05-26T09:39:28+08:00 ] 127.0.0.1 /crop/upload/time/901668.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000004s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000026s ]
+ERR: 无法加载模块:Crop
+
+[ 2017-05-26T09:42:31+08:00 ] 127.0.0.1 /Public/Uploads/2017-05-12/591575c6c90b0.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000006s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000051s ]
+ERR: 无法加载模块:Public
+
+[ 2017-05-26T09:42:31+08:00 ] 127.0.0.1 /Public/Uploads/2017-05-12/591575c6c90b0.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000004s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000025s ]
+ERR: 无法加载模块:Public
+
+[ 2017-05-26T09:44:26+08:00 ] 127.0.0.1 /Public/Uploads/2017-05-12/591575c6c90b0.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000004s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000026s ]
+ERR: 无法加载模块:Public
+
+[ 2017-05-26T09:47:37+08:00 ] 127.0.0.1 /crop/upload/time/901668.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000004s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000026s ]
+ERR: 无法加载模块:Crop
+
+[ 2017-05-26T09:47:37+08:00 ] 127.0.0.1 /crop/upload/time/379875.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000004s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000027s ]
+ERR: 无法加载模块:Crop
+
+[ 2017-05-26T09:47:37+08:00 ] 127.0.0.1 /crop/upload/time/379875.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000003s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000023s ]
+ERR: 无法加载模块:Crop
+
+[ 2017-05-26T09:47:37+08:00 ] 127.0.0.1 /crop/upload/time/901668.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000004s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000023s ]
+ERR: 无法加载模块:Crop
+
+[ 2017-05-26T09:51:45+08:00 ] 127.0.0.1 /Public/Cy/images/logo.png
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000007s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000043s ]
+ERR: 无法加载模块:Public
+
+[ 2017-05-26T09:52:17+08:00 ] 127.0.0.1 /Public/Cy/images/logo.png
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000005s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000037s ]
+ERR: 无法加载模块:Public
+
+[ 2017-05-26T09:52:17+08:00 ] 127.0.0.1 /Public/Cy/images/logo.png
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000005s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000027s ]
+ERR: 无法加载模块:Public
+
+[ 2017-05-26T09:52:27+08:00 ] 127.0.0.1 /Public/Cy/images/logo.png
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000004s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000025s ]
+ERR: 无法加载模块:Public
+
+[ 2017-05-26T09:52:41+08:00 ] 127.0.0.1 /Public/Cy/images/logo.png
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000012s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000075s ]
+ERR: 无法加载模块:Public
+
+[ 2017-05-26T09:52:41+08:00 ] 127.0.0.1 /Public/Cy/images/logo.png
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000004s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000024s ]
+ERR: 无法加载模块:Public
+
+[ 2017-05-26T09:52:53+08:00 ] 127.0.0.1 /Public/Cy/images/logo.png
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000009s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000056s ]
+ERR: 无法加载模块:Public
+
+[ 2017-05-26T09:53:01+08:00 ] 127.0.0.1 /crop/upload/time/901668.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000006s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000034s ]
+ERR: 无法加载模块:Crop
+
+[ 2017-05-26T09:53:01+08:00 ] 127.0.0.1 /crop/upload/time/379875.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000004s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000037s ]
+ERR: 无法加载模块:Crop
+
+[ 2017-05-26T09:53:01+08:00 ] 127.0.0.1 /crop/upload/time/379875.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000004s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000027s ]
+ERR: 无法加载模块:Crop
+
+[ 2017-05-26T09:53:01+08:00 ] 127.0.0.1 /crop/upload/time/901668.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000005s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000028s ]
+ERR: 无法加载模块:Crop
+
+[ 2017-05-26T09:55:27+08:00 ] 127.0.0.1 /crop/upload/time/901668.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000004s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000028s ]
+ERR: 无法加载模块:Crop
+
+[ 2017-05-26T09:55:27+08:00 ] 127.0.0.1 /crop/upload/time/379875.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000004s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000029s ]
+ERR: 无法加载模块:Crop
+
+[ 2017-05-26T09:55:27+08:00 ] 127.0.0.1 /crop/upload/time/901668.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000004s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000025s ]
+ERR: 无法加载模块:Crop
+
+[ 2017-05-26T09:55:27+08:00 ] 127.0.0.1 /crop/upload/time/379875.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000004s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000023s ]
+ERR: 无法加载模块:Crop
+
+[ 2017-05-26T09:57:53+08:00 ] 127.0.0.1 /crop/upload/time/901668.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000004s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000024s ]
+ERR: 无法加载模块:Crop
+
+[ 2017-05-26T09:57:53+08:00 ] 127.0.0.1 /crop/upload/time/379875.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000005s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000037s ]
+ERR: 无法加载模块:Crop
+
+[ 2017-05-26T09:57:53+08:00 ] 127.0.0.1 /crop/upload/time/901668.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000004s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000029s ]
+ERR: 无法加载模块:Crop
+
+[ 2017-05-26T09:57:53+08:00 ] 127.0.0.1 /crop/upload/time/379875.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000004s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000026s ]
+ERR: 无法加载模块:Crop
+
+[ 2017-05-26T09:58:48+08:00 ] 127.0.0.1 /crop/upload/time/901668.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000005s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000029s ]
+ERR: 无法加载模块:Crop
+
+[ 2017-05-26T09:58:48+08:00 ] 127.0.0.1 /crop/upload/time/379875.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000005s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000026s ]
+ERR: 无法加载模块:Crop
+
+[ 2017-05-26T09:58:48+08:00 ] 127.0.0.1 /crop/upload/time/379875.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000004s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000026s ]
+ERR: 无法加载模块:Crop
+
+[ 2017-05-26T09:58:48+08:00 ] 127.0.0.1 /crop/upload/time/901668.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000003s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000019s ]
+ERR: 无法加载模块:Crop
+
+[ 2017-05-26T09:59:29+08:00 ] 127.0.0.1 /crop/upload/time/901668.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000004s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000024s ]
+ERR: 无法加载模块:Crop
+
+[ 2017-05-26T09:59:29+08:00 ] 127.0.0.1 /crop/upload/time/379875.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000004s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000024s ]
+ERR: 无法加载模块:Crop
+
+[ 2017-05-26T09:59:29+08:00 ] 127.0.0.1 /crop/upload/time/901668.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000004s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000026s ]
+ERR: 无法加载模块:Crop
+
+[ 2017-05-26T09:59:29+08:00 ] 127.0.0.1 /crop/upload/time/379875.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000003s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000020s ]
+ERR: 无法加载模块:Crop
+
+[ 2017-05-26T10:01:54+08:00 ] 127.0.0.1 /crop/upload/time/379875.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000004s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000019s ]
+ERR: 无法加载模块:Crop
+
+[ 2017-05-26T10:01:54+08:00 ] 127.0.0.1 /crop/upload/time/901668.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000005s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000028s ]
+ERR: 无法加载模块:Crop
+
+[ 2017-05-26T10:01:54+08:00 ] 127.0.0.1 /crop/upload/time/901668.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000004s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000031s ]
+ERR: 无法加载模块:Crop
+
+[ 2017-05-26T10:01:54+08:00 ] 127.0.0.1 /crop/upload/time/379875.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000003s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000022s ]
+ERR: 无法加载模块:Crop
+
+[ 2017-05-26T10:04:32+08:00 ] 127.0.0.1 /crop/upload/time/901668.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000004s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000029s ]
+ERR: 无法加载模块:Crop
+
+[ 2017-05-26T10:04:32+08:00 ] 127.0.0.1 /crop/upload/time/379875.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000004s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000019s ]
+ERR: 无法加载模块:Crop
+
+[ 2017-05-26T10:04:32+08:00 ] 127.0.0.1 /crop/upload/time/379875.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000015s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000034s ]
+ERR: 无法加载模块:Crop
+
+[ 2017-05-26T10:04:32+08:00 ] 127.0.0.1 /crop/upload/time/901668.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000016s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000038s ]
+ERR: 无法加载模块:Crop
+
+[ 2017-05-26T10:04:57+08:00 ] 127.0.0.1 /crop/upload/time/901668.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000005s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000031s ]
+ERR: 无法加载模块:Crop
+
+[ 2017-05-26T10:04:57+08:00 ] 127.0.0.1 /crop/upload/time/379875.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000003s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000021s ]
+ERR: 无法加载模块:Crop
+
+[ 2017-05-26T10:04:57+08:00 ] 127.0.0.1 /crop/upload/time/901668.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000005s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000026s ]
+ERR: 无法加载模块:Crop
+
+[ 2017-05-26T10:04:57+08:00 ] 127.0.0.1 /crop/upload/time/379875.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000005s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000026s ]
+ERR: 无法加载模块:Crop
+
+[ 2017-05-26T10:06:51+08:00 ] 127.0.0.1 /crop/upload/time/901668.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000004s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000025s ]
+ERR: 无法加载模块:Crop
+
+[ 2017-05-26T10:06:51+08:00 ] 127.0.0.1 /crop/upload/time/379875.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000004s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000025s ]
+ERR: 无法加载模块:Crop
+
+[ 2017-05-26T10:06:51+08:00 ] 127.0.0.1 /crop/upload/time/901668.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000004s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000026s ]
+ERR: 无法加载模块:Crop
+
+[ 2017-05-26T10:06:51+08:00 ] 127.0.0.1 /crop/upload/time/379875.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000005s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000028s ]
+ERR: 无法加载模块:Crop
+
+[ 2017-05-26T10:10:02+08:00 ] 127.0.0.1 /crop/upload/time/379875.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000005s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000029s ]
+ERR: 无法加载模块:Crop
+
+[ 2017-05-26T10:10:02+08:00 ] 127.0.0.1 /crop/upload/time/901668.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000005s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000029s ]
+ERR: 无法加载模块:Crop
+
+[ 2017-05-26T10:10:02+08:00 ] 127.0.0.1 /crop/upload/time/379875.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000004s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000029s ]
+ERR: 无法加载模块:Crop
+
+[ 2017-05-26T10:10:02+08:00 ] 127.0.0.1 /crop/upload/time/901668.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000005s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000032s ]
+ERR: 无法加载模块:Crop
+
+[ 2017-05-26T10:11:10+08:00 ] 127.0.0.1 /crop/upload/time/901668.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000007s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000038s ]
+ERR: 无法加载模块:Crop
+
+[ 2017-05-26T10:11:10+08:00 ] 127.0.0.1 /crop/upload/time/379875.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000004s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000023s ]
+ERR: 无法加载模块:Crop
+
+[ 2017-05-26T10:11:10+08:00 ] 127.0.0.1 /crop/upload/time/901668.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000003s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000023s ]
+ERR: 无法加载模块:Crop
+
+[ 2017-05-26T10:11:10+08:00 ] 127.0.0.1 /crop/upload/time/379875.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000002s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000018s ]
+ERR: 无法加载模块:Crop
+
+[ 2017-05-26T10:12:23+08:00 ] 127.0.0.1 /crop/upload/time/901668.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000005s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000027s ]
+ERR: 无法加载模块:Crop
+
+[ 2017-05-26T10:12:23+08:00 ] 127.0.0.1 /crop/upload/time/379875.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000005s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000032s ]
+ERR: 无法加载模块:Crop
+
+[ 2017-05-26T10:12:23+08:00 ] 127.0.0.1 /crop/upload/time/379875.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000004s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000025s ]
+ERR: 无法加载模块:Crop
+
+[ 2017-05-26T10:12:23+08:00 ] 127.0.0.1 /crop/upload/time/901668.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000004s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000024s ]
+ERR: 无法加载模块:Crop
+
+[ 2017-05-26T10:17:39+08:00 ] 127.0.0.1 /crop/upload/time/901668.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000005s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000029s ]
+ERR: 无法加载模块:Crop
+
+[ 2017-05-26T10:17:39+08:00 ] 127.0.0.1 /crop/upload/time/379875.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000004s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000024s ]
+ERR: 无法加载模块:Crop
+
+[ 2017-05-26T10:17:39+08:00 ] 127.0.0.1 /crop/upload/time/901668.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000004s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000024s ]
+ERR: 无法加载模块:Crop
+
+[ 2017-05-26T10:17:39+08:00 ] 127.0.0.1 /crop/upload/time/379875.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000003s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000024s ]
+ERR: 无法加载模块:Crop
+
+[ 2017-05-26T10:19:38+08:00 ] 127.0.0.1 /crop/upload/time/901668.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000004s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000026s ]
+ERR: 无法加载模块:Crop
+
+[ 2017-05-26T10:19:38+08:00 ] 127.0.0.1 /crop/upload/time/379875.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000004s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000023s ]
+ERR: 无法加载模块:Crop
+
+[ 2017-05-26T10:19:38+08:00 ] 127.0.0.1 /crop/upload/time/901668.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000004s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000029s ]
+ERR: 无法加载模块:Crop
+
+[ 2017-05-26T10:19:38+08:00 ] 127.0.0.1 /crop/upload/time/379875.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000004s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000023s ]
+ERR: 无法加载模块:Crop
+
+[ 2017-05-26T10:32:03+08:00 ] 127.0.0.1 /crop/upload/time/901668.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000004s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000028s ]
+ERR: 无法加载模块:Crop
+
+[ 2017-05-26T10:32:03+08:00 ] 127.0.0.1 /crop/upload/time/379875.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000004s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000027s ]
+ERR: 无法加载模块:Crop
+
+[ 2017-05-26T10:32:03+08:00 ] 127.0.0.1 /crop/upload/time/901668.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000004s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000025s ]
+ERR: 无法加载模块:Crop
+
+[ 2017-05-26T10:32:03+08:00 ] 127.0.0.1 /crop/upload/time/379875.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000005s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000025s ]
+ERR: 无法加载模块:Crop
+
+[ 2017-05-26T10:33:40+08:00 ] 127.0.0.1 /crop/upload/time/901668.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000005s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000031s ]
+ERR: 无法加载模块:Crop
+
+[ 2017-05-26T10:33:40+08:00 ] 127.0.0.1 /crop/upload/time/379875.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000008s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000059s ]
+ERR: 无法加载模块:Crop
+
+[ 2017-05-26T10:33:40+08:00 ] 127.0.0.1 /crop/upload/time/379875.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000005s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000027s ]
+ERR: 无法加载模块:Crop
+
+[ 2017-05-26T10:33:40+08:00 ] 127.0.0.1 /crop/upload/time/901668.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000005s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000027s ]
+ERR: 无法加载模块:Crop
+
+[ 2017-05-26T10:37:40+08:00 ] 127.0.0.1 /crop/upload/time/901668.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000004s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000024s ]
+ERR: 无法加载模块:Crop
+
+[ 2017-05-26T10:37:40+08:00 ] 127.0.0.1 /crop/upload/time/379875.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000004s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000024s ]
+ERR: 无法加载模块:Crop
+
+[ 2017-05-26T10:37:40+08:00 ] 127.0.0.1 /crop/upload/time/901668.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000006s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000032s ]
+ERR: 无法加载模块:Crop
+
+[ 2017-05-26T10:37:40+08:00 ] 127.0.0.1 /crop/upload/time/379875.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000004s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000021s ]
+ERR: 无法加载模块:Crop
+
+[ 2017-05-26T10:39:00+08:00 ] 127.0.0.1 /crop/upload/time/901668.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000004s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000024s ]
+ERR: 无法加载模块:Crop
+
+[ 2017-05-26T10:39:00+08:00 ] 127.0.0.1 /crop/upload/time/379875.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000003s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000023s ]
+ERR: 无法加载模块:Crop
+
+[ 2017-05-26T10:39:00+08:00 ] 127.0.0.1 /crop/upload/time/901668.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000005s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000035s ]
+ERR: 无法加载模块:Crop
+
+[ 2017-05-26T10:39:00+08:00 ] 127.0.0.1 /crop/upload/time/379875.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000004s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000022s ]
+ERR: 无法加载模块:Crop
+
+[ 2017-05-26T10:39:52+08:00 ] 127.0.0.1 /crop/upload/time/379875.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000005s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000032s ]
+ERR: 无法加载模块:Crop
+
+[ 2017-05-26T10:39:52+08:00 ] 127.0.0.1 /crop/upload/time/901668.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000005s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000029s ]
+ERR: 无法加载模块:Crop
+
+[ 2017-05-26T10:39:52+08:00 ] 127.0.0.1 /crop/upload/time/901668.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000007s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000036s ]
+ERR: 无法加载模块:Crop
+
+[ 2017-05-26T10:39:52+08:00 ] 127.0.0.1 /crop/upload/time/379875.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000006s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000037s ]
+ERR: 无法加载模块:Crop
+
+[ 2017-05-26T10:40:21+08:00 ] 127.0.0.1 /crop/upload/time/379875.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000004s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000027s ]
+ERR: 无法加载模块:Crop
+
+[ 2017-05-26T10:40:21+08:00 ] 127.0.0.1 /crop/upload/time/901668.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000004s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000031s ]
+ERR: 无法加载模块:Crop
+
+[ 2017-05-26T10:40:21+08:00 ] 127.0.0.1 /crop/upload/time/901668.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000004s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000027s ]
+ERR: 无法加载模块:Crop
+
+[ 2017-05-26T10:40:21+08:00 ] 127.0.0.1 /crop/upload/time/379875.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000003s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000022s ]
+ERR: 无法加载模块:Crop
+
+[ 2017-05-26T10:41:13+08:00 ] 127.0.0.1 /crop/upload/time/901668.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000005s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000031s ]
+ERR: 无法加载模块:Crop
+
+[ 2017-05-26T10:41:13+08:00 ] 127.0.0.1 /crop/upload/time/379875.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000005s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000031s ]
+ERR: 无法加载模块:Crop
+
+[ 2017-05-26T10:41:13+08:00 ] 127.0.0.1 /crop/upload/time/901668.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000005s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000027s ]
+ERR: 无法加载模块:Crop
+
+[ 2017-05-26T10:41:13+08:00 ] 127.0.0.1 /crop/upload/time/379875.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000006s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000037s ]
+ERR: 无法加载模块:Crop
+
+[ 2017-05-26T10:41:30+08:00 ] 127.0.0.1 /crop/upload/time/901668.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000004s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000030s ]
+ERR: 无法加载模块:Crop
+
+[ 2017-05-26T10:41:30+08:00 ] 127.0.0.1 /crop/upload/time/379875.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000005s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000029s ]
+ERR: 无法加载模块:Crop
+
+[ 2017-05-26T10:41:30+08:00 ] 127.0.0.1 /crop/upload/time/379875.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000005s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000028s ]
+ERR: 无法加载模块:Crop
+
+[ 2017-05-26T10:41:30+08:00 ] 127.0.0.1 /crop/upload/time/901668.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000007s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000050s ]
+ERR: 无法加载模块:Crop
+
+[ 2017-05-26T10:42:00+08:00 ] 127.0.0.1 /crop/upload/time/901668.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000005s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000028s ]
+ERR: 无法加载模块:Crop
+
+[ 2017-05-26T10:42:00+08:00 ] 127.0.0.1 /crop/upload/time/379875.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000005s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000031s ]
+ERR: 无法加载模块:Crop
+
+[ 2017-05-26T10:42:00+08:00 ] 127.0.0.1 /crop/upload/time/379875.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000004s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000024s ]
+ERR: 无法加载模块:Crop
+
+[ 2017-05-26T10:42:00+08:00 ] 127.0.0.1 /crop/upload/time/901668.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000004s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000025s ]
+ERR: 无法加载模块:Crop
+
+[ 2017-05-26T10:45:55+08:00 ] 127.0.0.1 /crop/upload/time/379875.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000005s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000025s ]
+ERR: 无法加载模块:Crop
+
+[ 2017-05-26T10:45:55+08:00 ] 127.0.0.1 /crop/upload/time/901668.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000004s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000026s ]
+ERR: 无法加载模块:Crop
+
+[ 2017-05-26T10:45:55+08:00 ] 127.0.0.1 /crop/upload/time/379875.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000004s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000036s ]
+ERR: 无法加载模块:Crop
+
+[ 2017-05-26T10:45:55+08:00 ] 127.0.0.1 /crop/upload/time/901668.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000003s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000020s ]
+ERR: 无法加载模块:Crop
+
+[ 2017-05-26T10:46:22+08:00 ] 127.0.0.1 /crop/upload/time/901668.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000004s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000026s ]
+ERR: 无法加载模块:Crop
+
+[ 2017-05-26T10:46:22+08:00 ] 127.0.0.1 /crop/upload/time/379875.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000010s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000059s ]
+ERR: 无法加载模块:Crop
+
+[ 2017-05-26T10:46:22+08:00 ] 127.0.0.1 /crop/upload/time/901668.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000005s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000029s ]
+ERR: 无法加载模块:Crop
+
+[ 2017-05-26T10:46:22+08:00 ] 127.0.0.1 /crop/upload/time/379875.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000003s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000020s ]
+ERR: 无法加载模块:Crop
+
+[ 2017-05-26T10:46:53+08:00 ] 127.0.0.1 /crop/upload/time/379875.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000004s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000024s ]
+ERR: 无法加载模块:Crop
+
+[ 2017-05-26T10:46:53+08:00 ] 127.0.0.1 /crop/upload/time/901668.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000004s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000024s ]
+ERR: 无法加载模块:Crop
+
+[ 2017-05-26T10:46:53+08:00 ] 127.0.0.1 /crop/upload/time/901668.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000004s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000026s ]
+ERR: 无法加载模块:Crop
+
+[ 2017-05-26T10:46:53+08:00 ] 127.0.0.1 /crop/upload/time/379875.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000004s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000028s ]
+ERR: 无法加载模块:Crop
+
+[ 2017-05-26T10:55:38+08:00 ] 127.0.0.1 /crop/upload/time/901668.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000004s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000025s ]
+ERR: 无法加载模块:Crop
+
+[ 2017-05-26T10:55:38+08:00 ] 127.0.0.1 /crop/upload/time/379875.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000004s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000021s ]
+ERR: 无法加载模块:Crop
+
+[ 2017-05-26T10:55:38+08:00 ] 127.0.0.1 /crop/upload/time/901668.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000005s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000025s ]
+ERR: 无法加载模块:Crop
+
+[ 2017-05-26T10:55:38+08:00 ] 127.0.0.1 /crop/upload/time/379875.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000003s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000022s ]
+ERR: 无法加载模块:Crop
+
+[ 2017-05-26T10:57:02+08:00 ] 127.0.0.1 /crop/upload/time/901668.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000005s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000034s ]
+ERR: 无法加载模块:Crop
+
+[ 2017-05-26T10:57:02+08:00 ] 127.0.0.1 /crop/upload/time/379875.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000006s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000033s ]
+ERR: 无法加载模块:Crop
+
+[ 2017-05-26T10:57:02+08:00 ] 127.0.0.1 /crop/upload/time/901668.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000004s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000026s ]
+ERR: 无法加载模块:Crop
+
+[ 2017-05-26T10:57:02+08:00 ] 127.0.0.1 /crop/upload/time/379875.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000004s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000026s ]
+ERR: 无法加载模块:Crop
+
+[ 2017-05-26T10:57:32+08:00 ] 127.0.0.1 /crop/upload/time/901668.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000004s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000024s ]
+ERR: 无法加载模块:Crop
+
+[ 2017-05-26T10:57:32+08:00 ] 127.0.0.1 /crop/upload/time/379875.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000006s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000035s ]
+ERR: 无法加载模块:Crop
+
+[ 2017-05-26T10:57:32+08:00 ] 127.0.0.1 /crop/upload/time/901668.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000006s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000035s ]
+ERR: 无法加载模块:Crop
+
+[ 2017-05-26T10:57:32+08:00 ] 127.0.0.1 /crop/upload/time/379875.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000008s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000054s ]
+ERR: 无法加载模块:Crop
+
+[ 2017-05-26T10:58:17+08:00 ] 127.0.0.1 /crop/upload/time/901668.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000004s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000024s ]
+ERR: 无法加载模块:Crop
+
+[ 2017-05-26T10:58:17+08:00 ] 127.0.0.1 /crop/upload/time/379875.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000004s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000024s ]
+ERR: 无法加载模块:Crop
+
+[ 2017-05-26T10:58:17+08:00 ] 127.0.0.1 /crop/upload/time/901668.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000004s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000024s ]
+ERR: 无法加载模块:Crop
+
+[ 2017-05-26T10:58:17+08:00 ] 127.0.0.1 /crop/upload/time/379875.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000003s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000019s ]
+ERR: 无法加载模块:Crop
+
+[ 2017-05-26T10:59:31+08:00 ] 127.0.0.1 /crop/upload/time/379875.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000004s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000026s ]
+ERR: 无法加载模块:Crop
+
+[ 2017-05-26T10:59:31+08:00 ] 127.0.0.1 /crop/upload/time/901668.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000008s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000058s ]
+ERR: 无法加载模块:Crop
+
+[ 2017-05-26T10:59:31+08:00 ] 127.0.0.1 /crop/upload/time/901668.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000007s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000044s ]
+ERR: 无法加载模块:Crop
+
+[ 2017-05-26T10:59:31+08:00 ] 127.0.0.1 /crop/upload/time/379875.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000004s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000025s ]
+ERR: 无法加载模块:Crop
+
+[ 2017-05-26T11:00:29+08:00 ] 127.0.0.1 /crop/upload/time/901668.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000004s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000025s ]
+ERR: 无法加载模块:Crop
+
+[ 2017-05-26T11:00:29+08:00 ] 127.0.0.1 /crop/upload/time/379875.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000004s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000025s ]
+ERR: 无法加载模块:Crop
+
+[ 2017-05-26T11:00:29+08:00 ] 127.0.0.1 /crop/upload/time/901668.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000006s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000035s ]
+ERR: 无法加载模块:Crop
+
+[ 2017-05-26T11:00:29+08:00 ] 127.0.0.1 /crop/upload/time/379875.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000007s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000047s ]
+ERR: 无法加载模块:Crop
+
+[ 2017-05-26T11:17:07+08:00 ] 127.0.0.1 /Public/Cy/images/logo.png
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000004s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000029s ]
+ERR: 无法加载模块:Public
+
+[ 2017-05-26T11:17:18+08:00 ] 127.0.0.1 /crop/upload/time/901668.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000004s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000027s ]
+ERR: 无法加载模块:Crop
+
+[ 2017-05-26T11:17:18+08:00 ] 127.0.0.1 /crop/upload/time/379875.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000003s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000020s ]
+ERR: 无法加载模块:Crop
+
+[ 2017-05-26T11:17:18+08:00 ] 127.0.0.1 /crop/upload/time/901668.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000004s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000025s ]
+ERR: 无法加载模块:Crop
+
+[ 2017-05-26T11:17:18+08:00 ] 127.0.0.1 /crop/upload/time/379875.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000003s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000019s ]
+ERR: 无法加载模块:Crop
+
+[ 2017-05-26T11:18:18+08:00 ] 127.0.0.1 /crop/upload/time/901668.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000004s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000029s ]
+ERR: 无法加载模块:Crop
+
+[ 2017-05-26T11:18:18+08:00 ] 127.0.0.1 /crop/upload/time/379875.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000003s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000023s ]
+ERR: 无法加载模块:Crop
+
+[ 2017-05-26T11:18:18+08:00 ] 127.0.0.1 /crop/upload/time/901668.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000005s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000087s ]
+ERR: 无法加载模块:Crop
+
+[ 2017-05-26T11:18:18+08:00 ] 127.0.0.1 /crop/upload/time/379875.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000003s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000020s ]
+ERR: 无法加载模块:Crop
+
+[ 2017-05-26T11:22:42+08:00 ] 127.0.0.1 /crop/upload/time/901668.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000009s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000045s ]
+ERR: 无法加载模块:Crop
+
+[ 2017-05-26T11:22:42+08:00 ] 127.0.0.1 /crop/upload/time/379875.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000004s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000031s ]
+ERR: 无法加载模块:Crop
+
+[ 2017-05-26T11:22:42+08:00 ] 127.0.0.1 /crop/upload/time/901668.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000005s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000031s ]
+ERR: 无法加载模块:Crop
+
+[ 2017-05-26T11:22:42+08:00 ] 127.0.0.1 /crop/upload/time/379875.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000005s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000028s ]
+ERR: 无法加载模块:Crop
+
+[ 2017-05-26T11:23:46+08:00 ] 127.0.0.1 /crop/upload/time/901668.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000006s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000029s ]
+ERR: 无法加载模块:Crop
+
+[ 2017-05-26T11:23:46+08:00 ] 127.0.0.1 /crop/upload/time/379875.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000003s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000020s ]
+ERR: 无法加载模块:Crop
+
+[ 2017-05-26T11:23:46+08:00 ] 127.0.0.1 /crop/upload/time/901668.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000004s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000026s ]
+ERR: 无法加载模块:Crop
+
+[ 2017-05-26T11:23:46+08:00 ] 127.0.0.1 /crop/upload/time/379875.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000004s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000025s ]
+ERR: 无法加载模块:Crop
+
+[ 2017-05-26T11:23:58+08:00 ] 127.0.0.1 /crop/upload/time/901668.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000005s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000028s ]
+ERR: 无法加载模块:Crop
+
+[ 2017-05-26T11:23:58+08:00 ] 127.0.0.1 /crop/upload/time/379875.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000004s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000026s ]
+ERR: 无法加载模块:Crop
+
+[ 2017-05-26T11:23:58+08:00 ] 127.0.0.1 /crop/upload/time/901668.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000006s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000043s ]
+ERR: 无法加载模块:Crop
+
+[ 2017-05-26T11:23:58+08:00 ] 127.0.0.1 /crop/upload/time/379875.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000005s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000026s ]
+ERR: 无法加载模块:Crop
+
+[ 2017-05-26T11:26:58+08:00 ] 127.0.0.1 /crop/upload/time/901668.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000004s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000026s ]
+ERR: 无法加载模块:Crop
+
+[ 2017-05-26T11:26:58+08:00 ] 127.0.0.1 /crop/upload/time/379875.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000004s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000026s ]
+ERR: 无法加载模块:Crop
+
+[ 2017-05-26T11:26:58+08:00 ] 127.0.0.1 /crop/upload/time/901668.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000004s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000024s ]
+ERR: 无法加载模块:Crop
+
+[ 2017-05-26T11:26:58+08:00 ] 127.0.0.1 /crop/upload/time/379875.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000003s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000021s ]
+ERR: 无法加载模块:Crop
+
+[ 2017-05-26T11:45:03+08:00 ] 127.0.0.1 /crop/upload/time/901668.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000005s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000031s ]
+ERR: 无法加载模块:Crop
+
+[ 2017-05-26T11:45:03+08:00 ] 127.0.0.1 /crop/upload/time/379875.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000004s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000022s ]
+ERR: 无法加载模块:Crop
+
+[ 2017-05-26T11:45:03+08:00 ] 127.0.0.1 /crop/upload/time/379875.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000004s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000038s ]
+ERR: 无法加载模块:Crop
+
+[ 2017-05-26T11:45:03+08:00 ] 127.0.0.1 /crop/upload/time/901668.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000003s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000020s ]
+ERR: 无法加载模块:Crop
+
+[ 2017-05-26T11:45:21+08:00 ] 127.0.0.1 /crop/upload/time/901668.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000005s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000027s ]
+ERR: 无法加载模块:Crop
+
+[ 2017-05-26T11:45:21+08:00 ] 127.0.0.1 /crop/upload/time/379875.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000004s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000028s ]
+ERR: 无法加载模块:Crop
+
+[ 2017-05-26T11:45:22+08:00 ] 127.0.0.1 /crop/upload/time/379875.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000004s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000024s ]
+ERR: 无法加载模块:Crop
+
+[ 2017-05-26T11:45:22+08:00 ] 127.0.0.1 /crop/upload/time/901668.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000004s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000024s ]
+ERR: 无法加载模块:Crop
+
+[ 2017-05-26T11:46:39+08:00 ] 127.0.0.1 /crop/upload/time/901668.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000005s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000027s ]
+ERR: 无法加载模块:Crop
+
+[ 2017-05-26T11:46:39+08:00 ] 127.0.0.1 /crop/upload/time/379875.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000004s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000028s ]
+ERR: 无法加载模块:Crop
+
+[ 2017-05-26T11:46:39+08:00 ] 127.0.0.1 /crop/upload/time/379875.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000005s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000027s ]
+ERR: 无法加载模块:Crop
+
+[ 2017-05-26T11:46:39+08:00 ] 127.0.0.1 /crop/upload/time/901668.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000005s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000027s ]
+ERR: 无法加载模块:Crop
+
+[ 2017-05-26T11:46:59+08:00 ] 127.0.0.1 /crop/upload/time/901668.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000004s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000026s ]
+ERR: 无法加载模块:Crop
+
+[ 2017-05-26T11:46:59+08:00 ] 127.0.0.1 /crop/upload/time/379875.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000004s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000024s ]
+ERR: 无法加载模块:Crop
+
+[ 2017-05-26T11:46:59+08:00 ] 127.0.0.1 /crop/upload/time/379875.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000007s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000042s ]
+ERR: 无法加载模块:Crop
+
+[ 2017-05-26T11:46:59+08:00 ] 127.0.0.1 /crop/upload/time/901668.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000007s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000040s ]
+ERR: 无法加载模块:Crop
+
+[ 2017-05-26T11:47:29+08:00 ] 127.0.0.1 /crop/upload/time/901668.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000006s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000039s ]
+ERR: 无法加载模块:Crop
+
+[ 2017-05-26T11:47:29+08:00 ] 127.0.0.1 /crop/upload/time/379875.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000004s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000026s ]
+ERR: 无法加载模块:Crop
+
+[ 2017-05-26T11:47:29+08:00 ] 127.0.0.1 /crop/upload/time/379875.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000004s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000025s ]
+ERR: 无法加载模块:Crop
+
+[ 2017-05-26T11:47:29+08:00 ] 127.0.0.1 /crop/upload/time/901668.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000004s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000025s ]
+ERR: 无法加载模块:Crop
+
+[ 2017-05-26T11:48:28+08:00 ] 127.0.0.1 /crop/upload/time/901668.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000004s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000026s ]
+ERR: 无法加载模块:Crop
+
+[ 2017-05-26T11:48:28+08:00 ] 127.0.0.1 /crop/upload/time/379875.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000006s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000050s ]
+ERR: 无法加载模块:Crop
+
+[ 2017-05-26T11:48:28+08:00 ] 127.0.0.1 /crop/upload/time/901668.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000003s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000024s ]
+ERR: 无法加载模块:Crop
+
+[ 2017-05-26T11:48:28+08:00 ] 127.0.0.1 /crop/upload/time/379875.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000003s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000024s ]
+ERR: 无法加载模块:Crop
+
+[ 2017-05-26T11:51:40+08:00 ] 127.0.0.1 /crop/upload/time/901668.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000005s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000029s ]
+ERR: 无法加载模块:Crop
+
+[ 2017-05-26T11:51:40+08:00 ] 127.0.0.1 /crop/upload/time/379875.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000004s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000026s ]
+ERR: 无法加载模块:Crop
+
+[ 2017-05-26T11:51:40+08:00 ] 127.0.0.1 /crop/upload/time/901668.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000004s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000025s ]
+ERR: 无法加载模块:Crop
+
+[ 2017-05-26T11:51:40+08:00 ] 127.0.0.1 /crop/upload/time/379875.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000003s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000019s ]
+ERR: 无法加载模块:Crop
+
+[ 2017-05-26T11:52:23+08:00 ] 127.0.0.1 /crop/upload/time/901668.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000005s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000030s ]
+ERR: 无法加载模块:Crop
+
+[ 2017-05-26T11:52:23+08:00 ] 127.0.0.1 /crop/upload/time/379875.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000005s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000031s ]
+ERR: 无法加载模块:Crop
+
+[ 2017-05-26T11:52:23+08:00 ] 127.0.0.1 /crop/upload/time/901668.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000004s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000024s ]
+ERR: 无法加载模块:Crop
+
+[ 2017-05-26T11:52:23+08:00 ] 127.0.0.1 /crop/upload/time/379875.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000004s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000024s ]
+ERR: 无法加载模块:Crop
+
+[ 2017-05-26T11:54:21+08:00 ] 127.0.0.1 /crop/upload/time/901668.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000005s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000025s ]
+ERR: 无法加载模块:Crop
+
+[ 2017-05-26T11:54:21+08:00 ] 127.0.0.1 /crop/upload/time/379875.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000005s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000032s ]
+ERR: 无法加载模块:Crop
+
+[ 2017-05-26T11:54:21+08:00 ] 127.0.0.1 /crop/upload/time/901668.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000004s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000024s ]
+ERR: 无法加载模块:Crop
+
+[ 2017-05-26T11:54:21+08:00 ] 127.0.0.1 /crop/upload/time/379875.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000003s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000019s ]
+ERR: 无法加载模块:Crop
+
+[ 2017-05-26T11:54:36+08:00 ] 127.0.0.1 /crop/upload/time/901668.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000005s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000025s ]
+ERR: 无法加载模块:Crop
+
+[ 2017-05-26T11:54:36+08:00 ] 127.0.0.1 /crop/upload/time/379875.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000004s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000021s ]
+ERR: 无法加载模块:Crop
+
+[ 2017-05-26T11:54:36+08:00 ] 127.0.0.1 /crop/upload/time/901668.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000005s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000026s ]
+ERR: 无法加载模块:Crop
+
+[ 2017-05-26T11:54:36+08:00 ] 127.0.0.1 /crop/upload/time/379875.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000003s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000019s ]
+ERR: 无法加载模块:Crop
+
+[ 2017-05-26T11:54:54+08:00 ] 127.0.0.1 /crop/upload/time/901668.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000009s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000066s ]
+ERR: 无法加载模块:Crop
+
+[ 2017-05-26T11:54:54+08:00 ] 127.0.0.1 /crop/upload/time/379875.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000004s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000026s ]
+ERR: 无法加载模块:Crop
+
+[ 2017-05-26T11:54:54+08:00 ] 127.0.0.1 /crop/upload/time/901668.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000003s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000023s ]
+ERR: 无法加载模块:Crop
+
+[ 2017-05-26T11:54:54+08:00 ] 127.0.0.1 /crop/upload/time/379875.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000003s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000018s ]
+ERR: 无法加载模块:Crop
+
+[ 2017-05-26T11:55:11+08:00 ] 127.0.0.1 /crop/upload/time/379875.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000004s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000026s ]
+ERR: 无法加载模块:Crop
+
+[ 2017-05-26T11:55:11+08:00 ] 127.0.0.1 /crop/upload/time/901668.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000004s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000026s ]
+ERR: 无法加载模块:Crop
+
+[ 2017-05-26T11:55:11+08:00 ] 127.0.0.1 /crop/upload/time/379875.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000004s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000027s ]
+ERR: 无法加载模块:Crop
+
+[ 2017-05-26T11:55:11+08:00 ] 127.0.0.1 /crop/upload/time/901668.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000006s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000043s ]
+ERR: 无法加载模块:Crop
+
+[ 2017-05-26T11:55:35+08:00 ] 127.0.0.1 /crop/upload/time/379875.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000004s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000024s ]
+ERR: 无法加载模块:Crop
+
+[ 2017-05-26T11:55:35+08:00 ] 127.0.0.1 /crop/upload/time/901668.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000004s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000024s ]
+ERR: 无法加载模块:Crop
+
+[ 2017-05-26T11:55:35+08:00 ] 127.0.0.1 /crop/upload/time/379875.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000004s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000024s ]
+ERR: 无法加载模块:Crop
+
+[ 2017-05-26T11:57:39+08:00 ] 127.0.0.1 /crop/upload/time/901668.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000005s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000036s ]
+ERR: 无法加载模块:Crop
+
+[ 2017-05-26T11:57:39+08:00 ] 127.0.0.1 /crop/upload/time/379875.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000006s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000053s ]
+ERR: 无法加载模块:Crop
+
+[ 2017-05-26T11:57:39+08:00 ] 127.0.0.1 /crop/upload/time/901668.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000005s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000029s ]
+ERR: 无法加载模块:Crop
+
+[ 2017-05-26T11:57:39+08:00 ] 127.0.0.1 /crop/upload/time/379875.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000005s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000047s ]
+ERR: 无法加载模块:Crop
+
+[ 2017-05-26T11:57:55+08:00 ] 127.0.0.1 /crop/upload/time/901668.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000005s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000038s ]
+ERR: 无法加载模块:Crop
+
+[ 2017-05-26T11:57:55+08:00 ] 127.0.0.1 /crop/upload/time/379875.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000006s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000042s ]
+ERR: 无法加载模块:Crop
+
+[ 2017-05-26T11:57:56+08:00 ] 127.0.0.1 /crop/upload/time/901668.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000005s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000035s ]
+ERR: 无法加载模块:Crop
+
+[ 2017-05-26T11:57:56+08:00 ] 127.0.0.1 /crop/upload/time/379875.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000004s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000023s ]
+ERR: 无法加载模块:Crop
+
+[ 2017-05-26T11:58:27+08:00 ] 127.0.0.1 /crop/upload/time/901668.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000004s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000028s ]
+ERR: 无法加载模块:Crop
+
+[ 2017-05-26T11:58:27+08:00 ] 127.0.0.1 /crop/upload/time/379875.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000008s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000051s ]
+ERR: 无法加载模块:Crop
+
+[ 2017-05-26T11:58:27+08:00 ] 127.0.0.1 /crop/upload/time/901668.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000005s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000028s ]
+ERR: 无法加载模块:Crop
+
+[ 2017-05-26T11:58:27+08:00 ] 127.0.0.1 /crop/upload/time/379875.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000004s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000023s ]
+ERR: 无法加载模块:Crop
+
+[ 2017-05-26T11:59:32+08:00 ] 127.0.0.1 /crop/upload/time/901668.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000004s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000027s ]
+ERR: 无法加载模块:Crop
+
+[ 2017-05-26T11:59:32+08:00 ] 127.0.0.1 /crop/upload/time/379875.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000005s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000028s ]
+ERR: 无法加载模块:Crop
+
+[ 2017-05-26T11:59:32+08:00 ] 127.0.0.1 /crop/upload/time/901668.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000005s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000039s ]
+ERR: 无法加载模块:Crop
+
+[ 2017-05-26T11:59:32+08:00 ] 127.0.0.1 /crop/upload/time/379875.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000005s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000042s ]
+ERR: 无法加载模块:Crop
+
+[ 2017-05-26T12:00:08+08:00 ] 127.0.0.1 /crop/upload/time/901668.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000004s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000024s ]
+ERR: 无法加载模块:Crop
+
+[ 2017-05-26T12:00:08+08:00 ] 127.0.0.1 /crop/upload/time/379875.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000004s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000025s ]
+ERR: 无法加载模块:Crop
+
+[ 2017-05-26T12:00:08+08:00 ] 127.0.0.1 /crop/upload/time/901668.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000004s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000025s ]
+ERR: 无法加载模块:Crop
+
+[ 2017-05-26T12:00:28+08:00 ] 127.0.0.1 /crop/upload/time/901668.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000004s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000025s ]
+ERR: 无法加载模块:Crop
+
+[ 2017-05-26T12:00:28+08:00 ] 127.0.0.1 /crop/upload/time/379875.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000005s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000024s ]
+ERR: 无法加载模块:Crop
+
+[ 2017-05-26T12:00:28+08:00 ] 127.0.0.1 /crop/upload/time/379875.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000005s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000037s ]
+ERR: 无法加载模块:Crop
+
+[ 2017-05-26T12:00:28+08:00 ] 127.0.0.1 /crop/upload/time/901668.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000007s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000046s ]
+ERR: 无法加载模块:Crop
+
+[ 2017-05-26T12:00:51+08:00 ] 127.0.0.1 /crop/upload/time/901668.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000004s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000025s ]
+ERR: 无法加载模块:Crop
+
+[ 2017-05-26T12:00:51+08:00 ] 127.0.0.1 /crop/upload/time/379875.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000004s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000027s ]
+ERR: 无法加载模块:Crop
+
+[ 2017-05-26T12:00:51+08:00 ] 127.0.0.1 /crop/upload/time/379875.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000003s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000023s ]
+ERR: 无法加载模块:Crop
+
+[ 2017-05-26T12:00:51+08:00 ] 127.0.0.1 /crop/upload/time/901668.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000003s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000023s ]
+ERR: 无法加载模块:Crop
+
+[ 2017-05-26T12:01:21+08:00 ] 127.0.0.1 /crop/upload/time/901668.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000007s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000038s ]
+ERR: 无法加载模块:Crop
+
+[ 2017-05-26T12:01:21+08:00 ] 127.0.0.1 /crop/upload/time/379875.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000006s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000043s ]
+ERR: 无法加载模块:Crop
+
+[ 2017-05-26T12:01:21+08:00 ] 127.0.0.1 /crop/upload/time/379875.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000004s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000032s ]
+ERR: 无法加载模块:Crop
+
+[ 2017-05-26T12:01:21+08:00 ] 127.0.0.1 /crop/upload/time/901668.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000007s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000055s ]
+ERR: 无法加载模块:Crop
+
+[ 2017-05-26T13:32:45+08:00 ] 127.0.0.1 /crop/upload/time/901668.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000004s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000026s ]
+ERR: 无法加载模块:Crop
+
+[ 2017-05-26T13:32:45+08:00 ] 127.0.0.1 /crop/upload/time/379875.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000003s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000024s ]
+ERR: 无法加载模块:Crop
+
+[ 2017-05-26T13:32:45+08:00 ] 127.0.0.1 /crop/upload/time/901668.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000008s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000043s ]
+ERR: 无法加载模块:Crop
+
+[ 2017-05-26T13:32:45+08:00 ] 127.0.0.1 /crop/upload/time/379875.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000002s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000020s ]
+ERR: 无法加载模块:Crop
+
+[ 2017-05-26T13:34:43+08:00 ] 127.0.0.1 /crop/upload/time/901668.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000006s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000035s ]
+ERR: 无法加载模块:Crop
+
+[ 2017-05-26T13:34:43+08:00 ] 127.0.0.1 /crop/upload/time/379875.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000003s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000021s ]
+ERR: 无法加载模块:Crop
+
+[ 2017-05-26T13:34:43+08:00 ] 127.0.0.1 /crop/upload/time/379875.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000004s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000020s ]
+ERR: 无法加载模块:Crop
+
+[ 2017-05-26T13:34:43+08:00 ] 127.0.0.1 /crop/upload/time/901668.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000005s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000029s ]
+ERR: 无法加载模块:Crop
+
+[ 2017-05-26T13:35:06+08:00 ] 127.0.0.1 /crop/upload/time/379875.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000005s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000032s ]
+ERR: 无法加载模块:Crop
+
+[ 2017-05-26T13:35:06+08:00 ] 127.0.0.1 /crop/upload/time/901668.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000006s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000028s ]
+ERR: 无法加载模块:Crop
+
+[ 2017-05-26T13:35:06+08:00 ] 127.0.0.1 /crop/upload/time/379875.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000004s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000027s ]
+ERR: 无法加载模块:Crop
+
+[ 2017-05-26T13:35:06+08:00 ] 127.0.0.1 /crop/upload/time/901668.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000005s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000027s ]
+ERR: 无法加载模块:Crop
+
+[ 2017-05-26T13:38:13+08:00 ] 127.0.0.1 /crop/upload/time/379875.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000004s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000031s ]
+ERR: 无法加载模块:Crop
+
+[ 2017-05-26T13:38:13+08:00 ] 127.0.0.1 /crop/upload/time/901668.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000006s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000030s ]
+ERR: 无法加载模块:Crop
+
+[ 2017-05-26T13:38:13+08:00 ] 127.0.0.1 /crop/upload/time/901668.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000006s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000037s ]
+ERR: 无法加载模块:Crop
+
+[ 2017-05-26T13:38:13+08:00 ] 127.0.0.1 /crop/upload/time/379875.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000004s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000023s ]
+ERR: 无法加载模块:Crop
+
+[ 2017-05-26T13:38:49+08:00 ] 127.0.0.1 /crop/upload/time/379875.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000004s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000025s ]
+ERR: 无法加载模块:Crop
+
+[ 2017-05-26T13:38:49+08:00 ] 127.0.0.1 /crop/upload/time/901668.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000005s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000030s ]
+ERR: 无法加载模块:Crop
+
+[ 2017-05-26T13:38:49+08:00 ] 127.0.0.1 /crop/upload/time/901668.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000006s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000037s ]
+ERR: 无法加载模块:Crop
+
+[ 2017-05-26T13:38:49+08:00 ] 127.0.0.1 /crop/upload/time/379875.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000004s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000028s ]
+ERR: 无法加载模块:Crop
+
+[ 2017-05-26T13:39:03+08:00 ] 127.0.0.1 /crop/upload/time/379875.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000004s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000025s ]
+ERR: 无法加载模块:Crop
+
+[ 2017-05-26T13:39:03+08:00 ] 127.0.0.1 /crop/upload/time/901668.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000004s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000025s ]
+ERR: 无法加载模块:Crop
+
+[ 2017-05-26T13:39:03+08:00 ] 127.0.0.1 /crop/upload/time/901668.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000004s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000027s ]
+ERR: 无法加载模块:Crop
+
+[ 2017-05-26T13:39:03+08:00 ] 127.0.0.1 /crop/upload/time/379875.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000004s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000025s ]
+ERR: 无法加载模块:Crop
+
+[ 2017-05-26T13:39:29+08:00 ] 127.0.0.1 /crop/upload/time/901668.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000004s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000031s ]
+ERR: 无法加载模块:Crop
+
+[ 2017-05-26T13:39:29+08:00 ] 127.0.0.1 /crop/upload/time/379875.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000004s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000024s ]
+ERR: 无法加载模块:Crop
+
+[ 2017-05-26T13:39:29+08:00 ] 127.0.0.1 /crop/upload/time/901668.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000004s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000023s ]
+ERR: 无法加载模块:Crop
+
+[ 2017-05-26T13:39:29+08:00 ] 127.0.0.1 /crop/upload/time/379875.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000004s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000023s ]
+ERR: 无法加载模块:Crop
+
+[ 2017-05-26T13:45:02+08:00 ] 127.0.0.1 /crop/upload/time/901668.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000004s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000027s ]
+ERR: 无法加载模块:Crop
+
+[ 2017-05-26T13:45:02+08:00 ] 127.0.0.1 /crop/upload/time/379875.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000005s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000029s ]
+ERR: 无法加载模块:Crop
+
+[ 2017-05-26T13:45:02+08:00 ] 127.0.0.1 /crop/upload/time/901668.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000004s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000026s ]
+ERR: 无法加载模块:Crop
+
+[ 2017-05-26T13:45:02+08:00 ] 127.0.0.1 /crop/upload/time/379875.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000004s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000021s ]
+ERR: 无法加载模块:Crop
+
+[ 2017-05-26T13:49:16+08:00 ] 127.0.0.1 /Public/Uploads/2017-05-12/591575c6c90b0.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000019s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000041s ]
+ERR: 无法加载模块:Public
+
+[ 2017-05-26T13:49:16+08:00 ] 127.0.0.1 /Public/Uploads/2017-05-12/591575c6c90b0.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000004s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000023s ]
+ERR: 无法加载模块:Public
+
+[ 2017-05-26T14:14:54+08:00 ] 127.0.0.1 /crop/upload/time/901668.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000004s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000026s ]
+ERR: 无法加载模块:Crop
+
+[ 2017-05-26T14:14:54+08:00 ] 127.0.0.1 /crop/upload/time/379875.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000004s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000024s ]
+ERR: 无法加载模块:Crop
+
+[ 2017-05-26T14:14:54+08:00 ] 127.0.0.1 /crop/upload/time/379875.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000003s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000021s ]
+ERR: 无法加载模块:Crop
+
+[ 2017-05-26T14:14:54+08:00 ] 127.0.0.1 /crop/upload/time/901668.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000004s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000026s ]
+ERR: 无法加载模块:Crop
+
+[ 2017-05-26T14:19:49+08:00 ] 127.0.0.1 /crop/upload/time/901668.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000008s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000035s ]
+ERR: 无法加载模块:Crop
+
+[ 2017-05-26T14:19:49+08:00 ] 127.0.0.1 /crop/upload/time/379875.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000004s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000028s ]
+ERR: 无法加载模块:Crop
+
+[ 2017-05-26T14:19:49+08:00 ] 127.0.0.1 /crop/upload/time/379875.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000005s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000032s ]
+ERR: 无法加载模块:Crop
+
+[ 2017-05-26T14:19:49+08:00 ] 127.0.0.1 /crop/upload/time/901668.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000004s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000021s ]
+ERR: 无法加载模块:Crop
+
+[ 2017-05-26T14:23:08+08:00 ] 127.0.0.1 /crop/upload/time/901668.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000004s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000024s ]
+ERR: 无法加载模块:Crop
+
+[ 2017-05-26T14:23:08+08:00 ] 127.0.0.1 /crop/upload/time/379875.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000003s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000019s ]
+ERR: 无法加载模块:Crop
+
+[ 2017-05-26T14:23:08+08:00 ] 127.0.0.1 /crop/upload/time/901668.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000004s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000022s ]
+ERR: 无法加载模块:Crop
+
+[ 2017-05-26T14:23:08+08:00 ] 127.0.0.1 /crop/upload/time/379875.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000004s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000022s ]
+ERR: 无法加载模块:Crop
+
+[ 2017-05-26T14:28:58+08:00 ] 127.0.0.1 /crop/upload/time/901668.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000003s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000052s ]
+ERR: 无法加载模块:Crop
+
+[ 2017-05-26T14:28:58+08:00 ] 127.0.0.1 /crop/upload/time/379875.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000003s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000052s ]
+ERR: 无法加载模块:Crop
+
+[ 2017-05-26T14:28:58+08:00 ] 127.0.0.1 /crop/upload/time/901668.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000005s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000026s ]
+ERR: 无法加载模块:Crop
+
+[ 2017-05-26T14:28:58+08:00 ] 127.0.0.1 /crop/upload/time/379875.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000004s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000022s ]
+ERR: 无法加载模块:Crop
+
+[ 2017-05-26T14:29:40+08:00 ] 127.0.0.1 /crop/upload/time/901668.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000004s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000026s ]
+ERR: 无法加载模块:Crop
+
+[ 2017-05-26T14:29:40+08:00 ] 127.0.0.1 /crop/upload/time/379875.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000004s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000028s ]
+ERR: 无法加载模块:Crop
+
+[ 2017-05-26T14:29:40+08:00 ] 127.0.0.1 /crop/upload/time/901668.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000004s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000026s ]
+ERR: 无法加载模块:Crop
+
+[ 2017-05-26T14:29:40+08:00 ] 127.0.0.1 /crop/upload/time/379875.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000004s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000023s ]
+ERR: 无法加载模块:Crop
+
+[ 2017-05-26T14:30:33+08:00 ] 127.0.0.1 /crop/upload/time/901668.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000003s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000023s ]
+ERR: 无法加载模块:Crop
+
+[ 2017-05-26T14:30:33+08:00 ] 127.0.0.1 /crop/upload/time/379875.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000003s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000021s ]
+ERR: 无法加载模块:Crop
+
+[ 2017-05-26T14:30:33+08:00 ] 127.0.0.1 /crop/upload/time/901668.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000005s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000039s ]
+ERR: 无法加载模块:Crop
+
+[ 2017-05-26T14:30:33+08:00 ] 127.0.0.1 /crop/upload/time/379875.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000004s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000024s ]
+ERR: 无法加载模块:Crop
+
+[ 2017-05-26T14:31:02+08:00 ] 127.0.0.1 /crop/upload/time/901668.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000005s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000028s ]
+ERR: 无法加载模块:Crop
+
+[ 2017-05-26T14:31:02+08:00 ] 127.0.0.1 /crop/upload/time/379875.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000005s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000028s ]
+ERR: 无法加载模块:Crop
+
+[ 2017-05-26T14:31:02+08:00 ] 127.0.0.1 /crop/upload/time/901668.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000004s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000024s ]
+ERR: 无法加载模块:Crop
+
+[ 2017-05-26T14:31:02+08:00 ] 127.0.0.1 /crop/upload/time/379875.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000003s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000019s ]
+ERR: 无法加载模块:Crop
+
+[ 2017-05-26T14:31:28+08:00 ] 127.0.0.1 /crop/upload/time/901668.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000007s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000041s ]
+ERR: 无法加载模块:Crop
+
+[ 2017-05-26T14:31:28+08:00 ] 127.0.0.1 /crop/upload/time/379875.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000008s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000056s ]
+ERR: 无法加载模块:Crop
+
+[ 2017-05-26T14:31:28+08:00 ] 127.0.0.1 /crop/upload/time/379875.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000004s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000026s ]
+ERR: 无法加载模块:Crop
+
+[ 2017-05-26T14:31:28+08:00 ] 127.0.0.1 /crop/upload/time/901668.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000008s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000050s ]
+ERR: 无法加载模块:Crop
+
+[ 2017-05-26T14:31:48+08:00 ] 127.0.0.1 /crop/upload/time/379875.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000004s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000025s ]
+ERR: 无法加载模块:Crop
+
+[ 2017-05-26T14:31:48+08:00 ] 127.0.0.1 /crop/upload/time/901668.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000006s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000041s ]
+ERR: 无法加载模块:Crop
+
+[ 2017-05-26T14:31:48+08:00 ] 127.0.0.1 /crop/upload/time/379875.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000005s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000028s ]
+ERR: 无法加载模块:Crop
+
+[ 2017-05-26T14:31:48+08:00 ] 127.0.0.1 /crop/upload/time/901668.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000003s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000021s ]
+ERR: 无法加载模块:Crop
+
+[ 2017-05-26T14:31:52+08:00 ] 127.0.0.1 /crop/upload/time/901668.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000004s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000027s ]
+ERR: 无法加载模块:Crop
+
+[ 2017-05-26T14:31:52+08:00 ] 127.0.0.1 /crop/upload/time/379875.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000004s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000020s ]
+ERR: 无法加载模块:Crop
+
+[ 2017-05-26T14:31:52+08:00 ] 127.0.0.1 /crop/upload/time/901668.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000006s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000041s ]
+ERR: 无法加载模块:Crop
+
+[ 2017-05-26T14:31:52+08:00 ] 127.0.0.1 /crop/upload/time/379875.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000005s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000029s ]
+ERR: 无法加载模块:Crop
+
+[ 2017-05-26T14:31:53+08:00 ] 127.0.0.1 /crop/upload/time/901668.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000003s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000025s ]
+ERR: 无法加载模块:Crop
+
+[ 2017-05-26T14:31:53+08:00 ] 127.0.0.1 /crop/upload/time/379875.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000003s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000024s ]
+ERR: 无法加载模块:Crop
+
+[ 2017-05-26T14:31:53+08:00 ] 127.0.0.1 /crop/upload/time/901668.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000004s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000027s ]
+ERR: 无法加载模块:Crop
+
+[ 2017-05-26T14:31:53+08:00 ] 127.0.0.1 /crop/upload/time/379875.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000004s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000027s ]
+ERR: 无法加载模块:Crop
+
+[ 2017-05-26T14:32:41+08:00 ] 127.0.0.1 /crop/upload/time/379875.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000004s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000027s ]
+ERR: 无法加载模块:Crop
+
+[ 2017-05-26T14:32:41+08:00 ] 127.0.0.1 /crop/upload/time/901668.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000005s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000030s ]
+ERR: 无法加载模块:Crop
+
+[ 2017-05-26T14:32:41+08:00 ] 127.0.0.1 /crop/upload/time/901668.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000005s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000029s ]
+ERR: 无法加载模块:Crop
+
+[ 2017-05-26T14:32:41+08:00 ] 127.0.0.1 /crop/upload/time/379875.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000005s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000026s ]
+ERR: 无法加载模块:Crop
+
+[ 2017-05-26T14:34:51+08:00 ] 127.0.0.1 /crop/upload/time/379875.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000004s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000027s ]
+ERR: 无法加载模块:Crop
+
+[ 2017-05-26T14:34:51+08:00 ] 127.0.0.1 /crop/upload/time/901668.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000004s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000027s ]
+ERR: 无法加载模块:Crop
+
+[ 2017-05-26T14:34:51+08:00 ] 127.0.0.1 /crop/upload/time/379875.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000004s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000025s ]
+ERR: 无法加载模块:Crop
+
+[ 2017-05-26T14:34:51+08:00 ] 127.0.0.1 /crop/upload/time/901668.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000004s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000023s ]
+ERR: 无法加载模块:Crop
+
+[ 2017-05-26T14:44:00+08:00 ] 127.0.0.1 /crop/upload/time/901668.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000004s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000025s ]
+ERR: 无法加载模块:Crop
+
+[ 2017-05-26T14:44:00+08:00 ] 127.0.0.1 /crop/upload/time/379875.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000005s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000025s ]
+ERR: 无法加载模块:Crop
+
+[ 2017-05-26T14:44:00+08:00 ] 127.0.0.1 /crop/upload/time/901668.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000004s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000026s ]
+ERR: 无法加载模块:Crop
+
+[ 2017-05-26T14:44:00+08:00 ] 127.0.0.1 /crop/upload/time/379875.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000004s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000022s ]
+ERR: 无法加载模块:Crop
+
+[ 2017-05-26T14:47:40+08:00 ] 127.0.0.1 /crop/upload/time/901668.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000005s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000031s ]
+ERR: 无法加载模块:Crop
+
+[ 2017-05-26T14:47:40+08:00 ] 127.0.0.1 /crop/upload/time/379875.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000005s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000029s ]
+ERR: 无法加载模块:Crop
+
+[ 2017-05-26T14:47:40+08:00 ] 127.0.0.1 /crop/upload/time/379875.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000004s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000025s ]
+ERR: 无法加载模块:Crop
+
+[ 2017-05-26T14:47:40+08:00 ] 127.0.0.1 /crop/upload/time/901668.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000002s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000018s ]
+ERR: 无法加载模块:Crop
+
+[ 2017-05-26T14:47:47+08:00 ] 127.0.0.1 /crop/upload/time/379875.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000005s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000079s ]
+ERR: 无法加载模块:Crop
+
+[ 2017-05-26T14:47:47+08:00 ] 127.0.0.1 /crop/upload/time/901668.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000005s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000030s ]
+ERR: 无法加载模块:Crop
+
+[ 2017-05-26T14:47:47+08:00 ] 127.0.0.1 /crop/upload/time/901668.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000004s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000026s ]
+ERR: 无法加载模块:Crop
+
+[ 2017-05-26T14:47:47+08:00 ] 127.0.0.1 /crop/upload/time/379875.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000004s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000024s ]
+ERR: 无法加载模块:Crop
+
+[ 2017-05-26T14:47:53+08:00 ] 127.0.0.1 /crop/upload/time/901668.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000003s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000019s ]
+ERR: 无法加载模块:Crop
+
+[ 2017-05-26T14:47:53+08:00 ] 127.0.0.1 /crop/upload/time/379875.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000004s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000026s ]
+ERR: 无法加载模块:Crop
+
+[ 2017-05-26T14:47:53+08:00 ] 127.0.0.1 /crop/upload/time/379875.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000004s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000039s ]
+ERR: 无法加载模块:Crop
+
+[ 2017-05-26T14:47:53+08:00 ] 127.0.0.1 /crop/upload/time/901668.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000003s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000020s ]
+ERR: 无法加载模块:Crop
+
+[ 2017-05-26T14:53:07+08:00 ] 127.0.0.1 /crop/upload/time/901668.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000005s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000028s ]
+ERR: 无法加载模块:Crop
+
+[ 2017-05-26T14:53:07+08:00 ] 127.0.0.1 /crop/upload/time/379875.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000003s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000019s ]
+ERR: 无法加载模块:Crop
+
+[ 2017-05-26T14:53:07+08:00 ] 127.0.0.1 /crop/upload/time/379875.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000005s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000028s ]
+ERR: 无法加载模块:Crop
+
+[ 2017-05-26T14:53:07+08:00 ] 127.0.0.1 /crop/upload/time/901668.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000003s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000022s ]
+ERR: 无法加载模块:Crop
+
+[ 2017-05-26T14:54:12+08:00 ] 127.0.0.1 /crop/upload/time/901668.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000004s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000028s ]
+ERR: 无法加载模块:Crop
+
+[ 2017-05-26T14:54:12+08:00 ] 127.0.0.1 /crop/upload/time/379875.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000005s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000031s ]
+ERR: 无法加载模块:Crop
+
+[ 2017-05-26T14:54:12+08:00 ] 127.0.0.1 /crop/upload/time/901668.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000004s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000024s ]
+ERR: 无法加载模块:Crop
+
+[ 2017-05-26T14:54:48+08:00 ] 127.0.0.1 /crop/upload/time/901668.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000005s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000042s ]
+ERR: 无法加载模块:Crop
+
+[ 2017-05-26T14:54:48+08:00 ] 127.0.0.1 /crop/upload/time/379875.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000004s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000025s ]
+ERR: 无法加载模块:Crop
+
+[ 2017-05-26T14:54:48+08:00 ] 127.0.0.1 /crop/upload/time/901668.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000004s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000025s ]
+ERR: 无法加载模块:Crop
+
+[ 2017-05-26T14:54:48+08:00 ] 127.0.0.1 /crop/upload/time/379875.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000003s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000019s ]
+ERR: 无法加载模块:Crop
+
+[ 2017-05-26T14:55:01+08:00 ] 127.0.0.1 /crop/upload/time/901668.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000004s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000025s ]
+ERR: 无法加载模块:Crop
+
+[ 2017-05-26T14:55:01+08:00 ] 127.0.0.1 /crop/upload/time/379875.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000004s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000028s ]
+ERR: 无法加载模块:Crop
+
+[ 2017-05-26T14:55:01+08:00 ] 127.0.0.1 /crop/upload/time/379875.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000006s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000040s ]
+ERR: 无法加载模块:Crop
+
+[ 2017-05-26T14:55:01+08:00 ] 127.0.0.1 /crop/upload/time/901668.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000006s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000040s ]
+ERR: 无法加载模块:Crop
+
+[ 2017-05-26T14:55:20+08:00 ] 127.0.0.1 /crop/upload/time/379875.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000005s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000039s ]
+ERR: 无法加载模块:Crop
+
+[ 2017-05-26T14:55:20+08:00 ] 127.0.0.1 /crop/upload/time/901668.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000004s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000032s ]
+ERR: 无法加载模块:Crop
+
+[ 2017-05-26T14:55:20+08:00 ] 127.0.0.1 /crop/upload/time/901668.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000007s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000039s ]
+ERR: 无法加载模块:Crop
+
+[ 2017-05-26T14:55:20+08:00 ] 127.0.0.1 /crop/upload/time/379875.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000005s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000036s ]
+ERR: 无法加载模块:Crop
+
+[ 2017-05-26T14:55:29+08:00 ] 127.0.0.1 /crop/upload/time/901668.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000005s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000029s ]
+ERR: 无法加载模块:Crop
+
+[ 2017-05-26T14:55:29+08:00 ] 127.0.0.1 /crop/upload/time/379875.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000004s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000028s ]
+ERR: 无法加载模块:Crop
+
+[ 2017-05-26T14:55:29+08:00 ] 127.0.0.1 /crop/upload/time/901668.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000004s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000029s ]
+ERR: 无法加载模块:Crop
+
+[ 2017-05-26T14:55:29+08:00 ] 127.0.0.1 /crop/upload/time/379875.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000005s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000026s ]
+ERR: 无法加载模块:Crop
+
+[ 2017-05-26T14:55:30+08:00 ] 127.0.0.1 /crop/upload/time/901668.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000004s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000024s ]
+ERR: 无法加载模块:Crop
+
+[ 2017-05-26T14:55:30+08:00 ] 127.0.0.1 /crop/upload/time/379875.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000005s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000025s ]
+ERR: 无法加载模块:Crop
+
+[ 2017-05-26T14:55:30+08:00 ] 127.0.0.1 /crop/upload/time/901668.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000004s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000029s ]
+ERR: 无法加载模块:Crop
+
+[ 2017-05-26T14:55:30+08:00 ] 127.0.0.1 /crop/upload/time/379875.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000006s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000028s ]
+ERR: 无法加载模块:Crop
+
+[ 2017-05-26T14:55:39+08:00 ] 127.0.0.1 /crop/upload/time/379875.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000005s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000030s ]
+ERR: 无法加载模块:Crop
+
+[ 2017-05-26T14:55:39+08:00 ] 127.0.0.1 /crop/upload/time/901668.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000005s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000028s ]
+ERR: 无法加载模块:Crop
+
+[ 2017-05-26T14:55:39+08:00 ] 127.0.0.1 /crop/upload/time/901668.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000005s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000027s ]
+ERR: 无法加载模块:Crop
+
+[ 2017-05-26T14:55:39+08:00 ] 127.0.0.1 /crop/upload/time/379875.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000005s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000027s ]
+ERR: 无法加载模块:Crop
+
+[ 2017-05-26T14:56:06+08:00 ] 127.0.0.1 /crop/upload/time/901668.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000006s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000036s ]
+ERR: 无法加载模块:Crop
+
+[ 2017-05-26T14:56:06+08:00 ] 127.0.0.1 /crop/upload/time/379875.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000005s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000033s ]
+ERR: 无法加载模块:Crop
+
+[ 2017-05-26T14:56:06+08:00 ] 127.0.0.1 /crop/upload/time/901668.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000005s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000030s ]
+ERR: 无法加载模块:Crop
+
+[ 2017-05-26T14:56:06+08:00 ] 127.0.0.1 /crop/upload/time/379875.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000003s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000021s ]
+ERR: 无法加载模块:Crop
+
+[ 2017-05-26T14:57:14+08:00 ] 127.0.0.1 /crop/upload/time/901668.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000006s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000040s ]
+ERR: 无法加载模块:Crop
+
+[ 2017-05-26T14:57:14+08:00 ] 127.0.0.1 /crop/upload/time/379875.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000006s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000044s ]
+ERR: 无法加载模块:Crop
+
+[ 2017-05-26T14:57:14+08:00 ] 127.0.0.1 /crop/upload/time/379875.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000004s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000026s ]
+ERR: 无法加载模块:Crop
+
+[ 2017-05-26T14:57:14+08:00 ] 127.0.0.1 /crop/upload/time/901668.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000004s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000026s ]
+ERR: 无法加载模块:Crop
+
+[ 2017-05-26T14:57:39+08:00 ] 127.0.0.1 /crop/upload/time/901668.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000004s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000024s ]
+ERR: 无法加载模块:Crop
+
+[ 2017-05-26T14:57:39+08:00 ] 127.0.0.1 /crop/upload/time/379875.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000006s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000039s ]
+ERR: 无法加载模块:Crop
+
+[ 2017-05-26T14:57:39+08:00 ] 127.0.0.1 /crop/upload/time/379875.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000003s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000024s ]
+ERR: 无法加载模块:Crop
+
+[ 2017-05-26T14:57:39+08:00 ] 127.0.0.1 /crop/upload/time/901668.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000003s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000024s ]
+ERR: 无法加载模块:Crop
+
+[ 2017-05-26T14:58:04+08:00 ] 127.0.0.1 /crop/upload/time/901668.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000007s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000038s ]
+ERR: 无法加载模块:Crop
+
+[ 2017-05-26T14:58:04+08:00 ] 127.0.0.1 /crop/upload/time/379875.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000004s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000025s ]
+ERR: 无法加载模块:Crop
+
+[ 2017-05-26T14:58:04+08:00 ] 127.0.0.1 /crop/upload/time/379875.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000006s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000038s ]
+ERR: 无法加载模块:Crop
+
+[ 2017-05-26T14:58:04+08:00 ] 127.0.0.1 /crop/upload/time/901668.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000004s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000022s ]
+ERR: 无法加载模块:Crop
+
+[ 2017-05-26T14:58:26+08:00 ] 127.0.0.1 /crop/upload/time/901668.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000005s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000030s ]
+ERR: 无法加载模块:Crop
+
+[ 2017-05-26T14:58:26+08:00 ] 127.0.0.1 /crop/upload/time/379875.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000004s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000025s ]
+ERR: 无法加载模块:Crop
+
+[ 2017-05-26T14:58:26+08:00 ] 127.0.0.1 /crop/upload/time/901668.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000004s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000025s ]
+ERR: 无法加载模块:Crop
+
+[ 2017-05-26T14:58:26+08:00 ] 127.0.0.1 /crop/upload/time/379875.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000004s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000022s ]
+ERR: 无法加载模块:Crop
+
+[ 2017-05-26T14:59:23+08:00 ] 127.0.0.1 /crop/upload/time/901668.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000005s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000028s ]
+ERR: 无法加载模块:Crop
+
+[ 2017-05-26T14:59:23+08:00 ] 127.0.0.1 /crop/upload/time/379875.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000004s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000040s ]
+ERR: 无法加载模块:Crop
+
+[ 2017-05-26T14:59:23+08:00 ] 127.0.0.1 /crop/upload/time/901668.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000007s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000039s ]
+ERR: 无法加载模块:Crop
+
+[ 2017-05-26T14:59:23+08:00 ] 127.0.0.1 /crop/upload/time/379875.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000004s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000035s ]
+ERR: 无法加载模块:Crop
+
+[ 2017-05-26T15:06:29+08:00 ] 127.0.0.1 /crop/upload/time/901668.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000004s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000025s ]
+ERR: 无法加载模块:Crop
+
+[ 2017-05-26T15:06:29+08:00 ] 127.0.0.1 /crop/upload/time/379875.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000004s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000024s ]
+ERR: 无法加载模块:Crop
+
+[ 2017-05-26T15:06:29+08:00 ] 127.0.0.1 /crop/upload/time/379875.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000018s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000039s ]
+ERR: 无法加载模块:Crop
+
+[ 2017-05-26T15:06:29+08:00 ] 127.0.0.1 /crop/upload/time/901668.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000004s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000025s ]
+ERR: 无法加载模块:Crop
+
+[ 2017-05-26T15:06:56+08:00 ] 127.0.0.1 /crop/upload/time/901668.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000004s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000028s ]
+ERR: 无法加载模块:Crop
+
+[ 2017-05-26T15:06:56+08:00 ] 127.0.0.1 /crop/upload/time/379875.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000006s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000041s ]
+ERR: 无法加载模块:Crop
+
+[ 2017-05-26T15:06:56+08:00 ] 127.0.0.1 /crop/upload/time/901668.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000004s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000025s ]
+ERR: 无法加载模块:Crop
+
+[ 2017-05-26T15:06:56+08:00 ] 127.0.0.1 /crop/upload/time/379875.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000003s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000018s ]
+ERR: 无法加载模块:Crop
+
+[ 2017-05-26T15:19:46+08:00 ] 127.0.0.1 /crop/upload/time/901668.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000004s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000025s ]
+ERR: 无法加载模块:Crop
+
+[ 2017-05-26T15:19:46+08:00 ] 127.0.0.1 /crop/upload/time/379875.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000003s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000023s ]
+ERR: 无法加载模块:Crop
+
+[ 2017-05-26T15:19:46+08:00 ] 127.0.0.1 /crop/upload/time/901668.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000005s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000024s ]
+ERR: 无法加载模块:Crop
+
+[ 2017-05-26T15:19:46+08:00 ] 127.0.0.1 /crop/upload/time/379875.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000003s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000018s ]
+ERR: 无法加载模块:Crop
+
+[ 2017-05-26T15:24:37+08:00 ] 127.0.0.1 /crop/upload/time/379875.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000006s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000036s ]
+ERR: 无法加载模块:Crop
+
+[ 2017-05-26T15:24:37+08:00 ] 127.0.0.1 /crop/upload/time/901668.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000005s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000029s ]
+ERR: 无法加载模块:Crop
+
+[ 2017-05-26T15:24:37+08:00 ] 127.0.0.1 /crop/upload/time/901668.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000004s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000027s ]
+ERR: 无法加载模块:Crop
+
+[ 2017-05-26T15:24:37+08:00 ] 127.0.0.1 /crop/upload/time/379875.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000004s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000027s ]
+ERR: 无法加载模块:Crop
+
+[ 2017-05-26T15:25:44+08:00 ] 127.0.0.1 /crop/upload/time/901668.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000005s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000030s ]
+ERR: 无法加载模块:Crop
+
+[ 2017-05-26T15:25:44+08:00 ] 127.0.0.1 /crop/upload/time/379875.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000005s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000026s ]
+ERR: 无法加载模块:Crop
+
+[ 2017-05-26T15:25:44+08:00 ] 127.0.0.1 /crop/upload/time/379875.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000004s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000026s ]
+ERR: 无法加载模块:Crop
+
+[ 2017-05-26T15:25:44+08:00 ] 127.0.0.1 /crop/upload/time/901668.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000004s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000032s ]
+ERR: 无法加载模块:Crop
+
+[ 2017-05-26T15:29:09+08:00 ] 127.0.0.1 /crop/upload/time/379875.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000005s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000027s ]
+ERR: 无法加载模块:Crop
+
+[ 2017-05-26T15:29:09+08:00 ] 127.0.0.1 /crop/upload/time/901668.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000005s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000027s ]
+ERR: 无法加载模块:Crop
+
+[ 2017-05-26T15:29:09+08:00 ] 127.0.0.1 /crop/upload/time/901668.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000005s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000026s ]
+ERR: 无法加载模块:Crop
+
+[ 2017-05-26T15:29:09+08:00 ] 127.0.0.1 /crop/upload/time/379875.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000003s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000019s ]
+ERR: 无法加载模块:Crop
+
+[ 2017-05-26T15:32:04+08:00 ] 127.0.0.1 /crop/upload/time/379875.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000004s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000036s ]
+ERR: 无法加载模块:Crop
+
+[ 2017-05-26T15:32:04+08:00 ] 127.0.0.1 /crop/upload/time/901668.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000005s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000028s ]
+ERR: 无法加载模块:Crop
+
+[ 2017-05-26T15:32:05+08:00 ] 127.0.0.1 /crop/upload/time/901668.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000005s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000027s ]
+ERR: 无法加载模块:Crop
+
+[ 2017-05-26T15:32:05+08:00 ] 127.0.0.1 /crop/upload/time/379875.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000004s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000025s ]
+ERR: 无法加载模块:Crop
+
+[ 2017-05-26T15:32:19+08:00 ] 127.0.0.1 /crop/upload/time/901668.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000004s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000024s ]
+ERR: 无法加载模块:Crop
+
+[ 2017-05-26T15:32:19+08:00 ] 127.0.0.1 /crop/upload/time/379875.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000004s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000024s ]
+ERR: 无法加载模块:Crop
+
+[ 2017-05-26T15:32:19+08:00 ] 127.0.0.1 /crop/upload/time/901668.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000006s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000031s ]
+ERR: 无法加载模块:Crop
+
+[ 2017-05-26T15:32:19+08:00 ] 127.0.0.1 /crop/upload/time/379875.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000003s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000020s ]
+ERR: 无法加载模块:Crop
+
+[ 2017-05-26T15:32:42+08:00 ] 127.0.0.1 /crop/upload/time/901668.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000006s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000037s ]
+ERR: 无法加载模块:Crop
+
+[ 2017-05-26T15:32:42+08:00 ] 127.0.0.1 /crop/upload/time/379875.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000007s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000047s ]
+ERR: 无法加载模块:Crop
+
+[ 2017-05-26T15:32:42+08:00 ] 127.0.0.1 /crop/upload/time/379875.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000005s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000032s ]
+ERR: 无法加载模块:Crop
+
+[ 2017-05-26T15:32:42+08:00 ] 127.0.0.1 /crop/upload/time/901668.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000009s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000058s ]
+ERR: 无法加载模块:Crop
+
+[ 2017-05-26T15:34:26+08:00 ] 127.0.0.1 /crop/upload/time/379875.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000004s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000024s ]
+ERR: 无法加载模块:Crop
+
+[ 2017-05-26T15:34:26+08:00 ] 127.0.0.1 /crop/upload/time/901668.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000004s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000024s ]
+ERR: 无法加载模块:Crop
+
+[ 2017-05-26T15:34:26+08:00 ] 127.0.0.1 /crop/upload/time/901668.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000004s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000022s ]
+ERR: 无法加载模块:Crop
+
+[ 2017-05-26T15:34:26+08:00 ] 127.0.0.1 /crop/upload/time/379875.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000004s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000021s ]
+ERR: 无法加载模块:Crop
+
+[ 2017-05-26T15:39:59+08:00 ] 127.0.0.1 /Public/Uploads/2017-05-12/591575c6c90b0.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000004s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000030s ]
+ERR: 无法加载模块:Public
+
+[ 2017-05-26T15:39:59+08:00 ] 127.0.0.1 /Public/Uploads/2017-05-12/591575c6c90b0.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000003s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000023s ]
+ERR: 无法加载模块:Public
+
+[ 2017-05-26T15:40:20+08:00 ] 127.0.0.1 /Public/Uploads/2017-05-12/591575c6c90b0.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000004s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000039s ]
+ERR: 无法加载模块:Public
+
+[ 2017-05-26T15:40:20+08:00 ] 127.0.0.1 /Public/Uploads/2017-05-12/591575c6c90b0.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000004s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000024s ]
+ERR: 无法加载模块:Public
+
+[ 2017-05-26T16:46:12+08:00 ] 127.0.0.1 /crop/upload/time/901668.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000005s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000030s ]
+ERR: 无法加载模块:Crop
+
+[ 2017-05-26T16:46:12+08:00 ] 127.0.0.1 /crop/upload/time/379875.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000003s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000022s ]
+ERR: 无法加载模块:Crop
+
+[ 2017-05-26T16:46:12+08:00 ] 127.0.0.1 /crop/upload/time/901668.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000005s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000027s ]
+ERR: 无法加载模块:Crop
+
+[ 2017-05-26T16:46:12+08:00 ] 127.0.0.1 /crop/upload/time/379875.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000003s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000019s ]
+ERR: 无法加载模块:Crop
+
+[ 2017-05-26T16:47:53+08:00 ] 127.0.0.1 /crop/upload/time/901668.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000004s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000023s ]
+ERR: 无法加载模块:Crop
+
+[ 2017-05-26T16:47:53+08:00 ] 127.0.0.1 /crop/upload/time/379875.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000004s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000024s ]
+ERR: 无法加载模块:Crop
+
+[ 2017-05-26T16:47:53+08:00 ] 127.0.0.1 /crop/upload/time/901668.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000005s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000026s ]
+ERR: 无法加载模块:Crop
+
+[ 2017-05-26T16:50:01+08:00 ] 127.0.0.1 /crop/upload/time/901668.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000004s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000024s ]
+ERR: 无法加载模块:Crop
+
+[ 2017-05-26T16:50:01+08:00 ] 127.0.0.1 /crop/upload/time/379875.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000004s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000023s ]
+ERR: 无法加载模块:Crop
+
+[ 2017-05-26T16:50:01+08:00 ] 127.0.0.1 /crop/upload/time/901668.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000004s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000030s ]
+ERR: 无法加载模块:Crop
+
+[ 2017-05-26T16:50:01+08:00 ] 127.0.0.1 /crop/upload/time/379875.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000003s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000025s ]
+ERR: 无法加载模块:Crop
+
+[ 2017-05-26T16:52:13+08:00 ] 127.0.0.1 /crop/upload/time/901668.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000004s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000024s ]
+ERR: 无法加载模块:Crop
+
+[ 2017-05-26T16:52:13+08:00 ] 127.0.0.1 /crop/upload/time/379875.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000004s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000024s ]
+ERR: 无法加载模块:Crop
+
+[ 2017-05-26T16:52:13+08:00 ] 127.0.0.1 /crop/upload/time/901668.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000005s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000032s ]
+ERR: 无法加载模块:Crop
+
+[ 2017-05-26T16:52:13+08:00 ] 127.0.0.1 /crop/upload/time/379875.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000004s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000025s ]
+ERR: 无法加载模块:Crop
+
+[ 2017-05-26T16:53:10+08:00 ] 127.0.0.1 /crop/upload/time/901668.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000005s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000026s ]
+ERR: 无法加载模块:Crop
+
+[ 2017-05-26T16:53:10+08:00 ] 127.0.0.1 /crop/upload/time/379875.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000005s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000026s ]
+ERR: 无法加载模块:Crop
+
+[ 2017-05-26T16:53:10+08:00 ] 127.0.0.1 /crop/upload/time/901668.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000004s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000027s ]
+ERR: 无法加载模块:Crop
+
+[ 2017-05-26T16:53:10+08:00 ] 127.0.0.1 /crop/upload/time/379875.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000003s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000020s ]
+ERR: 无法加载模块:Crop
+
+[ 2017-05-26T16:53:52+08:00 ] 127.0.0.1 /crop/upload/time/901668.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000005s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000033s ]
+ERR: 无法加载模块:Crop
+
+[ 2017-05-26T16:53:52+08:00 ] 127.0.0.1 /crop/upload/time/379875.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000005s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000030s ]
+ERR: 无法加载模块:Crop
+
+[ 2017-05-26T16:53:52+08:00 ] 127.0.0.1 /crop/upload/time/901668.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000005s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000027s ]
+ERR: 无法加载模块:Crop
+
+[ 2017-05-26T16:53:52+08:00 ] 127.0.0.1 /crop/upload/time/379875.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000004s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000027s ]
+ERR: 无法加载模块:Crop
+
+[ 2017-05-26T16:55:02+08:00 ] 127.0.0.1 /crop/upload/time/901668.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000004s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000025s ]
+ERR: 无法加载模块:Crop
+
+[ 2017-05-26T16:55:02+08:00 ] 127.0.0.1 /crop/upload/time/379875.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000004s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000023s ]
+ERR: 无法加载模块:Crop
+
+[ 2017-05-26T16:55:02+08:00 ] 127.0.0.1 /crop/upload/time/901668.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000005s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000030s ]
+ERR: 无法加载模块:Crop
+
+[ 2017-05-26T16:55:02+08:00 ] 127.0.0.1 /crop/upload/time/379875.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000003s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000025s ]
+ERR: 无法加载模块:Crop
+
+[ 2017-05-26T16:55:47+08:00 ] 127.0.0.1 /crop/upload/time/901668.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000005s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000031s ]
+ERR: 无法加载模块:Crop
+
+[ 2017-05-26T16:55:47+08:00 ] 127.0.0.1 /crop/upload/time/379875.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000006s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000032s ]
+ERR: 无法加载模块:Crop
+
+[ 2017-05-26T16:55:47+08:00 ] 127.0.0.1 /crop/upload/time/901668.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000005s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000028s ]
+ERR: 无法加载模块:Crop
+
+[ 2017-05-26T16:55:47+08:00 ] 127.0.0.1 /crop/upload/time/379875.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000003s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000020s ]
+ERR: 无法加载模块:Crop
+
+[ 2017-05-26T16:56:34+08:00 ] 127.0.0.1 /crop/upload/time/901668.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000005s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000033s ]
+ERR: 无法加载模块:Crop
+
+[ 2017-05-26T16:56:34+08:00 ] 127.0.0.1 /crop/upload/time/379875.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000004s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000026s ]
+ERR: 无法加载模块:Crop
+
+[ 2017-05-26T16:56:34+08:00 ] 127.0.0.1 /crop/upload/time/901668.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000005s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000028s ]
+ERR: 无法加载模块:Crop
+
+[ 2017-05-26T16:56:34+08:00 ] 127.0.0.1 /crop/upload/time/379875.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000003s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000021s ]
+ERR: 无法加载模块:Crop
+
+[ 2017-05-26T16:57:36+08:00 ] 127.0.0.1 /crop/upload/time/901668.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000005s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000028s ]
+ERR: 无法加载模块:Crop
+
+[ 2017-05-26T16:57:36+08:00 ] 127.0.0.1 /crop/upload/time/379875.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000004s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000027s ]
+ERR: 无法加载模块:Crop
+
+[ 2017-05-26T16:57:36+08:00 ] 127.0.0.1 /crop/upload/time/379875.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000005s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000026s ]
+ERR: 无法加载模块:Crop
+
+[ 2017-05-26T16:57:36+08:00 ] 127.0.0.1 /crop/upload/time/901668.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000003s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000018s ]
+ERR: 无法加载模块:Crop
+
+[ 2017-05-26T17:02:26+08:00 ] 127.0.0.1 /crop/upload/time/379875.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000004s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000027s ]
+ERR: 无法加载模块:Crop
+
+[ 2017-05-26T17:02:26+08:00 ] 127.0.0.1 /crop/upload/time/901668.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000004s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000027s ]
+ERR: 无法加载模块:Crop
+
+[ 2017-05-26T17:02:26+08:00 ] 127.0.0.1 /crop/upload/time/901668.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000004s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000027s ]
+ERR: 无法加载模块:Crop
+
+[ 2017-05-26T17:02:26+08:00 ] 127.0.0.1 /crop/upload/time/379875.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000005s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000025s ]
+ERR: 无法加载模块:Crop
+
+[ 2017-05-26T17:02:30+08:00 ] 127.0.0.1 /crop/upload/time/901668.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000006s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000037s ]
+ERR: 无法加载模块:Crop
+
+[ 2017-05-26T17:02:30+08:00 ] 127.0.0.1 /crop/upload/time/379875.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000004s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000025s ]
+ERR: 无法加载模块:Crop
+
+[ 2017-05-26T17:02:30+08:00 ] 127.0.0.1 /crop/upload/time/901668.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000004s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000024s ]
+ERR: 无法加载模块:Crop
+
+[ 2017-05-26T17:02:30+08:00 ] 127.0.0.1 /crop/upload/time/379875.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000004s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000023s ]
+ERR: 无法加载模块:Crop
+
+[ 2017-05-26T17:03:09+08:00 ] 127.0.0.1 /crop/upload/time/901668.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000007s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000057s ]
+ERR: 无法加载模块:Crop
+
+[ 2017-05-26T17:03:09+08:00 ] 127.0.0.1 /crop/upload/time/379875.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000004s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000021s ]
+ERR: 无法加载模块:Crop
+
+[ 2017-05-26T17:03:09+08:00 ] 127.0.0.1 /crop/upload/time/379875.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000005s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000029s ]
+ERR: 无法加载模块:Crop
+
+[ 2017-05-26T17:03:09+08:00 ] 127.0.0.1 /crop/upload/time/901668.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000004s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000024s ]
+ERR: 无法加载模块:Crop
+
+[ 2017-05-26T17:03:35+08:00 ] 127.0.0.1 /crop/upload/time/901668.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000004s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000027s ]
+ERR: 无法加载模块:Crop
+
+[ 2017-05-26T17:03:35+08:00 ] 127.0.0.1 /crop/upload/time/379875.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000004s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000021s ]
+ERR: 无法加载模块:Crop
+
+[ 2017-05-26T17:03:35+08:00 ] 127.0.0.1 /crop/upload/time/901668.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000004s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000025s ]
+ERR: 无法加载模块:Crop
+
+[ 2017-05-26T17:03:35+08:00 ] 127.0.0.1 /crop/upload/time/379875.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000006s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000039s ]
+ERR: 无法加载模块:Crop
+
+[ 2017-05-26T17:20:38+08:00 ] 127.0.0.1 /crop/upload/time/901668.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000004s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000026s ]
+ERR: 无法加载模块:Crop
+
+[ 2017-05-26T17:20:38+08:00 ] 127.0.0.1 /crop/upload/time/379875.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000004s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000026s ]
+ERR: 无法加载模块:Crop
+
+[ 2017-05-26T17:20:38+08:00 ] 127.0.0.1 /crop/upload/time/901668.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000005s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000028s ]
+ERR: 无法加载模块:Crop
+
+[ 2017-05-26T17:20:38+08:00 ] 127.0.0.1 /crop/upload/time/379875.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000004s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000032s ]
+ERR: 无法加载模块:Crop
+
+[ 2017-05-26T17:21:04+08:00 ] 127.0.0.1 /crop/upload/time/379875.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000003s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000019s ]
+ERR: 无法加载模块:Crop
+
+[ 2017-05-26T17:21:04+08:00 ] 127.0.0.1 /crop/upload/time/901668.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000005s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000028s ]
+ERR: 无法加载模块:Crop
+
+[ 2017-05-26T17:21:04+08:00 ] 127.0.0.1 /crop/upload/time/901668.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000004s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000024s ]
+ERR: 无法加载模块:Crop
+
+[ 2017-05-26T17:21:04+08:00 ] 127.0.0.1 /crop/upload/time/379875.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000003s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000024s ]
+ERR: 无法加载模块:Crop
+
+[ 2017-05-26T17:27:23+08:00 ] 127.0.0.1 /crop/upload/time/901668.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000004s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000027s ]
+ERR: 无法加载模块:Crop
+
+[ 2017-05-26T17:27:23+08:00 ] 127.0.0.1 /crop/upload/time/379875.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000003s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000021s ]
+ERR: 无法加载模块:Crop
+
+[ 2017-05-26T17:27:23+08:00 ] 127.0.0.1 /crop/upload/time/901668.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000004s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000024s ]
+ERR: 无法加载模块:Crop
+
+[ 2017-05-26T17:27:23+08:00 ] 127.0.0.1 /crop/upload/time/379875.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000004s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000022s ]
+ERR: 无法加载模块:Crop
+
+[ 2017-05-26T17:27:47+08:00 ] 127.0.0.1 /crop/upload/time/379875.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000005s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000027s ]
+ERR: 无法加载模块:Crop
+
+[ 2017-05-26T17:27:47+08:00 ] 127.0.0.1 /crop/upload/time/901668.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000003s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000025s ]
+ERR: 无法加载模块:Crop
+
+[ 2017-05-26T17:27:47+08:00 ] 127.0.0.1 /crop/upload/time/901668.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000004s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000027s ]
+ERR: 无法加载模块:Crop
+
+[ 2017-05-26T17:27:47+08:00 ] 127.0.0.1 /crop/upload/time/379875.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000003s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000021s ]
+ERR: 无法加载模块:Crop
+
+[ 2017-05-26T17:34:17+08:00 ] 127.0.0.1 /crop/upload/time/379875.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000004s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000028s ]
+ERR: 无法加载模块:Crop
+
+[ 2017-05-26T17:34:17+08:00 ] 127.0.0.1 /crop/upload/time/901668.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000005s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000028s ]
+ERR: 无法加载模块:Crop
+
+[ 2017-05-26T17:34:17+08:00 ] 127.0.0.1 /crop/upload/time/901668.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000005s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000031s ]
+ERR: 无法加载模块:Crop
+
+[ 2017-05-26T17:34:17+08:00 ] 127.0.0.1 /crop/upload/time/379875.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000004s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000028s ]
+ERR: 无法加载模块:Crop
+
+[ 2017-05-26T17:35:22+08:00 ] 127.0.0.1 /crop/upload/time/901668.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000004s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000025s ]
+ERR: 无法加载模块:Crop
+
+[ 2017-05-26T17:35:22+08:00 ] 127.0.0.1 /crop/upload/time/379875.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000004s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000025s ]
+ERR: 无法加载模块:Crop
+
+[ 2017-05-26T17:35:22+08:00 ] 127.0.0.1 /crop/upload/time/901668.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000004s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000028s ]
+ERR: 无法加载模块:Crop
+
+[ 2017-05-26T17:35:22+08:00 ] 127.0.0.1 /crop/upload/time/379875.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000004s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000025s ]
+ERR: 无法加载模块:Crop
+
+[ 2017-05-26T17:36:19+08:00 ] 127.0.0.1 /crop/upload/time/901668.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000005s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000027s ]
+ERR: 无法加载模块:Crop
+
+[ 2017-05-26T17:36:19+08:00 ] 127.0.0.1 /crop/upload/time/379875.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000004s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000023s ]
+ERR: 无法加载模块:Crop
+
+[ 2017-05-26T17:36:19+08:00 ] 127.0.0.1 /crop/upload/time/379875.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000003s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000018s ]
+ERR: 无法加载模块:Crop
+
+[ 2017-05-26T17:36:19+08:00 ] 127.0.0.1 /crop/upload/time/901668.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000004s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000024s ]
+ERR: 无法加载模块:Crop
+
+[ 2017-05-26T17:37:05+08:00 ] 127.0.0.1 /crop/upload/time/901668.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000005s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000055s ]
+ERR: 无法加载模块:Crop
+
+[ 2017-05-26T17:37:05+08:00 ] 127.0.0.1 /crop/upload/time/379875.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000004s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000026s ]
+ERR: 无法加载模块:Crop
+
+[ 2017-05-26T17:37:05+08:00 ] 127.0.0.1 /crop/upload/time/901668.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000003s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000024s ]
+ERR: 无法加载模块:Crop
+
+[ 2017-05-26T17:37:05+08:00 ] 127.0.0.1 /crop/upload/time/379875.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000003s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000024s ]
+ERR: 无法加载模块:Crop
+
+[ 2017-05-26T17:38:22+08:00 ] 127.0.0.1 /crop/upload/time/901668.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000005s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000025s ]
+ERR: 无法加载模块:Crop
+
+[ 2017-05-26T17:38:22+08:00 ] 127.0.0.1 /crop/upload/time/379875.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000004s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000025s ]
+ERR: 无法加载模块:Crop
+
+[ 2017-05-26T17:38:22+08:00 ] 127.0.0.1 /crop/upload/time/379875.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000003s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000021s ]
+ERR: 无法加载模块:Crop
+
+[ 2017-05-26T17:38:22+08:00 ] 127.0.0.1 /crop/upload/time/901668.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000005s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000027s ]
+ERR: 无法加载模块:Crop
+
+[ 2017-05-26T17:41:43+08:00 ] 127.0.0.1 /crop/upload/time/379875.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000005s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000029s ]
+ERR: 无法加载模块:Crop
+
+[ 2017-05-26T17:41:43+08:00 ] 127.0.0.1 /crop/upload/time/901668.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000005s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000026s ]
+ERR: 无法加载模块:Crop
+
+[ 2017-05-26T17:41:43+08:00 ] 127.0.0.1 /crop/upload/time/901668.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000004s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000023s ]
+ERR: 无法加载模块:Crop
+
+[ 2017-05-26T17:41:43+08:00 ] 127.0.0.1 /crop/upload/time/379875.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000004s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000023s ]
+ERR: 无法加载模块:Crop
+
+[ 2017-05-26T17:44:48+08:00 ] 127.0.0.1 /crop/upload/time/901668.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000004s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000023s ]
+ERR: 无法加载模块:Crop
+
+[ 2017-05-26T17:44:48+08:00 ] 127.0.0.1 /crop/upload/time/379875.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000005s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000032s ]
+ERR: 无法加载模块:Crop
+
+[ 2017-05-26T17:44:48+08:00 ] 127.0.0.1 /crop/upload/time/379875.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000004s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000024s ]
+ERR: 无法加载模块:Crop
+
+[ 2017-05-26T17:44:48+08:00 ] 127.0.0.1 /crop/upload/time/901668.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000003s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000019s ]
+ERR: 无法加载模块:Crop
+
+[ 2017-05-26T17:51:59+08:00 ] 127.0.0.1 /crop/upload/time/901668.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000004s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000037s ]
+ERR: 无法加载模块:Crop
+
+[ 2017-05-26T17:51:59+08:00 ] 127.0.0.1 /crop/upload/time/379875.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000005s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000027s ]
+ERR: 无法加载模块:Crop
+
+[ 2017-05-26T17:51:59+08:00 ] 127.0.0.1 /crop/upload/time/901668.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000004s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000025s ]
+ERR: 无法加载模块:Crop
+
+[ 2017-05-26T17:51:59+08:00 ] 127.0.0.1 /crop/upload/time/379875.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000003s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000019s ]
+ERR: 无法加载模块:Crop
+
+[ 2017-05-26T17:55:45+08:00 ] 127.0.0.1 /crop/upload/time/901668.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000005s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000027s ]
+ERR: 无法加载模块:Crop
+
+[ 2017-05-26T17:55:45+08:00 ] 127.0.0.1 /crop/upload/time/379875.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000005s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000029s ]
+ERR: 无法加载模块:Crop
+
+[ 2017-05-26T17:55:45+08:00 ] 127.0.0.1 /crop/upload/time/901668.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000004s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000026s ]
+ERR: 无法加载模块:Crop
+
+[ 2017-05-26T17:55:45+08:00 ] 127.0.0.1 /crop/upload/time/379875.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000004s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000028s ]
+ERR: 无法加载模块:Crop
+
+[ 2017-05-26T18:09:46+08:00 ] 127.0.0.1 /crop/upload/time/379875.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000004s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000026s ]
+ERR: 无法加载模块:Crop
+
+[ 2017-05-26T18:09:46+08:00 ] 127.0.0.1 /crop/upload/time/901668.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000004s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000033s ]
+ERR: 无法加载模块:Crop
+
+[ 2017-05-26T18:09:46+08:00 ] 127.0.0.1 /crop/upload/time/901668.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000004s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000025s ]
+ERR: 无法加载模块:Crop
+
+[ 2017-05-26T18:09:46+08:00 ] 127.0.0.1 /crop/upload/time/379875.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000003s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000024s ]
+ERR: 无法加载模块:Crop
+
+[ 2017-05-26T18:10:48+08:00 ] 127.0.0.1 /crop/upload/time/901668.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000004s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000026s ]
+ERR: 无法加载模块:Crop
+
+[ 2017-05-26T18:10:48+08:00 ] 127.0.0.1 /crop/upload/time/379875.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000004s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000025s ]
+ERR: 无法加载模块:Crop
+
+[ 2017-05-26T18:10:48+08:00 ] 127.0.0.1 /crop/upload/time/901668.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000006s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000028s ]
+ERR: 无法加载模块:Crop
+
+[ 2017-05-26T18:10:48+08:00 ] 127.0.0.1 /crop/upload/time/379875.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000006s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000028s ]
+ERR: 无法加载模块:Crop
+
+[ 2017-05-26T18:13:27+08:00 ] 127.0.0.1 /crop/upload/time/901668.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000004s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000025s ]
+ERR: 无法加载模块:Crop
+
+[ 2017-05-26T18:13:27+08:00 ] 127.0.0.1 /crop/upload/time/379875.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000003s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000024s ]
+ERR: 无法加载模块:Crop
+
+[ 2017-05-26T18:13:27+08:00 ] 127.0.0.1 /crop/upload/time/901668.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000004s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000024s ]
+ERR: 无法加载模块:Crop
+
+[ 2017-05-26T18:13:27+08:00 ] 127.0.0.1 /crop/upload/time/379875.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000003s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000019s ]
+ERR: 无法加载模块:Crop
+
+[ 2017-05-26T18:13:47+08:00 ] 127.0.0.1 /crop/upload/time/379875.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000004s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000028s ]
+ERR: 无法加载模块:Crop
+
+[ 2017-05-26T18:13:47+08:00 ] 127.0.0.1 /crop/upload/time/901668.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000004s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000026s ]
+ERR: 无法加载模块:Crop
+
+[ 2017-05-26T18:13:47+08:00 ] 127.0.0.1 /crop/upload/time/379875.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000005s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000027s ]
+ERR: 无法加载模块:Crop
+
+[ 2017-05-26T18:13:47+08:00 ] 127.0.0.1 /crop/upload/time/901668.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000004s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000020s ]
+ERR: 无法加载模块:Crop
+
+[ 2017-05-26T18:13:52+08:00 ] 127.0.0.1 /crop/upload/time/901668.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000004s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000024s ]
+ERR: 无法加载模块:Crop
+
+[ 2017-05-26T18:13:52+08:00 ] 127.0.0.1 /crop/upload/time/379875.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000004s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000024s ]
+ERR: 无法加载模块:Crop
+
+[ 2017-05-26T18:13:52+08:00 ] 127.0.0.1 /crop/upload/time/901668.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000005s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000037s ]
+ERR: 无法加载模块:Crop
+
+[ 2017-05-26T18:13:52+08:00 ] 127.0.0.1 /crop/upload/time/379875.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000003s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000019s ]
+ERR: 无法加载模块:Crop
+
+[ 2017-05-26T18:14:12+08:00 ] 127.0.0.1 /crop/upload/time/901668.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000004s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000024s ]
+ERR: 无法加载模块:Crop
+
+[ 2017-05-26T18:14:12+08:00 ] 127.0.0.1 /crop/upload/time/379875.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000003s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000018s ]
+ERR: 无法加载模块:Crop
+
+[ 2017-05-26T18:14:12+08:00 ] 127.0.0.1 /crop/upload/time/901668.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000004s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000026s ]
+ERR: 无法加载模块:Crop
+
+[ 2017-05-26T18:14:12+08:00 ] 127.0.0.1 /crop/upload/time/379875.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000004s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000022s ]
+ERR: 无法加载模块:Crop
+
+[ 2017-05-26T18:15:05+08:00 ] 127.0.0.1 /crop/upload/time/901668.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000005s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000026s ]
+ERR: 无法加载模块:Crop
+
+[ 2017-05-26T18:15:05+08:00 ] 127.0.0.1 /crop/upload/time/379875.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000006s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000031s ]
+ERR: 无法加载模块:Crop
+
+[ 2017-05-26T18:15:05+08:00 ] 127.0.0.1 /crop/upload/time/901668.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000003s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000023s ]
+ERR: 无法加载模块:Crop
+
+[ 2017-05-26T18:15:05+08:00 ] 127.0.0.1 /crop/upload/time/379875.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000004s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000035s ]
+ERR: 无法加载模块:Crop
+
+[ 2017-05-26T18:18:28+08:00 ] 127.0.0.1 /crop/upload/time/901668.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000005s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000027s ]
+ERR: 无法加载模块:Crop
+
+[ 2017-05-26T18:18:28+08:00 ] 127.0.0.1 /crop/upload/time/379875.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000004s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000024s ]
+ERR: 无法加载模块:Crop
+
+[ 2017-05-26T18:18:28+08:00 ] 127.0.0.1 /crop/upload/time/901668.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000009s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000044s ]
+ERR: 无法加载模块:Crop
+
+[ 2017-05-26T18:18:28+08:00 ] 127.0.0.1 /crop/upload/time/379875.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000004s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000023s ]
+ERR: 无法加载模块:Crop
+
+[ 2017-05-26T19:25:11+08:00 ] 127.0.0.1 /crop/upload/time/901668.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000006s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000038s ]
+ERR: 无法加载模块:Crop
+
+[ 2017-05-26T19:25:11+08:00 ] 127.0.0.1 /crop/upload/time/379875.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000004s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000026s ]
+ERR: 无法加载模块:Crop
+
+[ 2017-05-26T19:25:11+08:00 ] 127.0.0.1 /crop/upload/time/901668.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000004s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000027s ]
+ERR: 无法加载模块:Crop
+
+[ 2017-05-26T19:25:11+08:00 ] 127.0.0.1 /crop/upload/time/379875.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000004s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000022s ]
+ERR: 无法加载模块:Crop
+
+[ 2017-05-26T19:25:38+08:00 ] 127.0.0.1 /crop/upload/time/901668.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000004s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000026s ]
+ERR: 无法加载模块:Crop
+
+[ 2017-05-26T19:25:38+08:00 ] 127.0.0.1 /crop/upload/time/379875.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000005s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000056s ]
+ERR: 无法加载模块:Crop
+
+[ 2017-05-26T19:25:38+08:00 ] 127.0.0.1 /crop/upload/time/379875.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000004s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000028s ]
+ERR: 无法加载模块:Crop
+
+[ 2017-05-26T19:25:38+08:00 ] 127.0.0.1 /crop/upload/time/901668.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000004s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000028s ]
+ERR: 无法加载模块:Crop
+
+[ 2017-05-26T19:25:38+08:00 ] 127.0.0.1 /crop/upload/time/901668.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000004s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000024s ]
+ERR: 无法加载模块:Crop
+
+[ 2017-05-26T19:25:38+08:00 ] 127.0.0.1 /crop/upload/time/379875.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000004s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000025s ]
+ERR: 无法加载模块:Crop
+
+[ 2017-05-26T19:25:38+08:00 ] 127.0.0.1 /crop/upload/time/901668.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000004s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000025s ]
+ERR: 无法加载模块:Crop
+
+[ 2017-05-26T19:25:38+08:00 ] 127.0.0.1 /crop/upload/time/379875.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000004s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000023s ]
+ERR: 无法加载模块:Crop
+
+[ 2017-05-26T19:28:40+08:00 ] 127.0.0.1 /crop/upload/time/901668.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000004s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000026s ]
+ERR: 无法加载模块:Crop
+
+[ 2017-05-26T19:28:40+08:00 ] 127.0.0.1 /crop/upload/time/379875.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000004s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000028s ]
+ERR: 无法加载模块:Crop
+
+[ 2017-05-26T19:28:40+08:00 ] 127.0.0.1 /crop/upload/time/901668.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000004s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000027s ]
+ERR: 无法加载模块:Crop
+
+[ 2017-05-26T19:28:40+08:00 ] 127.0.0.1 /crop/upload/time/379875.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000004s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000022s ]
+ERR: 无法加载模块:Crop
+
+[ 2017-05-26T19:28:44+08:00 ] 127.0.0.1 /crop/upload/time/901668.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000005s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000029s ]
+ERR: 无法加载模块:Crop
+
+[ 2017-05-26T19:28:44+08:00 ] 127.0.0.1 /crop/upload/time/379875.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000005s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000030s ]
+ERR: 无法加载模块:Crop
+
+[ 2017-05-26T19:28:44+08:00 ] 127.0.0.1 /crop/upload/time/379875.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000004s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000027s ]
+ERR: 无法加载模块:Crop
+
+[ 2017-05-26T19:28:44+08:00 ] 127.0.0.1 /crop/upload/time/901668.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000003s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000019s ]
+ERR: 无法加载模块:Crop
+
+[ 2017-05-26T19:28:51+08:00 ] 127.0.0.1 /crop/upload/time/901668.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000005s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000032s ]
+ERR: 无法加载模块:Crop
+
+[ 2017-05-26T19:28:51+08:00 ] 127.0.0.1 /crop/upload/time/379875.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000005s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000036s ]
+ERR: 无法加载模块:Crop
+
+[ 2017-05-26T19:28:51+08:00 ] 127.0.0.1 /crop/upload/time/379875.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000004s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000026s ]
+ERR: 无法加载模块:Crop
+
+[ 2017-05-26T19:28:51+08:00 ] 127.0.0.1 /crop/upload/time/901668.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000004s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000025s ]
+ERR: 无法加载模块:Crop
+
+[ 2017-05-26T19:29:49+08:00 ] 127.0.0.1 /crop/upload/time/901668.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000004s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000031s ]
+ERR: 无法加载模块:Crop
+
+[ 2017-05-26T19:29:49+08:00 ] 127.0.0.1 /crop/upload/time/379875.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000004s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000025s ]
+ERR: 无法加载模块:Crop
+
+[ 2017-05-26T19:29:49+08:00 ] 127.0.0.1 /crop/upload/time/379875.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000005s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000025s ]
+ERR: 无法加载模块:Crop
+
+[ 2017-05-26T19:29:49+08:00 ] 127.0.0.1 /crop/upload/time/901668.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000005s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000025s ]
+ERR: 无法加载模块:Crop
+
+[ 2017-05-26T19:31:45+08:00 ] 127.0.0.1 /crop/upload/time/379875.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000004s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000027s ]
+ERR: 无法加载模块:Crop
+
+[ 2017-05-26T19:31:45+08:00 ] 127.0.0.1 /crop/upload/time/901668.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000004s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000025s ]
+ERR: 无法加载模块:Crop
+
+[ 2017-05-26T19:31:45+08:00 ] 127.0.0.1 /crop/upload/time/901668.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000005s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000033s ]
+ERR: 无法加载模块:Crop
+
+[ 2017-05-26T19:31:45+08:00 ] 127.0.0.1 /crop/upload/time/379875.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000003s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000021s ]
+ERR: 无法加载模块:Crop
+
+[ 2017-05-26T19:33:30+08:00 ] 127.0.0.1 /crop/upload/time/901668.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000005s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000028s ]
+ERR: 无法加载模块:Crop
+
+[ 2017-05-26T19:33:30+08:00 ] 127.0.0.1 /crop/upload/time/379875.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000005s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000028s ]
+ERR: 无法加载模块:Crop
+
+[ 2017-05-26T19:33:30+08:00 ] 127.0.0.1 /crop/upload/time/901668.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000004s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000025s ]
+ERR: 无法加载模块:Crop
+
+[ 2017-05-26T19:33:30+08:00 ] 127.0.0.1 /crop/upload/time/379875.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000003s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000019s ]
+ERR: 无法加载模块:Crop
+
+[ 2017-05-26T19:36:51+08:00 ] 127.0.0.1 /crop/upload/time/901668.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000004s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000022s ]
+ERR: 无法加载模块:Crop
+
+[ 2017-05-26T19:36:51+08:00 ] 127.0.0.1 /crop/upload/time/379875.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000003s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000022s ]
+ERR: 无法加载模块:Crop
+
+[ 2017-05-26T19:36:51+08:00 ] 127.0.0.1 /crop/upload/time/901668.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000004s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000025s ]
+ERR: 无法加载模块:Crop
+
+[ 2017-05-26T19:36:51+08:00 ] 127.0.0.1 /crop/upload/time/379875.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000004s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000024s ]
+ERR: 无法加载模块:Crop
+
+[ 2017-05-26T19:37:38+08:00 ] 127.0.0.1 /crop/upload/time/901668.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000004s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000026s ]
+ERR: 无法加载模块:Crop
+
+[ 2017-05-26T19:37:38+08:00 ] 127.0.0.1 /crop/upload/time/379875.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000006s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000037s ]
+ERR: 无法加载模块:Crop
+
+[ 2017-05-26T19:37:38+08:00 ] 127.0.0.1 /crop/upload/time/379875.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000004s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000023s ]
+ERR: 无法加载模块:Crop
+
+[ 2017-05-26T19:37:38+08:00 ] 127.0.0.1 /crop/upload/time/901668.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000004s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000023s ]
+ERR: 无法加载模块:Crop
+
+[ 2017-05-26T19:42:59+08:00 ] 127.0.0.1 /crop/upload/time/901668.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000004s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000023s ]
+ERR: 无法加载模块:Crop
+
+[ 2017-05-26T19:42:59+08:00 ] 127.0.0.1 /crop/upload/time/379875.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000004s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000025s ]
+ERR: 无法加载模块:Crop
+
+[ 2017-05-26T19:42:59+08:00 ] 127.0.0.1 /crop/upload/time/901668.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000004s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000041s ]
+ERR: 无法加载模块:Crop
+
+[ 2017-05-26T19:42:59+08:00 ] 127.0.0.1 /crop/upload/time/379875.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000003s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000018s ]
+ERR: 无法加载模块:Crop
+
+[ 2017-05-26T19:44:18+08:00 ] 127.0.0.1 /crop/upload/time/901668.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000004s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000024s ]
+ERR: 无法加载模块:Crop
+
+[ 2017-05-26T19:44:18+08:00 ] 127.0.0.1 /crop/upload/time/379875.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000004s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000024s ]
+ERR: 无法加载模块:Crop
+
+[ 2017-05-26T19:44:18+08:00 ] 127.0.0.1 /crop/upload/time/379875.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000004s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000024s ]
+ERR: 无法加载模块:Crop
+
+[ 2017-05-26T19:44:18+08:00 ] 127.0.0.1 /crop/upload/time/901668.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000004s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000028s ]
+ERR: 无法加载模块:Crop
+
+[ 2017-05-26T19:45:05+08:00 ] 127.0.0.1 /crop/upload/time/379875.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000005s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000027s ]
+ERR: 无法加载模块:Crop
+
+[ 2017-05-26T19:45:05+08:00 ] 127.0.0.1 /crop/upload/time/901668.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000005s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000027s ]
+ERR: 无法加载模块:Crop
+
+[ 2017-05-26T19:45:05+08:00 ] 127.0.0.1 /crop/upload/time/901668.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000004s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000028s ]
+ERR: 无法加载模块:Crop
+
+[ 2017-05-26T19:45:05+08:00 ] 127.0.0.1 /crop/upload/time/379875.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000004s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000022s ]
+ERR: 无法加载模块:Crop
+
+[ 2017-05-26T19:46:47+08:00 ] 127.0.0.1 /crop/upload/time/901668.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000004s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000024s ]
+ERR: 无法加载模块:Crop
+
+[ 2017-05-26T19:46:47+08:00 ] 127.0.0.1 /crop/upload/time/379875.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000005s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000028s ]
+ERR: 无法加载模块:Crop
+
+[ 2017-05-26T19:46:47+08:00 ] 127.0.0.1 /crop/upload/time/901668.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000004s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000026s ]
+ERR: 无法加载模块:Crop
+
+[ 2017-05-26T19:46:47+08:00 ] 127.0.0.1 /crop/upload/time/379875.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000004s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000027s ]
+ERR: 无法加载模块:Crop
+
+[ 2017-05-26T19:48:51+08:00 ] 127.0.0.1 /crop/upload/time/901668.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000003s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000026s ]
+ERR: 无法加载模块:Crop
+
+[ 2017-05-26T19:48:51+08:00 ] 127.0.0.1 /crop/upload/time/379875.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000005s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000028s ]
+ERR: 无法加载模块:Crop
+
+[ 2017-05-26T19:48:51+08:00 ] 127.0.0.1 /crop/upload/time/379875.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000004s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000028s ]
+ERR: 无法加载模块:Crop
+
+[ 2017-05-26T19:48:51+08:00 ] 127.0.0.1 /crop/upload/time/901668.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000004s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000027s ]
+ERR: 无法加载模块:Crop
+
+[ 2017-05-26T19:49:26+08:00 ] 127.0.0.1 /crop/upload/time/901668.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000005s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000026s ]
+ERR: 无法加载模块:Crop
+
+[ 2017-05-26T19:49:26+08:00 ] 127.0.0.1 /crop/upload/time/379875.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000004s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000022s ]
+ERR: 无法加载模块:Crop
+
+[ 2017-05-26T19:49:26+08:00 ] 127.0.0.1 /crop/upload/time/901668.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000004s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000025s ]
+ERR: 无法加载模块:Crop
+
+[ 2017-05-26T19:49:26+08:00 ] 127.0.0.1 /crop/upload/time/379875.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000004s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000023s ]
+ERR: 无法加载模块:Crop
+
+[ 2017-05-26T19:50:22+08:00 ] 127.0.0.1 /crop/upload/time/901668.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000004s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000027s ]
+ERR: 无法加载模块:Crop
+
+[ 2017-05-26T19:50:22+08:00 ] 127.0.0.1 /crop/upload/time/379875.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000004s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000024s ]
+ERR: 无法加载模块:Crop
+
+[ 2017-05-26T19:50:22+08:00 ] 127.0.0.1 /crop/upload/time/901668.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000004s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000025s ]
+ERR: 无法加载模块:Crop
+
+[ 2017-05-26T19:50:22+08:00 ] 127.0.0.1 /crop/upload/time/379875.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000004s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000024s ]
+ERR: 无法加载模块:Crop
+
+[ 2017-05-26T19:50:23+08:00 ] 127.0.0.1 /crop/upload/time/379875.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000005s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000026s ]
+ERR: 无法加载模块:Crop
+
+[ 2017-05-26T19:50:23+08:00 ] 127.0.0.1 /crop/upload/time/901668.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000005s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000026s ]
+ERR: 无法加载模块:Crop
+
+[ 2017-05-26T19:50:23+08:00 ] 127.0.0.1 /crop/upload/time/901668.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000004s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000026s ]
+ERR: 无法加载模块:Crop
+
+[ 2017-05-26T19:50:23+08:00 ] 127.0.0.1 /crop/upload/time/379875.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000003s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000022s ]
+ERR: 无法加载模块:Crop
+
+[ 2017-05-26T19:52:00+08:00 ] 127.0.0.1 /crop/upload/time/901668.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000004s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000026s ]
+ERR: 无法加载模块:Crop
+
+[ 2017-05-26T19:52:00+08:00 ] 127.0.0.1 /crop/upload/time/379875.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000004s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000027s ]
+ERR: 无法加载模块:Crop
+
+[ 2017-05-26T19:52:00+08:00 ] 127.0.0.1 /crop/upload/time/901668.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000005s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000026s ]
+ERR: 无法加载模块:Crop
+
+[ 2017-05-26T19:52:00+08:00 ] 127.0.0.1 /crop/upload/time/379875.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000004s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000024s ]
+ERR: 无法加载模块:Crop
+
+[ 2017-05-26T19:55:06+08:00 ] 127.0.0.1 /crop/upload/time/901668.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000005s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000032s ]
+ERR: 无法加载模块:Crop
+
+[ 2017-05-26T19:55:06+08:00 ] 127.0.0.1 /crop/upload/time/379875.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000004s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000026s ]
+ERR: 无法加载模块:Crop
+
+[ 2017-05-26T19:55:06+08:00 ] 127.0.0.1 /crop/upload/time/901668.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000004s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000024s ]
+ERR: 无法加载模块:Crop
+
+[ 2017-05-26T19:55:06+08:00 ] 127.0.0.1 /crop/upload/time/379875.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000004s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000036s ]
+ERR: 无法加载模块:Crop
+
+[ 2017-05-26T19:55:34+08:00 ] 127.0.0.1 /crop/upload/time/379875.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000004s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000023s ]
+ERR: 无法加载模块:Crop
+
+[ 2017-05-26T19:55:34+08:00 ] 127.0.0.1 /crop/upload/time/901668.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000004s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000023s ]
+ERR: 无法加载模块:Crop
+
+[ 2017-05-26T19:55:34+08:00 ] 127.0.0.1 /crop/upload/time/901668.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000005s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000026s ]
+ERR: 无法加载模块:Crop
+
+[ 2017-05-26T19:55:34+08:00 ] 127.0.0.1 /crop/upload/time/379875.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000005s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000026s ]
+ERR: 无法加载模块:Crop
+
+[ 2017-05-26T19:56:32+08:00 ] 127.0.0.1 /crop/upload/time/379875.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000003s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000021s ]
+ERR: 无法加载模块:Crop
+
+[ 2017-05-26T19:56:32+08:00 ] 127.0.0.1 /crop/upload/time/901668.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000006s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000035s ]
+ERR: 无法加载模块:Crop
+
+[ 2017-05-26T19:56:32+08:00 ] 127.0.0.1 /crop/upload/time/901668.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000004s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000025s ]
+ERR: 无法加载模块:Crop
+
+[ 2017-05-26T19:56:32+08:00 ] 127.0.0.1 /crop/upload/time/379875.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000004s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000020s ]
+ERR: 无法加载模块:Crop
+
+[ 2017-05-26T20:00:11+08:00 ] 127.0.0.1 /crop/upload/time/901668.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000005s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000037s ]
+ERR: 无法加载模块:Crop
+
+[ 2017-05-26T20:00:11+08:00 ] 127.0.0.1 /crop/upload/time/379875.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000005s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000031s ]
+ERR: 无法加载模块:Crop
+
+[ 2017-05-26T20:00:11+08:00 ] 127.0.0.1 /crop/upload/time/379875.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000004s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000024s ]
+ERR: 无法加载模块:Crop
+
+[ 2017-05-26T20:00:11+08:00 ] 127.0.0.1 /crop/upload/time/901668.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000005s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000024s ]
+ERR: 无法加载模块:Crop
+
+[ 2017-05-26T20:00:22+08:00 ] 127.0.0.1 /crop/upload/time/901668.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000006s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000032s ]
+ERR: 无法加载模块:Crop
+
+[ 2017-05-26T20:00:22+08:00 ] 127.0.0.1 /crop/upload/time/379875.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000004s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000027s ]
+ERR: 无法加载模块:Crop
+
+[ 2017-05-26T20:00:22+08:00 ] 127.0.0.1 /crop/upload/time/901668.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000006s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000029s ]
+ERR: 无法加载模块:Crop
+
+[ 2017-05-26T20:00:22+08:00 ] 127.0.0.1 /crop/upload/time/379875.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000003s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000021s ]
+ERR: 无法加载模块:Crop
+
+[ 2017-05-26T20:03:05+08:00 ] 127.0.0.1 /crop/upload/time/901668.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000005s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000031s ]
+ERR: 无法加载模块:Crop
+
+[ 2017-05-26T20:03:05+08:00 ] 127.0.0.1 /crop/upload/time/379875.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000005s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000027s ]
+ERR: 无法加载模块:Crop
+
+[ 2017-05-26T20:03:05+08:00 ] 127.0.0.1 /crop/upload/time/901668.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000004s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000026s ]
+ERR: 无法加载模块:Crop
+
+[ 2017-05-26T20:03:05+08:00 ] 127.0.0.1 /crop/upload/time/379875.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000003s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000018s ]
+ERR: 无法加载模块:Crop
+
+[ 2017-05-26T20:06:33+08:00 ] 127.0.0.1 /crop/upload/time/901668.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000004s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000024s ]
+ERR: 无法加载模块:Crop
+
+[ 2017-05-26T20:06:33+08:00 ] 127.0.0.1 /crop/upload/time/379875.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000005s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000025s ]
+ERR: 无法加载模块:Crop
+
+[ 2017-05-26T20:06:33+08:00 ] 127.0.0.1 /crop/upload/time/901668.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000004s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000023s ]
+ERR: 无法加载模块:Crop
+
+[ 2017-05-26T20:06:33+08:00 ] 127.0.0.1 /crop/upload/time/379875.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000004s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000023s ]
+ERR: 无法加载模块:Crop
+
+[ 2017-05-26T20:07:56+08:00 ] 127.0.0.1 /crop/upload/time/901668.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000005s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000028s ]
+ERR: 无法加载模块:Crop
+
+[ 2017-05-26T20:07:56+08:00 ] 127.0.0.1 /crop/upload/time/379875.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000003s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000020s ]
+ERR: 无法加载模块:Crop
+
+[ 2017-05-26T20:07:56+08:00 ] 127.0.0.1 /crop/upload/time/901668.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000005s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000027s ]
+ERR: 无法加载模块:Crop
+
+[ 2017-05-26T20:07:56+08:00 ] 127.0.0.1 /crop/upload/time/379875.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000008s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000029s ]
+ERR: 无法加载模块:Crop
+
+[ 2017-05-26T20:08:02+08:00 ] 127.0.0.1 /crop/upload/time/901668.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000004s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000023s ]
+ERR: 无法加载模块:Crop
+
+[ 2017-05-26T20:08:02+08:00 ] 127.0.0.1 /crop/upload/time/379875.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000007s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000043s ]
+ERR: 无法加载模块:Crop
+
+[ 2017-05-26T20:08:02+08:00 ] 127.0.0.1 /crop/upload/time/901668.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000005s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000033s ]
+ERR: 无法加载模块:Crop
+
+[ 2017-05-26T20:08:02+08:00 ] 127.0.0.1 /crop/upload/time/379875.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000004s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000024s ]
+ERR: 无法加载模块:Crop
+
+[ 2017-05-26T20:41:07+08:00 ] 127.0.0.1 /Public/Admin/js/jquery.Jcrop.js
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000005s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000027s ]
+ERR: 无法加载模块:Public
+
+[ 2017-05-26T20:41:07+08:00 ] 127.0.0.1 /Public/Admin/XHRUploader.class.js
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000004s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000023s ]
+ERR: 无法加载模块:Public
+
+[ 2017-05-26T20:41:07+08:00 ] 127.0.0.1 /crop/upload/time/901668.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000004s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000026s ]
+ERR: 无法加载模块:Crop
+
+[ 2017-05-26T20:41:07+08:00 ] 127.0.0.1 /crop/upload/time/379875.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000005s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000028s ]
+ERR: 无法加载模块:Crop
+
+[ 2017-05-26T20:41:07+08:00 ] 127.0.0.1 /Public/Admin/XHRUploader.class.js
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000005s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000025s ]
+ERR: 无法加载模块:Public
+
+[ 2017-05-26T20:41:07+08:00 ] 127.0.0.1 /crop/upload/time/379875.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000004s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000025s ]
+ERR: 无法加载模块:Crop
+
+[ 2017-05-26T20:41:07+08:00 ] 127.0.0.1 /crop/upload/time/901668.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000004s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000025s ]
+ERR: 无法加载模块:Crop
+
+[ 2017-05-26T20:41:08+08:00 ] 127.0.0.1 /Public/Admin/js/jquery.Jcrop.js
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000005s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000034s ]
+ERR: 无法加载模块:Public
+
+[ 2017-05-26T20:41:08+08:00 ] 127.0.0.1 /Public/Admin/XHRUploader.class.js
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000005s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000032s ]
+ERR: 无法加载模块:Public
+
+[ 2017-05-26T20:41:08+08:00 ] 127.0.0.1 /crop/upload/time/901668.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000004s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000026s ]
+ERR: 无法加载模块:Crop
+
+[ 2017-05-26T20:41:08+08:00 ] 127.0.0.1 /crop/upload/time/379875.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000004s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000027s ]
+ERR: 无法加载模块:Crop
+
+[ 2017-05-26T20:41:08+08:00 ] 127.0.0.1 /Public/Admin/XHRUploader.class.js
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000004s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000025s ]
+ERR: 无法加载模块:Public
+
+[ 2017-05-26T20:41:08+08:00 ] 127.0.0.1 /crop/upload/time/901668.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000005s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000030s ]
+ERR: 无法加载模块:Crop
+
+[ 2017-05-26T20:41:08+08:00 ] 127.0.0.1 /crop/upload/time/379875.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000003s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000022s ]
+ERR: 无法加载模块:Crop
+
+[ 2017-05-26T20:42:01+08:00 ] 127.0.0.1 /Public/Admin/js/jquery.Jcrop.js
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000004s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000025s ]
+ERR: 无法加载模块:Public
+
+[ 2017-05-26T20:42:01+08:00 ] 127.0.0.1 /Public/Admin/XHRUploader.class.js
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000003s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000025s ]
+ERR: 无法加载模块:Public
+
+[ 2017-05-26T20:42:01+08:00 ] 127.0.0.1 /crop/upload/time/901668.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000010s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000050s ]
+ERR: 无法加载模块:Crop
+
+[ 2017-05-26T20:42:01+08:00 ] 127.0.0.1 /crop/upload/time/379875.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000005s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000028s ]
+ERR: 无法加载模块:Crop
+
+[ 2017-05-26T20:42:01+08:00 ] 127.0.0.1 /Public/Admin/XHRUploader.class.js
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000003s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000025s ]
+ERR: 无法加载模块:Public
+
+[ 2017-05-26T20:42:01+08:00 ] 127.0.0.1 /crop/upload/time/901668.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000004s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000027s ]
+ERR: 无法加载模块:Crop
+
+[ 2017-05-26T20:42:01+08:00 ] 127.0.0.1 /crop/upload/time/379875.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000005s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000027s ]
+ERR: 无法加载模块:Crop
+
+[ 2017-05-26T20:43:18+08:00 ] 127.0.0.1 /Public/Admin/js/jquery.Jcrop.js
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000004s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000038s ]
+ERR: 无法加载模块:Public
+
+[ 2017-05-26T20:43:18+08:00 ] 127.0.0.1 /Public/Admin/XHRUploader.class.js
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000003s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000031s ]
+ERR: 无法加载模块:Public
+
+[ 2017-05-26T20:43:18+08:00 ] 127.0.0.1 /crop/upload/time/901668.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000007s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000045s ]
+ERR: 无法加载模块:Crop
+
+[ 2017-05-26T20:43:18+08:00 ] 127.0.0.1 /crop/upload/time/379875.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000005s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000031s ]
+ERR: 无法加载模块:Crop
+
+[ 2017-05-26T20:43:18+08:00 ] 127.0.0.1 /Public/Admin/XHRUploader.class.js
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000005s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000028s ]
+ERR: 无法加载模块:Public
+
+[ 2017-05-26T20:43:19+08:00 ] 127.0.0.1 /crop/upload/time/901668.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000007s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000034s ]
+ERR: 无法加载模块:Crop
+
+[ 2017-05-26T20:43:19+08:00 ] 127.0.0.1 /crop/upload/time/379875.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000004s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000024s ]
+ERR: 无法加载模块:Crop
+
+[ 2017-05-26T20:45:56+08:00 ] 127.0.0.1 /crop/upload/time/901668.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000004s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000027s ]
+ERR: 无法加载模块:Crop
+
+[ 2017-05-26T20:45:56+08:00 ] 127.0.0.1 /crop/upload/time/379875.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000005s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000026s ]
+ERR: 无法加载模块:Crop
+
+[ 2017-05-26T20:45:56+08:00 ] 127.0.0.1 /crop/upload/time/379875.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000005s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000029s ]
+ERR: 无法加载模块:Crop
+
+[ 2017-05-26T20:45:56+08:00 ] 127.0.0.1 /crop/upload/time/901668.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000005s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000026s ]
+ERR: 无法加载模块:Crop
+
+[ 2017-05-26T20:46:27+08:00 ] 127.0.0.1 /crop/upload/time/901668.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000004s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000026s ]
+ERR: 无法加载模块:Crop
+
+[ 2017-05-26T20:46:27+08:00 ] 127.0.0.1 /crop/upload/time/379875.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000003s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000022s ]
+ERR: 无法加载模块:Crop
+
+[ 2017-05-26T20:46:27+08:00 ] 127.0.0.1 /crop/upload/time/901668.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000005s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000032s ]
+ERR: 无法加载模块:Crop
+
+[ 2017-05-26T20:46:27+08:00 ] 127.0.0.1 /crop/upload/time/379875.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000004s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000025s ]
+ERR: 无法加载模块:Crop
+
+[ 2017-05-26T20:48:51+08:00 ] 127.0.0.1 /crop/upload/time/901668.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000005s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000031s ]
+ERR: 无法加载模块:Crop
+
+[ 2017-05-26T20:48:51+08:00 ] 127.0.0.1 /crop/upload/time/379875.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000004s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000022s ]
+ERR: 无法加载模块:Crop
+
+[ 2017-05-26T20:48:51+08:00 ] 127.0.0.1 /crop/upload/time/379875.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000004s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000026s ]
+ERR: 无法加载模块:Crop
+
+[ 2017-05-26T20:48:51+08:00 ] 127.0.0.1 /crop/upload/time/901668.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000004s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000026s ]
+ERR: 无法加载模块:Crop
+
+[ 2017-05-26T20:49:34+08:00 ] 127.0.0.1 /crop/upload/time/379875.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000004s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000024s ]
+ERR: 无法加载模块:Crop
+
+[ 2017-05-26T20:49:34+08:00 ] 127.0.0.1 /crop/upload/time/901668.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000004s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000024s ]
+ERR: 无法加载模块:Crop
+
+[ 2017-05-26T20:49:34+08:00 ] 127.0.0.1 /crop/upload/time/379875.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000004s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000034s ]
+ERR: 无法加载模块:Crop
+
+[ 2017-05-26T20:49:34+08:00 ] 127.0.0.1 /crop/upload/time/901668.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000004s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000065s ]
+ERR: 无法加载模块:Crop
+
+[ 2017-05-26T20:50:30+08:00 ] 127.0.0.1 /crop/upload/time/379875.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000004s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000025s ]
+ERR: 无法加载模块:Crop
+
+[ 2017-05-26T20:50:30+08:00 ] 127.0.0.1 /crop/upload/time/901668.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000004s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000025s ]
+ERR: 无法加载模块:Crop
+
+[ 2017-05-26T20:50:31+08:00 ] 127.0.0.1 /crop/upload/time/379875.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000005s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000028s ]
+ERR: 无法加载模块:Crop
+
+[ 2017-05-26T20:50:31+08:00 ] 127.0.0.1 /crop/upload/time/901668.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000005s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000028s ]
+ERR: 无法加载模块:Crop
+
+[ 2017-05-26T20:58:35+08:00 ] 127.0.0.1 /crop/upload/time/901668.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000006s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000036s ]
+ERR: 无法加载模块:Crop
+
+[ 2017-05-26T20:58:35+08:00 ] 127.0.0.1 /crop/upload/time/379875.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000004s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000023s ]
+ERR: 无法加载模块:Crop
+
+[ 2017-05-26T20:58:41+08:00 ] 127.0.0.1 /crop/upload/time/379875.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000006s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000034s ]
+ERR: 无法加载模块:Crop
+
+[ 2017-05-26T20:58:41+08:00 ] 127.0.0.1 /crop/upload/time/901668.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000007s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000043s ]
+ERR: 无法加载模块:Crop
+
+[ 2017-05-26T20:58:41+08:00 ] 127.0.0.1 /crop/upload/time/901668.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000005s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000043s ]
+ERR: 无法加载模块:Crop
+
+[ 2017-05-26T20:58:41+08:00 ] 127.0.0.1 /crop/upload/time/379875.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000004s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000023s ]
+ERR: 无法加载模块:Crop
+
+[ 2017-05-26T20:59:03+08:00 ] 127.0.0.1 /crop/upload/time/379875.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000005s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000029s ]
+ERR: 无法加载模块:Crop
+
+[ 2017-05-26T20:59:03+08:00 ] 127.0.0.1 /crop/upload/time/901668.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000004s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000025s ]
+ERR: 无法加载模块:Crop
+
+[ 2017-05-26T20:59:03+08:00 ] 127.0.0.1 /crop/upload/time/901668.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000004s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000027s ]
+ERR: 无法加载模块:Crop
+
+[ 2017-05-26T20:59:03+08:00 ] 127.0.0.1 /crop/upload/time/379875.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000003s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000024s ]
+ERR: 无法加载模块:Crop
+

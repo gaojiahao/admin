@@ -1,0 +1,1303 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+		<title>次元播</title>
+		<meta http-equiv="Cache-control" content="max-age=7200">
+		<meta http-equiv="Expires" content="7200">
+		<link rel="stylesheet" href="/Public/Cy/Css/Public/public.css" />
+		<link rel="stylesheet" href="/Public/Cy/Css/Home/home.css" />
+		<link rel="stylesheet" href="/Public/Cy/Css/Home/headerfooter.css">
+		<script src="/Public/Cy/Js/jquery-3.0.0.js"></script>
+		<script src="/Public/Cy/Js/home.js"></script>
+	</head>
+	<body data-page-point='1'>
+			<!--返回顶部-->
+		<div class="scrollBack">
+			<a href="#" class="back"></a>
+			<a href="#" class="phoneCall"></a>
+		</div>
+			<!--banner部分-->
+			<content>
+				<div id="mainbody">
+					<div class="banner" data-type="banner">
+						<div class="bglink"></div>
+
+						<div class="contentBanner w1198 clearfix">
+							<aside>
+								<div class="l_aside fl m-7">
+									<div class="b-content">
+										<ul>
+											<li class="li-list">
+												<a class="icon-paint" href="#">
+													<i class="icon icon1"></i>
+													<span class="hov">漫画大触</span>
+												</a>
+											</li>
+											<li class="li-list">
+												<a href="#">
+													<i class="icon icon2"></i>
+													<span class="hov">插画殿堂</span>
+												</a>
+											</li>
+											<li class="li-list">
+												<a href="#">
+													<i class="icon icon3"></i>
+													<span class="hov">动画专区</span>
+												</a>
+											</li>
+											<li class="li-list">
+												<a href="#">
+													<i class="icon icon4"></i>
+													<span class="hov">Coser达人</span>
+												</a>
+											</li>
+
+											<li class="li-list">
+												<a href="#">
+													<i class="icon icon5"></i>
+													<span class="hov">御宅小屋</span>
+												</a>
+											</li>
+											<li class="li-list">
+												<a href="#">
+													<i class="icon icon6"></i>
+													<span class="hov">唱跳次元</span>
+												</a>
+											</li>
+											<li class="li-list">
+												<a href="#">
+													<i class="icon icon7"></i>
+													<span class="hov">卖萌娱乐</span>
+												</a>
+											</li>
+											<li class="li-list">
+												<a href="#">
+													<i class="icon icon8"></i>
+													<span class="hov">手办玩具</span>
+												</a>
+											</li>
+											<li class="li-list">
+												<a href="#">
+													<i class="icon icon9"></i>
+													<span class="hov">户外漫展</span>
+												</a>
+											</li>
+											<li class="li-list">
+												<a href="#">
+													<i class="icon icon10"></i>
+													<span class="hov">电子竞技</span>
+												</a>
+											</li>
+											<li class="li-list">
+												<a href="#">
+													<i class="icon icon11"></i>
+													<span class="hov">次元游戏</span>
+												</a>
+											</li>
+											<li class="li-list">
+												<a href="#">
+													<i class="icon icon12"></i>
+													<span class="hov">瞎凑热闹</span>
+												</a>
+											</li>
+										</ul>
+									</div>
+									<div class="b-cont-bottom">
+										<a class="col-f li-list" href="#">热门直播</a>
+										<a class="col-f li-list" href="#">全部分类</a>
+									</div>
+								</div>
+								<div class="channel fl m-7">
+									<div class="b-video">
+
+										<a class="entervideo" href="/Home/Anchors/add?id=">进入直播间</a>
+
+									</div>
+									<div class="video-pic-bottom clearfix">
+										<ul>
+											<li>
+												<a href="/Home/Anchors/add?id={$dataidone}">
+													<img src="{$pictureone}" alt="">
+												</a>
+											</li>
+											<div class="angel angel1"></div>
+											
+											<li>
+												<a href="/Home/Anchors/add?id={$dataidtwo}">
+													<img src="{$picturetwo}" alt="">
+													<!--<div class="angel angel2"></div>-->
+												</a>
+											</li>
+											<div class="angel angel2"></div>
+											
+											<li>
+												<a href="/Home/Anchors/add?id={$dataidthree}">
+													<img src="{$picturethree}" alt="">
+													<!--<div class="angel angel3"></div>-->
+												</a>
+											</li>
+											<div class="angel angel3"></div>
+											
+											<li>
+												<a href="/Home/Anchors/add?id={$dataidfour}">
+													<img src="{$picturefour}" alt="">
+													<!--<div class="angel angel4"></div>-->
+												</a>
+											</li>
+											<div class="angel angel4"></div>
+											
+											<li>
+												<a href="/Home/Anchors/add?id={$dataidfive}">
+													<img src="{$picturefive}" alt="">
+													<!--<div class="angel angel5"></div>-->
+												</a>
+											</li>
+											<div class="angel angel5"></div>
+											
+										</ul>
+
+									</div>
+								</div>
+								<div class="r_aside fl">
+									<div class="b-side-right clearfix">
+										<div class="b-head">
+											<h3 class="colfont">大神动态</h3>
+											<a class="colfont" href="#">更多></a>
+										</div>
+										
+										<foreach name="datacartoon" item="vo" key="k">
+										<div class="b-side-right-text" style="border-top:1px solid#BFBFBF;">
+											<h1 class="col-f">{$vo.user}</h1>
+											<p class="col-f">代表作品</p>
+											<p class="colfont">《 {$vo.title} 》</p>
+											<a href="/Home/Anchors/add?id={$vo.secrit}"><img src="{$vo.personphoto}" style="border-radius:100%;" alt=""></a>
+											<p class="p-text">{$vo.content}</p>
+										</div>
+                                        </foreach>
+										
+									</div>
+
+									<div class="side-bottom">
+										<a href=""><img src="/Public/Cy/Img/advertise.png" alt=""></a>
+									</div>
+								</div>
+							</aside>
+						</div>
+						
+					</div>
+					<!-- 本周强推 -->
+					<div class="c-reconmmend w1198 clearfix">
+						<div class="reconmmend fl">
+							<div class="recon-head p-t20">
+								<i class="icon-t icon-t1"></i>
+								<a class="icon-tex" href="#">本周强推</a>
+							</div>
+							<div class="picture-content ">
+								<ul class="clearfix">
+							    <foreach name="datapower" item="vo" key="k">
+									<li class="bg-cover pic-card"  style="margin-left:22px;margin-top:25px;border:1px solid #E5E5E5;">
+                                        <img src="{$vo.playphoto}"  style="width:332px;height:164px;" alt="" />
+										<a href="/Home/Anchors/add?id={$vo.secrit}"><!--id加密-->
+											<div class="anther-info hide-info">
+												<div class="bg-img"></div>
+												<div class="hide-avatar"><img src="{$vo.personphoto}" style="border-radius:100%;"alt="" /></div>
+												<div class="info-text clearfix">
+													<h1>{$vo.content}</h1>
+													<div class="left-text fl clearfix">
+														<i class="bg-cover person"></i>
+														<span>{$vo.name}</span>
+													</div>
+													<div class="right-text fr">
+														<i class="bg-cover view"></i>
+														<span>{$vo.totalclick}</span>
+													</div>
+												</div>
+											</div>#
+										</a>
+									</li>
+								</foreach>
+								</ul>
+							</div>
+						</div>
+						<div class="active fr">
+							<div class="recon-head p-t20">
+								<i class="icon-t icon-t2"></i>
+								<span class="icon-tex col3e">活动公告</span>
+							</div>
+							<div class="adver-tex c-wrap">
+								<a href="#" class="col3e title">恭贺次元直播上线1.0上线~</a>
+								<table>
+									<foreach name="activedata" item="vo" key="k">
+									<tr>
+										<td>
+											<i>新闻|</i><a class="col3e" href="#">{$vo.title}</a>
+										</td>
+										<td>{$vo.time}</td>
+									</tr>
+									</foreach>
+								</table>
+							</div>
+							<div class="adv-lunbo">
+								<div class="bg-lunbo">
+									<volist name="activedata" id="vol" offset="0" length="4" >
+									<a href="#">
+										<img src="{$vol.personphoto}" alt="">
+										<div class="tex-bg">
+											{$vol.title}
+										</div>
+									</a>
+									</volist>
+							    </div>
+									<ul class="cicle">
+										<li>
+											<span class="s-cicrle"></span>
+										</li>
+										<li>
+											<span></span>
+										</li>
+										<li>
+											<span></span>
+										</li>
+										<li>
+											<span></span>
+										</li>
+									</ul>
+							</div>
+						</div>
+					</div>
+					<div class="mainContent w1198 m-t19">
+						<div class="partOne clearfix">
+							<!--最佳直播-->
+							<div class="bestVideo fl bgcolor p-t19">
+								<div class="bestVideo-head  f-head">
+									<i><img src="/Public/Cy/Img/icon-title1.png" alt=""></i>
+									<a class="title">最佳主播</a>
+									<div id="banlist" class="fr bangList">
+										<a class="indexbg">日榜</a>
+										<a>周榜</a>
+										<a>月榜</a>
+									</div>
+								</div>
+								<div id="bestcont" class="bestVideo-content best-con">
+									<!--日榜-->
+									<ul class="list-none rank-list">
+										
+										<li>
+											<a href="/Home/Anchors/add?id=">
+												<span class="avatar1 avat-info">  
+													<img class="avtaimg" src="{$dayimgone}"  style="border-radius:100%;" alt="" />
+													<img class="loyal" src="/Public/Cy/Img/winner.png" alt="">
+												</span>
+												<div class="text-imformation">
+													<span class="fl fl-tex">
+														<i></i>
+														{$daynameone}
+													</span>
+													<span class="fr fr-tex">
+														<i></i>
+														{$daytotalone}
+													</span>
+												</div>
+											</a>
+										</li>
+										
+										<li>
+											<a href="/Home/Anchors/add?id=">
+												<span class="avatar2 avat-info">
+													<img class="avtaimg" src="{$dayimgtwo}" style="border-radius:100%;" alt="" />
+													<img class="loyal" src="/Public/Cy/Img/silver.png" alt="">
+												</span>
+												<div class="text-imformation">
+													<span class="fl fl-tex">
+														<i></i>
+														{$daynametwo}
+													</span>
+													<span class="fr fr-tex">
+														<i></i>
+														{$daytotaltwo}
+													</span>
+												</div>
+											</a>
+										</li>
+										
+										<li>
+											<a href="/Home/Anchors/add?id=">
+												<span class="avatar3 avat-info">
+													<img class="avtaimg" src="{$dayimgthree}" style="border-radius:100%;" alt="" />
+													<img class="loyal" src="/Public/Cy/Img/bronze.png" alt="">
+												</span>
+												<div class="text-imformation">
+													<span class="fl fl-tex">
+														<i></i>
+													{$daynamethree}
+													</span>
+													<span class="fr fr-tex">
+														<i></i>
+														{$daytotalthree}
+													</span>
+												</div>
+											</a>
+										</li>
+									<foreach name="datadayfour" item="vo" key="k">
+										<li>
+											<a href="/Home/Anchors/add?id={$vo.secrit}">
+												<span class="avatar4 avat-info">
+													<img class="avtaimg" src="{$vo.personphoto}" style="border-radius:100%;" alt="" />
+													<div class="num">{$k+4}</div>
+												</span>
+												<div class="text-imformation">
+													<span class="fl fl-tex">
+														<i></i>
+														{$vo.name}
+													</span>
+													<span class="fr fr-tex">
+														<i></i>
+														{$vo.total}
+													</span>
+												</div>
+											</a>
+										</li>
+                                     </foreach>
+										
+									</ul>
+									<!--周榜-->
+									<ul class="list-none ">
+										
+										<li>
+											<a href="/Home/Anchors/add?id=">
+												<span class="avatar1 avat-info">  
+													<img class="avtaimg" src="{$weekimgone}"  style="border-radius:100%;" alt="" />
+													<img class="loyal" src="/Public/Cy/Img/winner.png" alt="">
+												</span>
+												<div class="text-imformation">
+													<span class="fl fl-tex">
+														<i></i>
+														{$weeknameone}
+													</span>
+													<span class="fr fr-tex">
+														<i></i>
+														{$weektotalone}
+													</span>
+												</div>
+											</a>
+										</li>
+										<li>
+											<a href="/Home/Anchors/add?id=">
+												<span class="avatar2 avat-info">
+													<img class="avtaimg" src="{$weekimgtwo}" style="border-radius:100%;" alt="" />
+													<img class="loyal" src="/Public/Cy/Img/silver.png" alt="">
+												</span>
+												<div class="text-imformation">
+													<span class="fl fl-tex">
+														<i></i>
+														{$weeknametwo}
+													</span>
+													<span class="fr fr-tex">
+														<i></i>
+														{$weektotaltwo}
+													</span>
+												</div>
+											</a>
+										</li>
+										<li>
+											<a href="/Home/Anchors/add?id=">
+												<span class="avatar3 avat-info">
+													<img class="avtaimg" src="{$weekimgthree}" style="border-radius:100%;" alt="" />
+													<img class="loyal" src="/Public/Cy/Img/bronze.png" alt="">
+												</span>
+												<div class="text-imformation">
+													<span class="fl fl-tex">
+														<i></i>
+														{$weeknamethree}
+													</span>
+													<span class="fr fr-tex">
+														<i></i>
+													{$weektotalthree}
+													</span>
+												</div>
+											</a>
+										</li>
+		                           <foreach name="dataweekfour" item="vo" key="k">
+										<li>
+											<a href="/Home/Anchors/add?id={$vo.secrit}">
+												<span class="avatar4 avat-info">
+													<img class="avtaimg" src="{$vo.personphoto}" style="border-radius:100%;" alt="" />
+													<div class="num">{$k+4}</div>
+												</span>
+												<div class="text-imformation">
+													<span class="fl fl-tex">
+														<i></i>
+													{$vo.name}
+													</span>
+													<span class="fr fr-tex">
+														<i></i>
+														{$vo.total}
+													</span>
+												</div>
+											</a>
+										</li>
+	                                </foreach>
+									</ul>
+                                    <!--月榜-->
+									<ul class="list-none">
+										<li>
+											<a href="/Home/Anchors/add?id=">
+												<span class="avatar1 avat-info">  
+													<img class="avtaimg" src="{$monthimgone}"  style="border-radius:100%;" alt="" />
+													<img class="loyal" src="/Public/Cy/Img/winner.png" alt="">
+												</span>
+												<div class="text-imformation">
+													<span class="fl fl-tex">
+														<i></i>
+														{$monthnameone}
+													</span>
+													<span class="fr fr-tex">
+														<i></i>
+														{$monthtotalone}
+													</span>
+												</div>
+											</a>
+										</li>
+										<li>
+											<a href="/Home/Anchors/add?id=">
+												<span class="avatar2 avat-info">
+													<img class="avtaimg" src="{$monthimgtwo}"  style="border-radius:100%;" alt="" />
+													<img class="loyal" src="/Public/Cy/Img/silver.png" alt="">
+												</span>
+												<div class="text-imformation">
+													<span class="fl fl-tex">
+														<i></i>
+														{$monthnametwo}
+													</span>
+													<span class="fr fr-tex">
+														<i></i>
+														{$monthtotaltwo}
+													</span>
+												</div>
+											</a>
+										</li>
+										<li>
+											<a href="/Home/Anchors/add?id=">
+												<span class="avatar3 avat-info">
+													<img class="avtaimg" src="{$monthimgthree}"  style="border-radius:100%;" alt="" />
+													<img class="loyal" src="/Public/Cy/Img/bronze.png" alt="">
+												</span>
+												<div class="text-imformation">
+													<span class="fl fl-tex">
+														<i></i>
+														{$monthnamethree}
+													</span>
+													<span class="fr fr-tex">
+														<i></i>
+														{$monthtotalthree}
+													</span>
+												</div>
+											</a>
+										</li>
+										
+										 <foreach name="datamonthfour" item="vo" key="k">
+										<li>
+											<a href="/Home/Anchors/add?id={$vo.secrit}">
+												<span class="avatar4 avat-info">
+													<img class="avtaimg" src="{$vo.personphoto}"   style="border-radius:100%;" alt="" />
+													<div class="num">{$k+4}</div>
+												</span>
+												<div class="text-imformation">
+													<span class="fl fl-tex">
+														<i></i>
+													{$vo.name}
+													</span>
+													<span class="fr fr-tex">
+														<i></i>
+														{$vo.total}
+													</span>
+												</div>
+											</a>
+										</li>
+										 </foreach>
+									
+									</ul>
+									
+								</div>
+							</div>
+							<!--热门主播-->
+							<div class="hotVideo fl bgcolor p-t19">
+								<div class="hotVideo-head f-head">
+									<i><img src="/Public/Cy/Img/icon-title2.png" alt=""></i>
+									<a class="title" href="/Home/Anchors/add?id=">热门主播</a>
+								</div>
+								<div class="hotVideo-content video-message">
+							<foreach name="datatotalattention" item="vo" key="k">
+									<a href="/Home/Anchors/add?id={$vo.secrit}">
+										<div class="f-picvideo f-pic">
+											<img src="{$vo.playphoto}" alt="" />
+											<span class="start"><img src="/Public/Cy/Img/plus.png" alt=""></span>
+										</div>
+										<div class="img-tex1 img-info m-t9">
+											<h2>{$vo.content}</h2>
+											<img src="{$vo.personphoto}" style="border-radius:100%;" alt="">
+											<i>{$vo.name}</i>
+											<span>
+												<img src="/Public/Cy/Img/eyeicon.png" alt="">
+												<i>{$vo.attention}</i>
+											</span>
+										</div>
+									</a>
+								 </foreach>
+								</div>
+							</div>
+							<!--新人榜-->
+							<div class="newPerson fr bgcolor listMents p-t19">
+								<div class="newPerson-head f-head">
+									<i><img src="/Public/Cy/Img/icon-title3.png" alt=""></i>
+									<a class="title">新人榜</a>
+								</div>
+								<div class="newPerson-content best-con">
+									<ul>
+										<!--第一名-->
+										<li>
+											<a href="/Home/Anchors/add?id=">
+												<span class="avatar1 avat-info">  
+													<img class="avtaimg" src="{$allimgone}" style="border-radius:100%;" alt="" />
+													<img class="loyal" src="/Public/Cy/Img/winner.png" alt="">
+												</span>
+												<div class="text-imformation">
+													<span class="fl fl-tex">
+														<i></i>
+														{$allnameone}
+													</span>
+													<span class="fr fr-tex">
+														<i></i>
+														{$alltotalone}
+													</span>
+												</div>
+											</a>
+										</li>
+										<!--第二名-->
+										<li>
+											<a href="/Home/Anchors/add?id=">
+												<span class="avatar2 avat-info">
+													<img class="avtaimg" src="{$allimgtwo} "style="border-radius:100%;"  alt="" />
+													<img class="loyal" src="/Public/Cy/Img/silver.png" alt="">
+												</span>
+												<div class="text-imformation">
+													<span class="fl fl-tex">
+														<i></i>
+														{$allnametwo}
+													</span>
+													<span class="fr fr-tex">
+														<i></i>
+														{$alltotaltwo}
+													</span>
+												</div>
+											</a>
+										</li>
+										
+										<!--第三名-->
+										<li>
+											<a href="/Home/Anchors/add?id=">
+												<span class="avatar3 avat-info">
+													<img class="avtaimg" src="{$allimgthree} " style="border-radius:100%;" alt="" />
+													<img class="loyal" src="/Public/Cy/Img/bronze.png" alt="">
+												</span>
+												<div class="text-imformation">
+													<span class="fl fl-tex">
+														<i></i>
+															{$allnamethree}
+													</span>
+													<span class="fr fr-tex">
+														<i></i>
+														{$alltotalthree}
+													</span>
+												</div>
+											</a>
+										</li>
+										<!--4-8名-->
+										<foreach name="registetmonththree" item="vo" key="k">
+										<li>
+											<a href="/Home/Anchors/add?id={$vo.secrit}">
+												<span class="avatar4 avat-info">
+													<img class="avtaimg" src="{$vo.personphoto}"  style="border-radius:100%;" alt="" />
+													<div class="num">{$k+4}</div>
+												</span>
+												<div class="text-imformation">
+													<span class="fl fl-tex">
+														<i></i>
+														{$vo.name}
+													</span>
+													<span class="fr fr-tex">
+														<i></i>
+													{$vo.totalall}
+													</span>
+												</div>
+											</a>
+										</li>
+									</foreach>
+									
+									</ul>
+								</div>
+							</div>
+						</div>
+						<!-- 最新主播 -->
+						<div class="partTwo clearfix m-t19">
+							<div class="newVideo fl bgcolor p-t19">
+								<div class="newVideo-head f-head">
+									<i><img src="/Public/Cy/Img/icon-title4.png" alt=""></i>
+									<a class="title" href="#">最新主播</a>
+								</div>
+								<div class="newVideo-content video-message">
+								<foreach name="datanew" item="vo" key="k">
+									<a href="/Home/Anchors/add?id={$vo.secrit}">
+										<div class="f-picvideo f-pic">
+											<img src="{$vo.playphoto}" alt="" />
+											<span class="start"><img src="/Public/Cy/Img/plus.png" alt=""></span>
+										</div>
+										<div class="img-tex1 img-info m-t9">
+											<h2>{$vo.content}</h2>
+											<img src="{$vo.personphoto}" style="border-radius:100%;" alt="">
+											<i>{$vo.name}</i>
+											<span>
+												<img src="/Public/Cy/Img/eyeicon.png" alt="">
+												<i>{$vo.totalclick}</i>
+											</span>
+										</div>
+									</a>
+                                </foreach>	
+									
+								</div>
+							</div>
+							<!--酬劳榜-->
+							<div class="payments fr bgcolor listMents p-t19">
+								<div class="payments-head f-head">
+									<i><img src="/Public/Cy/Img/icon-title5.png" alt=""></i>
+									<a class="title" >酬劳榜</a>
+								</div>
+								<div class="payments-content best-con">
+									<ul>
+										<!--第一名-->
+										<li>
+											<a href="/Home/Anchors/add?id=">
+												<span class="avatar1 avat-info">  
+													<img class="avtaimg" src="{$rewardimgone}" style="border-radius:100%;" alt="" />
+													<img class="loyal" src="/Public/Cy/Img/winner.png" alt="">
+												</span>
+												<div class="text-imformation">
+													<span class="fl fl-tex">
+														<i></i>
+													{$rewardnameone}
+													</span>
+													<span class="fr fr-tex">
+														<i></i>
+													{$rewardtotalone}
+													</span>
+												</div>
+											</a>
+										</li>
+										<!--第二名-->
+										<li>
+											<a href="/Home/Anchors/add?id=">
+												<span class="avatar2 avat-info">
+													<img class="avtaimg" src="{$rewardimgtwo}" style="border-radius:100%;" alt="" />
+													<img class="loyal" src="/Public/Cy/Img/silver.png" alt="">
+												</span>
+												<div class="text-imformation">
+													<span class="fl fl-tex">
+														<i></i>
+															{$rewardnametwo}
+													</span>
+													<span class="fr fr-tex">
+														<i></i>
+														{$rewardtotaltwo}
+													</span>
+												</div>
+											</a>
+										</li>
+										<!--第三名-->
+										<li>
+											<a href="/Home/Anchors/add?id=">
+												<span class="avatar3 avat-info">
+													<img class="avtaimg" src="{$rewardimgthree}" style="border-radius:100%;"  alt="" />
+													<img class="loyal" src="/Public/Cy/Img/bronze.png" alt="">
+												</span>
+												<div class="text-imformation">
+													<span class="fl fl-tex">
+														<i></i>
+														{$rewardnamethree}
+													</span>
+													<span class="fr fr-tex">
+														<i></i>
+													{$rewardtotalthree}
+													</span>
+												</div>
+											</a>
+										</li>
+										<!--4-8名-->
+				                   <foreach name="datarewards" item="vo" key="k">
+										<li>
+											<a href="/Home/Anchors/add?id={$vo.secrit}">
+												<span class="avatar4 avat-info">
+													<img class="avtaimg" src="{$vo.personphoto}" style="border-radius:100%;" alt="" />
+													<div class="num">{$k+4}</div>
+												</span>
+												<div class="text-imformation">
+													<span class="fl fl-tex">
+														<i></i>
+														{$vo.name}
+													</span>
+													<span class="fr fr-tex">
+														<i></i>
+														{$vo.totaltime}
+													</span>
+												</div>
+											</a>
+										</li>
+										</foreach>
+									</ul>
+								</div>
+							</div>
+						</div>
+						<div class="partThree clearfix m-t19">
+							<!--月投食榜-->
+							<div class="monthMents listMents f-list p-t19">
+								<div class="monthMents-head f-head">
+									<i><img src="/Public/Cy/Img/icon-title6.png" alt=""></i>
+									<a class="title">月投食榜</a>
+								</div>
+								<div class="monthMents-content best-con">
+									<ul>
+										
+										<!--第一名-->
+										<li>
+											<a href="/Home/personlive/add?id=">
+												<span class="avatar1 avat-info">  
+													<img class="avtaimg" src="{$imgone}"  style="border-radius:100%" alt="" />
+													<img class="loyal" src="/Public/Cy/Img/winner.png" alt="">
+												</span>
+												<div class="text-imformation">
+													<span class="fl fl-tex">
+														<i></i>
+													{$nameone}
+													</span>
+													<span class="fr fr-tex">
+														<i></i>
+														{$rewardone}
+													</span>
+												</div>
+											</a>
+										</li>
+										<!--第二名-->
+										<li>
+											<a href="/Home/personlive/add?id=">
+												<span class="avatar2 avat-info">
+													<img class="avtaimg" src="{$imgtwo}"  style="border-radius:100%" alt="" />
+													<img class="loyal" src="/Public/Cy/Img/silver.png" alt="">
+												</span>
+												<div class="text-imformation">
+													<span class="fl fl-tex">
+														<i></i>
+														{$nametwo}
+													</span>
+													<span class="fr fr-tex">
+														<i></i>
+														{$rewardtwo}
+													</span>
+												</div>
+											</a>
+										</li>
+										<!--第三名-->
+										<li>
+											<a href="/Home/personlive/add?id=">
+												<span class="avatar3 avat-info">
+													<img class="avtaimg" src="{$imgthree}" style="border-radius:100%" alt="" />
+													<img class="loyal" src="/Public/Cy/Img/bronze.png" alt="">
+												</span>
+												<div class="text-imformation">
+													<span class="fl fl-tex">
+														<i></i>
+														{$namethree}
+													</span>
+													<span class="fr fr-tex">
+														<i></i>
+														{$rewardthree}
+													</span>
+												</div>
+											</a>
+										</li>
+										<!--第四到八名-->
+									<foreach name="dataeight" item="vo" key="k">
+										<li>
+											<a href="/Home/personlive/add?id={$vo.secrit}">
+												<span class="avatar4 avat-info">
+													<img class="avtaimg" src="{$vo.personphoto}"  style="border-radius:100%"alt="" />
+													<div class="num">{$k+4}</div>
+												</span>
+												<div class="text-imformation">
+													<span class="fl fl-tex">
+														<i></i>
+														{$vo.name}
+													</span>
+													<span class="fr fr-tex">
+														<i></i>
+														{$vo.reward}
+													</span>
+												</div>
+											</a>
+										</li>
+									</foreach>
+									</ul>
+								</div>
+							</div>
+							<!--封神榜-->
+							<div class="legendMents listMents f-list p-t19">
+								<div class="monthMents-head f-head">
+									<i><img src="/Public/Cy/Img/icon-title7.png" alt=""></i>
+									<a class="title">封神榜</a>
+								</div>
+								<div class="monthMents-content best-con">
+									<ul>
+										<li>
+											<a href="/Home/Anchors/add?id=">
+												<span class="avatar1 avat-info">  
+													<img class="avtaimg" src="{$exampleimgone}" style="border-radius:100%" alt="" />
+													<img class="loyal" src="/Public/Cy/Img/winner.png" alt="">
+												</span>
+												<div class="text-imformation">
+													<span class="fl fl-tex">
+														<i></i>
+														{$examplenameone}
+													</span>
+													<span class="fr fr-tex">
+														<i></i>
+														{$exampledatasone}
+													</span>
+												</div>
+											</a>
+										</li>
+										<li>
+											<a href="/Home/Anchors/add?id=">
+												<span class="avatar2 avat-info">
+													<img class="avtaimg" src="{$exampleimgtwo}" style="border-radius:100%" alt="" />
+													<img class="loyal" src="/Public/Cy/Img/silver.png" alt="">
+												</span>
+												<div class="text-imformation">
+													<span class="fl fl-tex">
+														<i></i>
+															{$examplenametwo}
+													</span>
+													<span class="fr fr-tex">
+														<i></i>
+															{$exampledatastwo}
+													</span>
+												</div>
+											</a>
+										</li>
+										<li>
+											<a href="/Home/Anchors/add?id=">
+												<span class="avatar3 avat-info">
+													<img class="avtaimg" src="{$exampleimgthree}"  style="border-radius:100%" alt="" />
+													<img class="loyal" src="/Public/Cy/Img/bronze.png" alt="">
+												</span>
+												<div class="text-imformation">
+													<span class="fl fl-tex">
+														<i></i>
+															{$examplenamethree}
+													</span>
+													<span class="fr fr-tex">
+														<i></i>
+															{$exampledatasthree}
+													</span>
+												</div>
+											</a>
+										</li>
+										
+										<foreach name="exampledatall" item="vo" key="k">	
+										<li>
+											<a href="/Home/Anchors/add? id={$vo.secrit}">
+												<span class="avatar4 avat-info">
+													<img class="avtaimg" src="{$vo.personphoto}"   style="border-radius:100%" alt="" />
+													<div class="num">{$k+4}</div>
+												</span>
+												<div class="text-imformation">
+													<span class="fl fl-tex">
+														<i></i>
+														{$vo.name}
+													</span>
+													<span class="fr fr-tex">
+														<i></i>
+														{$vo.getmoney}
+													</span>
+												</div>
+											</a>
+										</li>
+									</foreach>
+									</ul>
+								</div>
+							</div>
+							<!--神豪榜-->
+							<div class="godMents listMents f-list p-t19">
+								<div class="monthMents-head f-head">
+									<i><img src="/Public/Cy/Img/icon-title8.png" alt=""></i>
+									<a class="title">神豪榜</a>
+								</div>
+								<div class="monthMents-content best-con">
+									<ul>
+										<li>
+											<a href="/Home/personlive/add?id=">
+												<span class="avatar1 avat-info">  
+													<img class="avtaimg" src="{$wardimgone}" style="border-radius:100%;" alt="" />
+													<img class="loyal" src="/Public/Cy/Img/winner.png" alt="">
+												</span>
+												<div class="text-imformation">
+													<span class="fl fl-tex">
+														<i></i>
+														{$wardnameone}
+													</span>
+													<span class="fr fr-tex">
+														<i></i>
+														{$wardmonthone}
+													</span>
+												</div>
+											</a>
+										</li>
+										<!--第二名-->
+										<li>
+											<a href="/Home/personlive/add?id=">
+												<span class="avatar2 avat-info">
+													<img class="avtaimg" src="{$wardimgtwo}"  style="border-radius:100%;" alt="" />
+													<img class="loyal" src="/Public/Cy/Img/silver.png"  alt="">
+												</span>
+												<div class="text-imformation">
+													<span class="fl fl-tex">
+														<i></i>
+													{$wardnametwo}
+													</span>
+													<span class="fr fr-tex">
+														<i></i>
+													{$wardmonthtwo}
+													</span>
+												</div>
+											</a>
+										</li>
+										<!--第三名-->
+										<li>
+											<a href="/Home/personlive/add?id=">
+												<span class="avatar3 avat-info">
+													<img class="avtaimg" src="{$wardimgthree}"  style="border-radius:100%;" alt="" />
+													<img class="loyal" src="/Public/Cy/Img/bronze.png"  alt="">
+												</span>
+												<div class="text-imformation">
+													<span class="fl fl-tex">
+														<i></i>
+														{$wardnamethree}
+													</span>
+													<span class="fr fr-tex">
+														<i></i>
+														{$wardmonththree}
+													</span>
+												</div>
+											</a>
+										</li>
+										<!--第4-8名-->
+								<foreach name="eightward" item="vo" key="k">
+										<li>
+											<a href="/Home/personlive/add?id={$vo.secrit}">
+												<span class="avatar4 avat-info">
+													<img class="avtaimg" src="{$vo.personphoto}"  style="border-radius:100%;"alt="" />
+													<div class="num">{$k+4}</div>
+												</span>
+												<div class="text-imformation">
+													<span class="fl fl-tex">
+														<i></i>
+														{$vo.name}
+													</span>
+													<span class="fr fr-tex">
+														<i></i>
+														{$vo.totalreward}
+													</span>
+												</div>
+											</a>
+										</li>
+										</foreach>
+									
+									</ul>
+								</div>
+							</div>
+							<!--领域榜-->
+							<div class="softMents listMents fr bgcolor p-t19">
+								<div class="monthMents-head f-head">
+									<i><img src="/Public/Cy/Img/icon-title9.png" alt=""></i>
+									<a class="title">领域榜</a>
+								</div>
+								<div class="monthMents-content best-con">
+									<ul>
+										
+										<li>
+											<a href="/Home/Cartoon/add?id={$directtelone}">
+												<span class="avatar1 avat-info">  
+													<img class="avtaimg" src="{$directimgone}" style="border-radius:100%;" alt="" />
+													<img class="loyal" src="/Public/Cy/Img/winner.png" alt="">
+												</span>
+												<div class="text-imformation">
+													<span class="fl fl-tex">
+														<i></i>
+														{$directnameone}
+													</span>
+													<span class="fr fr-tex">
+														<i></i>
+													   {$directtotalone}
+													</span>
+												</div>
+											</a>
+										</li>
+										
+										<li>
+											<a href="/Home/Cartoon/add?id={$directteltwo}">
+												<span class="avatar2 avat-info">
+													<img class="avtaimg" src="{$directimgtwo}" style="border-radius:100%;"  alt="" />
+													<img class="loyal" src="/Public/Cy/Img/silver.png" alt="">
+												</span>
+												<div class="text-imformation">
+													<span class="fl fl-tex">
+														<i></i>
+														{$directnametwo}
+													</span>
+													<span class="fr fr-tex">
+														<i></i>
+														 {$directtotaltwo}
+													</span>
+												</div>
+											</a>
+										</li>
+										
+										<li>
+											<a href="/Home/Cartoon/add?id={$directtelthree}">
+												<span class="avatar3 avat-info">
+													<img class="avtaimg" src="{$directimgthree}" style="border-radius:100%;"  alt="" />
+													<img class="loyal" src="/Public/Cy/Img/bronze.png" alt="">
+												</span>
+												<div class="text-imformation">
+													<span class="fl fl-tex">
+														<i></i>
+													    {$directnamethree}
+													</span>
+													<span class="fr fr-tex">
+														<i></i>
+														 {$directtotalthree}
+													</span>
+												</div>
+											</a>
+										</li>
+										<foreach name="dataredirectall" item="vo" key="k">
+										<li>
+											<a href="/Home/Cartoon/add?id={$vo.secrit}">
+												<span class="avatar4 avat-info">
+													<img class="avtaimg" src="{$vo.personphoto}"  style="border-radius:100%;"  alt="" />
+													<div class="num">{$k+4}</div>
+												</span>
+												<div class="text-imformation">
+													<span class="fl fl-tex">
+														<i></i>
+														{$vo.name}
+													</span>
+													<span class="fr fr-tex">
+														<i></i>
+														{$vo.totalreward}
+													</span>
+												</div>
+											</a>
+										</li>
+									</foreach>
+										
+									</ul>
+								</div>
+							</div>
+						</div>
+						<!-- 热门分类 -->
+						<div class="partFour m-t19">
+							<div class="hotList bgcolor m-t19 p-t19">
+								<div class="hotList-head f-head">
+									<i><img src="/Public/Cy/Img/icon-title10.png" alt=""></i>
+									<a class="title">热门分类</a>
+								</div>
+								<div class="hotList-content clearfix">
+									<ul>
+										<li>
+											<a href="#">
+												<img src="/Public/Cy/Img/hotlist-pic1.png" alt="">
+												<span>漫画家</span>
+												<div class="bg-hov">
+
+												</div>
+											</a>
+										</li>
+										<li>
+											<a href="#">
+												<img src="/Public/Cy/Img/hotlist-pic2.png" alt="">
+												<span>明星专区</span>
+												<div class="bg-hov">
+
+												</div>
+											</a>
+										</li>
+										<li>
+											<a href="#">
+												<img src="/Public/Cy/Img/hotlist-pic3.png" alt="">
+												<span>御宅专区</span>
+												<div class="bg-hov">
+
+												</div>
+											</a>
+										</li>
+										<li>
+											<a href="#">
+												<img src="/Public/Cy/Img/hotlist-pic4.png" alt="">
+												<span>卖萌专区</span>
+												<div class="bg-hov">
+
+												</div>
+											</a>
+										</li>
+										<li>
+											<a href="#">
+												<img src="/Public/Cy/Img/hotlist-pic5.png" alt="">
+												<span>唱跳次元</span>
+												<div class="bg-hov">
+
+												</div>
+											</a>
+										</li>
+										<li>
+											<a href="#">
+												<img src="/Public/Cy/Img/hotlist-pic6.png" alt="">
+												<span>生活娱乐</span>
+												<div class="bg-hov">
+
+												</div>
+											</a>
+										</li>
+										<li>
+											<a href="#">
+												<img src="/Public/Cy/Img/hotlist-pic7.png" alt="">
+												<span>电子竞技</span>
+												<div class="bg-hov">
+
+												</div>
+											</a>
+										</li>
+										<li>
+											<a href="#">
+												<img src="/Public/Cy/Img/hotlist-pic8.png" alt="">
+												<span>单机游戏</span>
+												<div class="bg-hov">
+
+												</div>
+											</a>
+										</li>
+										<li>
+											<a href="#">
+												<img src="/Public/Cy/Img/hotlist-pic9.png" alt="">
+												<span>网络游戏</span>
+												<div class="bg-hov">
+
+												</div>
+											</a>
+										</li>
+										<li>
+											<a href="#">
+												<img src="/Public/Cy/Img/hotlist-pic10.png" alt="">
+												<span>手游嘿嘿</span>
+												<div class="bg-hov">
+
+												</div>
+											</a>
+										</li>
+									</ul>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</content>
+			
+			<footer>
+				<div id="footer">
+					<div class="foot-content w1198">
+						<div class="fl ciyuan">
+							<h2>次元播</h2>
+							<div class="links">
+								<ul>
+									<li>
+										<a href="#">
+											关于我们
+										</a>
+									</li>
+									<li>
+										<a href="#">
+											联系我们
+										</a>
+									</li>
+								</ul>
+								<ul>
+									<li>
+										<a href="#">
+											友情链接
+										</a>
+									</li>
+									<li>
+										<a href="#">
+											加入我们
+										</a>
+									</li>
+								</ul>
+							</div>
+						</div>
+						<div class="z-line"></div>
+						<div class="fl help">
+							<h2>主播帮忙</h2>
+							<ul>
+								<li>
+									<a href="#">
+										主播工具下载
+									</a>
+								</li>
+								<li>
+									<a href="#">
+										主播工具教程
+									</a>
+								</li>
+							</ul>
+							
+						</div>
+						<div class="social fl">
+							<a class="service" href="#"><p>联系客服</p></a>
+							<a class="downLoad" href="#"><p>下载次元</p></a>
+							<a class="weChat" href="#"><p>官方微信</p></a>
+							<a class="weibo" href="#"><p>官方微博</p></a>
+						</div>
+						 <div class="beian">© 2016-2017 Aliyun.com 版权所有 ICP证:16119129号-1</div>
+					</div>
+					 
+				</div>
+			</footer>
+<script type="text/javascript">  
+	//var city = returnCitySN["cname"];  //用户地址
+	//var ipname = returnCitySN["cip"];
+function ipname(){
+     var ip ="1";
+	 $.post(
+			'/Home/Home/addressip',
+			{"ip":ip},
+			function(data){
+				//alert(data);
+		    },
+			   "html"
+		)
+	
+	}
+//window.setInterval(ipname,2000);
+</script>
+	
+	
+	</body>
+</html>

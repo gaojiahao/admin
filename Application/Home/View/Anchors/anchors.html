@@ -1,0 +1,1039 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Title</title>
+    <link rel="stylesheet" href="/Public/Cy/Css/Anchors/public.css" />
+    
+    <link rel="stylesheet" href="/Public/Cy/Css/Anchors/personlive.css">
+    <script src="/Public/Cy/Js/Anchors/Static/js/jquery-3.0.0.js"></script>
+    <script src="/Public/Cy/Js/Anchors/Static/js/loginreg.js"></script>
+    <script src="/Public/Cy/Js/Anchors/PersonalLive/js/personlive.js"></script>
+</head>
+<body class="live-room-body top-nav-light-theme">
+
+    <div class="body-container p-relative p-zero sidebar-left-open">
+        <div class="w-100 h-100 room-bk p-absolute p-zero clearfix ">
+            <div class="bk-img w-100 h-100" style="background-image:url('/Public/Cy/Img/Anchors/PersonalLive/images/bg-pic.png')">
+                
+            </div>
+        </div>
+        <!--头部部分-->
+       
+        <div id="room-left-sidebar" class="room-left-sidebar">
+            <div class="left-sidebar-mess">
+                <a class="videoer-mess videoer" href="#">
+                    <img src="/Public/Cy/Img/Anchors/PersonalLive/images/video-mess.png" alt="">
+                    <b>主创档案</b>
+                </a>
+                <div class="per-avatar">
+                    <img src="/Public/Cy/Img/Anchors/PersonalLive/images/peravtar.png" alt="">
+                    <div class="dashen l-space t-align">大神</div>
+                    <p class="l-space">尝谕</p>
+                </div>
+                <div class="text-mess">
+                    <p>大神画家,网络文学知名作家,</p>
+                    <p>非常擅长任务的刻画,塑造了</p>
+                    <p>很多经典形象。</p>
+                </div>
+                <a href="#" class="enter-in l-space t-align">
+                    进入领域
+                </a>
+                <hr>
+                <div class="sign-pay clearfix">
+                    <div class="button sign-in float-left"></div>
+                    <a class="button pay-in float-left" href="#"></a>
+                </div>
+                <hr>
+                <a class="videoer suggest l-space" href="#">
+                    <img src="/Public/Cy/Img/Anchors/PersonalLive/images/suggest.png" alt="">
+                    <b>主播推荐</b>
+                </a>
+                <ul class="suggest-person">
+                    <li>
+                        <a class="per-list a-list" href="#">
+                            <span class="perpictuer"><img src="/Public/Cy/Img/Anchors/PersonalLive/images/perpictuer.png" alt=""></span>
+                                <span class="pictext l-space">
+                                    <h2>男变女？怎么办</h2>
+                                    <p>少年啊呸,少女的逆袭</p>
+                                </span>
+                        </a>
+                    </li>
+                    <hr>
+                    <li>
+                        <a class="per-list2 a-list" href="#">
+                            <span class="perpictuer"><img src="/Public/Cy/Img/Anchors/PersonalLive/images/perpictuer.png" alt=""></span>
+                                <span class="pictext l-space">
+                                    <h2>男变女？怎么办</h2>
+                                    <p>少年啊呸,少女的逆袭</p>
+                                </span>
+                        </a>
+                    </li>
+                    <hr>
+                    <li>
+                        <a class="per-list3 a-list" href="#">
+                            <span class="perpictuer"><img src="/Public/Cy/Img/Anchors/PersonalLive/images/perpictuer.png" alt=""></span>
+                                <span class="pictext l-space">
+                                    <h2>男变女？怎么办</h2>
+                                    <p>少年啊呸,少女的逆袭</p>
+                                </span>
+                        </a>
+                    </li>
+                    <hr>
+
+                </ul>
+                <div class="help-and-link">
+                    <a class="wantvideo button" href="#"></a>
+                    <div class="link">
+                        <a href="#">帮助中心</a>
+                        <a href="#">联系客服</a>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+        <div class="room-main-ctnr p-relative m-auto">
+            <div class="room-body m-auto clearfix">
+                <div class="video-section clearfix">
+                    <div class="left-part player-area p-relative float-left">
+                        <!--直播头-->
+                        
+                     
+                        <div id="head-info-panel" class="head-info-panel p-relative clearfix ">
+                            <div class="anchor-avatar p-relative float-left">
+                                <img src="{$personphoto}" alt="">
+                                <a href="#" class="anchor-cover-wrap">
+                                    <div class="cover"></div>
+                                    <div class="text">进入TA的空间</div>
+                                </a>
+
+                            </div>
+                            <div class="info-ctnr float-right clearfix">
+                                <div class="room-info float-left">
+                                    <div class="room-title-row">
+                                        <h2 class="db-inline-block room-title">{$content}</h2>
+                                        <ul class="row-list">
+                                            <li>
+                                                <a class="report-link h-link" href="#">
+                                                    <i class="live-icon-small gray report v-middle"></i>
+                                                    <span>举报</span>
+                                                </a>
+                                            </li>
+                                            <li>
+                                                |
+                                            </li>
+                                            <li>
+                                                <a class="clienter-link h-link" href="#">
+                                                    <i class="live-icon-small gray clienter v-middle"></i>
+                                                    <span>客服</span>
+                                                </a>
+                                            </li>
+                                        </ul>
+
+                                    </div>
+                                    <div class="panel-text l-space"><i>分区:</i><a>{$distract}</a></div>
+                                    <div class="acinfo-fs-con clearfix">
+                                        <ul class="r-else clearfix">
+                                            <li>
+                                                <div class="zb-name-com">
+                                                    <i class="zb-name-icon live-icon-small v-middle icon-avatar"></i>
+                                                    <a class="zb-name" title="好一个蟹黄">{$names}</a>
+                                                </div>
+                                            </li>
+                                            <li>
+                                                <div class="zb-com">
+                                                    <i class="zb-icon v-middle icon-avatar"><img src="/Public/Cy/Img/Anchors/PersonalLive/images/soft-icon.png" alt=""></i>
+                                                    {$soap}万
+                                                </div>
+                                            </li>
+                                            <li>
+                                                <p class="playerSum l-space">累计播放: <i>{$totaltime}</i>分钟</p>
+                                            </li>
+                                        </ul>
+                                    </div>
+
+                                </div>
+                                <div class="head-right-contation float-right p-relative">
+                                    <div class="focus-box clearfix">
+										
+                                        <a id="focus" class="r-com-btn r-com follow-btn float-left l-space" href="javascript:;" onclick="attention()">
+                                            <i class="heart"><img src="/Public/Cy/Img/Anchors/PersonalLive/images/focus.png" alt=""></i>
+                                           关注
+                                        </a>
+
+                                       <!--  点击关注 -->
+                                        <a class="r-com-btn follow-btn yetbg float-left l-space"  id ="tepl" href="javascript:;"  telephone={$telephoneparms} onclick="attentionreset()">
+                                            已关注
+                                        </a>
+                             
+                                        <p class="r-num float-left">
+                                            <span id="z-number">{$attention}</span>
+                                        </p>
+                                    </div>
+                                    <div class="head-rab clearfix p-relative">
+                                        <span><i class="live-icon-small people v-middle"></i>{$looker}人</span>
+                                        <span class="col-line"></span>
+                                        <span class="weibo-QQspace-share">
+                                            <span>
+                                                <i class="live-icon-small share v-middle"></i>
+                                                <a class="a-color">分享</a>
+                                            </span>
+
+                                            <!--微博QQ空间分享-->
+                                            <div class="share-other p-absolute">
+                                                <span class="three-single"><i></i></span>
+                                                <a id="QQspace" href="javascript:;"><img src="/Public/Cy/Img/Anchors/PersonalLive/images/space.png" alt=""></a>
+                                                <a id="weiboshare" href="javascript:;"><img src="/Public/Cy/Img/Anchors/PersonalLive/images/weiboshare.png" alt=""></a>
+                                            </div>
+                                        </span>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        
+                     
+                        <!--直播中-->
+                        <div id="player-container" class="player-ctnr p-relative main-section">
+
+                        </div>
+                        <!--弹幕-->
+                        <div class="danmu-hide p-absolute">
+                            <div class="talk-section p-relative">
+                                <i class="smile"></i>
+                                <div class="expressViews clearfix p-relative">
+                                    <input id="danmu" maxlength="30" spellcheck="false" class="danmu-textbox float-left" placeholder="请输入弹幕">
+                                    <div id="danmu-send-btn" class="danmu-send-bbtn float-right l-space">发送</div>
+                                </div>
+                            </div>
+
+                        </div>
+                        <!--直播尾-->
+                        <div id="gift-panel" class="gift-pael main-section">
+                            <div class="gifts-ctnr clearfix">
+                                <div class="tesk float-left p-relative">
+                                    <div class="box-dums">
+                                        <img class="box-close" src="/Public/Cy/Img/Anchors/PersonalLive/images/m-box.png" alt="">
+                                        <img class="box-open" src="/Public/Cy/Img/Anchors/PersonalLive/images/m-box-open.png" alt="">
+                                        <div class="get-treasure">
+                                            <div class="room-task-model-close"></div>
+                                            <ul class="room-task-list clearfix">
+                                                <li class="room-task-item room-task-item-1">
+                                                    <i>
+                                                        <img class="small-box-close" src="/Public/Cy/Img/Anchors/PersonalLive/images/box-close.png" alt="">
+                                                        <img class="small-box-open" src="/Public/Cy/Img/Anchors/PersonalLive/images/box-open.png" alt="">
+                                                    </i>
+                                                    <p><b>等待中</b></p>
+                                                </li>
+                                                <li class="room-task-item room-task-item-2">
+                                                    <i>
+                                                        <img class="small-box-close" src="/Public/Cy/Img/Anchors/PersonalLive/images/box-close.png" alt="">
+                                                        <img class="small-box-open" src="/Public/Cy/Img/Anchors/PersonalLive/images/box-open.png" alt="">
+                                                    </i>
+                                                    <p><b>等待中</b></p>
+                                                </li>
+                                                <li class="room-task-item room-task-item-3">
+                                                    <i>
+                                                        <img class="small-box-close" src="/Public/Cy/Img/Anchors/PersonalLive/images/box-close.png" alt="">
+                                                        <img class="small-box-open" src="/Public/Cy/Img/Anchors/PersonalLive/images/box-open.png" alt="">
+                                                    </i>
+                                                    <p><b>等待中</b></p>
+                                                </li>
+                                                <li class="room-task-item room-task-item-4">
+                                                    <i>
+                                                        <img class="small-box-close" src="/Public/Cy/Img/Anchors/PersonalLive/images/box-close.png" alt="">
+                                                        <img class="small-box-open" src="/Public/Cy/Img/Anchors/PersonalLive/images/box-open.png" alt="">
+                                                    </i>
+                                                    <p><b>等待中</b></p>
+                                                </li>
+                                                <li class="room-task-item room-task-item-5">
+                                                    <i>
+                                                        <img class="small-box-close" src="/Public/Cy/Img/Anchors/PersonalLive/images/box-close.png" alt="">
+                                                        <img class="small-box-open" src="/Public/Cy/Img/Anchors/PersonalLive/images/box-open.png" alt="">
+                                                    </i>
+                                                    <p><b>等待中</b></p>
+                                                </li>
+                                                <li class="room-task-item room-task-item-6">
+                                                    <i>
+                                                        <img class="small-box-close" src="/Public/Cy/Img/Anchors/PersonalLive/images/box-close.png" alt="">
+                                                        <img class="small-box-open" src="/Public/Cy/Img/Anchors/PersonalLive/images/box-open.png" alt="">
+                                                    </i>
+                                                    <p><b>等待中</b></p>
+                                                </li>
+                                            </ul>
+                                        </div>
+                                    </div>
+                                    <div class="timerc">
+                                        <span id="min">00</span> : <span id="sec">00</span>
+                                    </div>
+
+                                </div>
+                                <div class="float-right many-gifts p-relative">
+                                    <ul class="clearfix">
+                                        <li class="li1">
+                                            <img  id="shuangxiu" src="/Public/Cy/Img/Anchors/PersonalLive/images/1.png" alt="">
+                                            <div class="currency">
+                                                <div class="currency-content clearfix">
+                                                    <div class="gift-img gift-1 float-left"></div>
+                                                    <div class="gift-describe float-left l-space">
+                                                        <h4>
+                                                            <strong>双修</strong>
+                                                            <em>(5000次元币)</em>
+                                                        </h4>
+                                                        <p class="person-des">传闻打通次元壁的唯一办法，就是双修<sup>~</sup></p>
+                                                        <p class="bi-value"><em>效果: 主创值<i>+5000</i></em><em>守护值+50000</em></p>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </li>
+                                        <li class="li2">
+                                            <img id="nvshen" src="/Public/Cy/Img/Anchors/PersonalLive/images/2.png" alt="">
+                                            <div class="currency">
+                                                <div class="currency-content clearfix">
+                                                    <div class="gift-img gift-2 float-left"></div>
+                                                    <div class="gift-describe float-left l-space">
+                                                        <h4>
+                                                            <strong>女神</strong>
+                                                            <em>(2330次元币)</em>
+                                                        </h4>
+                                                        <p class="person-des">本女神可不是那些妖艳贱能比的， 很贵的<sup>~</sup></p>
+                                                        <p class="bi-value"><em>效果: 主创值<i>+2330</i></em><em>守护值+23300</em></p>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </li>
+                                        <li class="li3">
+                                            <img id="yujie" src="/Public/Cy/Img/Anchors/PersonalLive/images/3.png" alt="">
+                                            <div class="currency">
+                                                <div class="currency-content clearfix">
+                                                    <div class="gift-img gift-3 float-left"></div>
+                                                    <div class="gift-describe float-left l-space">
+                                                        <h4>
+                                                            <strong>御姐</strong>
+                                                            <em>(880次元币)</em>
+                                                        </h4>
+                                                        <p class="person-des">皮鞭高跟鞋， 跪下唱征服。</p>
+                                                        <p class="bi-value"><em>效果: 主创值<i>+880</i></em><em>守护值+8800</em></p>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </li>
+                                        <li class="li4">
+                                            <img id="luoli" src="/Public/Cy/Img/Anchors/PersonalLive/images/4.png" alt="">
+                                            <div class="currency">
+                                                <div class="currency-content clearfix">
+                                                    <div class="gift-img gift-4 float-left"></div>
+                                                    <div class="gift-describe float-left l-space">
+                                                        <h4>
+                                                            <strong>萝莉</strong>
+                                                            <em>( 100次元币 )</em>
+                                                        </h4>
+                                                        <p class="person-des">作为一个绅(hen)士(tai),  萝莉才是真爱。</p>
+                                                        <p class="bi-value"><em>效果: 主创值<i>+100</i></em><em>守护值+1000</em></p>
+                                                    </div>
+                                                </div>
+
+                                            </div>
+                                        </li>
+                                        <li class="li5">
+                                            <img id="zhengtai" src="/Public/Cy/Img/Anchors/PersonalLive/images/5.png" alt="">
+                                            <div class="currency">
+                                                <div class="currency-content clearfix">
+                                                    <div class="gift-img gift-5 float-left"></div>
+                                                    <div class="gift-describe float-left l-space">
+                                                        <h4>
+                                                            <strong>正太</strong>
+                                                            <em>(50次元币)</em>
+                                                        </h4>
+                                                        <p class="person-des">正太便是正义！ 正太有我来守护！</p>
+                                                        <p class="bi-value"><em>效果: 主创值<i>+50</i></em><em>守护值+500</em></p>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </li>
+                                        <li  class="li6">
+                                            <img id="xionggui" src="/Public/Cy/Img/Anchors/PersonalLive/images/6.png" alt="">
+                                            <div class="currency">
+                                                <div class="currency-content clearfix">
+                                                    <div class="gift-img gift-6 float-left"></div>
+                                                    <div class="gift-describe float-left l-space">
+                                                        <h4>
+                                                            <strong>兄贵</strong>
+                                                            <em>(20次元币)</em>
+                                                        </h4>
+                                                        <p class="person-des">听说你喜欢? 搭配肥皂更耐磨哟<sup>~</sup></p>
+                                                        <p class="bi-value"><em>效果: 主创值<i>+20</i></em><em>守护值+200</em></p>
+                                                    </div>
+                                                </div>
+
+                                                <div class="top-up clearfix">
+                                                    <span id="mo-20" class="mo-active money">20</span>
+                                                    <span id="mo-233" class="money">233</span>
+                                                    <span id="mo-520" class="money">520</span>
+                                                    <span id="mo-1000" class="money">1000</span>
+                                                    <span id="mo-giving" class="giving">赠送</span>
+                                                </div>
+                                            </div>
+                                        </li>
+                                        <li class="li7">
+                                            <img id="feizao" src="/Public/Cy/Img/Anchors/PersonalLive/images/7.png" alt="">
+                                            <div class="currency">
+                                                <div class="currency-content clearfix">
+                                                    <div class="gift-img gift-7 float-left"></div>
+                                                    <div class="gift-describe float-left l-space">
+                                                        <h4>
+                                                            <strong>肥皂</strong>
+                                                            <em>( 100肥皂 )</em>
+                                                        </h4>
+                                                        <p class="person-des">哦亲， 帮我捡一下肥皂。</p>
+                                                        <p class="bi-value"><em>效果: 主创值<i>+1</i></em><em>守护值+1</em></p>
+                                                    </div>
+                                                </div>
+
+                                                <div class="top-up clearfix">
+                                                    <span id="m-20" class="mo-active money">100</span>
+                                                    <span id="m-233" class="money">233</span>
+                                                    <span id="m-520" class="money">520</span>
+                                                    <span id="m-1000" class="money">1000</span>
+                                                    <span id="giving" class="giving">赠送</span>
+                                                </div>
+                                            </div>
+                                        </li>
+                                    </ul>
+
+
+                                </div>
+                            </div>
+                            <div class="crease-pay float-right l-space">
+                                <span><i><img src="/Public/Cy/Img/Anchors/PersonalLive/images/soft-icon.png" alt=""></i>次元币: <i id="ciyuannum">0</i></span>
+                                <span><i><img src="/Public/Cy/Img/Anchors/PersonalLive/images/soft-icon.png" alt=""></i>肥皂: <i id="softnum">0</i></span>
+                                <span><a class="crepay-btn" href="#">充值</a></span>
+
+                            </div>
+                        </div>
+                    </div>
+                    <!--直播右边粉丝排行榜-->
+                    <div class="right-part chat-ctnr main-section p-relative float-right">
+                        <div class="fensi-head clearfix">
+                            <div class="head-title l-space">
+                                <span>
+                                <img src="/Public/Cy/Img/Anchors/PersonalLive/images/fensi.png" alt="">
+                                粉丝排行榜
+                                </span>
+                                <span><a class="a-color" href="#">更多 ></a></span>
+                            </div>
+                            <ul class="fensi-list">
+                                <li class="heroVideo hero">
+                                    <span class="ranking pre-three float-left ranking-one">1</span>
+                                    <span class="float-left rank-text">
+                                        <h2>夜冷情深风蓝</h2>
+                                        <p>1500004粉丝值</p>
+                                    </span>
+                                    <span class="rank-right">
+                                        <img src="/Public/Cy/Img/Anchors/PersonalLive/images/herovatar.png" alt="">
+                                        <div class="a-men mengzu-one l-space">盟主</div>
+                                    </span>
+                                </li>
+                                <li class="heroVideo hero">
+                                    <span class="ranking pre-three float-left ranking-two">2</span>
+                                    <span class="float-left rank-text">
+                                        <h2>夜冷情深风蓝</h2>
+                                        <p>1500004粉丝值</p>
+                                    </span>
+                                    <span class="rank-right">
+                                        <img src="/Public/Cy/Img/Anchors/PersonalLive/images/herovatar.png" alt="">
+                                        <div class="b-men mengzu-one l-space">盟主</div>
+                                    </span>
+                                </li>
+                                <li class="heroVideo ">
+                                    <div class="ranking pre-three float-left ranking-three">3</div>
+                                    <div class="rank-mess no-name clearfix float-left">
+                                        <span class="float-left rank-tex ">
+                                            <h2>夜冷情深风蓝</h2>
+                                            <p>1500004粉丝值</p>
+                                        </span>
+                                        <span class="rank-rig float-left">
+                                            <img src="/Public/Cy/Img/Anchors/PersonalLive/images/herovatar.png" alt="">
+                                            <div class="c-men mengzu-one l-space">盟主</div>
+                                        </span>
+                                    </div>
+                                </li>
+                                <li>
+                                    <div class="ranking float-left other-rank"> 4 </div>
+                                    <div class="no-name rank-intruduce float-left">
+                                        <span class="only-tex">谜之传说</span>
+                                        <span class="only-num">1500004</span>
+                                    </div>
+                                </li>
+                                <li>
+                                    <div class="ranking float-left other-rank"> 5 </div>
+                                    <div class="no-name rank-intruduce float-left">
+                                        <span class="only-tex">谜之传说</span>
+                                        <span class="only-num">1500004</span>
+                                    </div>
+                                </li>
+                                <li>
+                                    <div class="ranking float-left other-rank">6</div>
+                                    <div class="no-name rank-intruduce float-left">
+                                        <span class="only-tex">谜之传说</span>
+                                        <span class="only-num">1500004</span>
+                                    </div>
+                                </li>
+                                <li>
+                                    <div class="ranking float-left other-rank">7</div>
+                                    <div class="no-name rank-intruduce float-left">
+                                        <span class="only-tex">谜之传说</span>
+                                        <span class="only-num">1500004</span>
+                                    </div>
+                                </li>
+                                <li>
+                                    <div class="ranking float-left other-rank">8</div>
+                                    <div class="no-name rank-intruduce float-left">
+                                        <span class="only-tex">谜之传说</span>
+                                        <span class="only-num">1500004</span>
+                                    </div>
+                                </li>
+                                <li>
+                                <div class="ranking float-left other-rank">9</div>
+                                <div class="no-name rank-intruduce float-left">
+                                    <span class="only-tex">谜之传说</span>
+                                    <span class="only-num">1500004</span>
+                                </div>
+                                </li>
+                                <li>
+                                    <div class="ranking float-left other-rank">10</div>
+                                    <div class="last-no-name rank-intruduce float-left">
+                                        <span class="only-tex">谜之传说</span>
+                                        <span class="only-num">1500004</span>
+                                    </div>
+                                </li>
+                            </ul>
+
+                        </div>
+                        <div class="speacking">
+                            <ul>
+                                <li></li>
+
+                            </ul>
+                        </div>
+
+                    </div>
+
+                </div>
+            </div>
+        </div>
+        <div class="sum-tips m-nomoney">
+            <div class="nothing-money l-space">
+                <i><img src="/Public/Cy/Img/Anchors/PersonalLive/images/m-tips.png" alt=""></i>
+                余额不足,消费失败!
+            </div>
+        </div>
+        <div class="sum-tips m-successed">
+            <div class="nothing-money l-space">
+                <i><img src="/Public/Cy/Img/Anchors/PersonalLive/images/m-get.png" alt=""></i>
+                已经成功领取100肥皂
+            </div>
+        </div>
+            <footer>
+                <div id="footer">
+                    <div class="foot">
+                        <div class="fl ciyuan">
+                            <h2>次元直播</h2>
+                            <div class="links">
+                                <ul>
+                                    <li>
+                                        <a href="#">
+                                            关于我们
+                                        </a>
+                                    </li>
+                                    <li>
+                                        <a href="#">
+                                            联系我们
+                                        </a>
+                                    </li>
+                                </ul>
+                                <ul>
+                                    <li>
+                                        <a href="#">
+                                            友情链接
+                                        </a>
+                                    </li>
+                                    <li>
+                                        <a href="#">
+                                            加入我们
+                                        </a>
+                                    </li>
+                                </ul>
+                            </div>
+                        </div>
+                        <div class="z-line"></div>
+                        <div class="fl help">
+                            <h2>主播帮忙</h2>
+                            <ul>
+                                <li>
+                                    <a href="#">
+                                        主播工具下载
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href="#">
+                                        主播工具教程
+                                    </a>
+                                </li>
+                            </ul>
+                        </div>
+                        <div class="social fl">
+                            <a class="service" href="#"><p>联系客服</p></a>
+
+                            <a class="downLoad" href="#"><p>下载次元</p></a>
+                            <a class="weChat" href="#"><p>官方微信</p></a>
+                            <a class="weibo" href="#"><p>官方微博</p></a>
+                        </div>
+                    </div>
+                    <div class="beian">
+                        <p>© 2016-2017 深圳市次元时代网络科技有限公司 2ciyuan.tv All rights reserved.</p>
+                        <p>
+                            <!--<i></i>粤公网安备 44030502000509 <i></i>-->
+                            <!--<i class="net-yue">粤网文【2016】4766-1157号</i>-->
+                            Aliyun.com 版权所有 ICP证:16119129号-1
+                        </p>
+                        <p>官方QQ群: 482220431业务合作、市场合作: bd@ciyuantv.cn</p>
+                    </div>
+                </div>
+            </footer>
+
+    </div>
+
+</body>
+<script>
+//   倒计时
+$(function () {
+        var timerc = 1;
+        var i = "";
+        var a = 0;
+        var b = 0;
+        var c = 0;
+        var d = 0;
+        var e = 0;
+        var f = 0;
+
+        function timer() {
+            if(timerc > 0 && i == ""){
+                timerc--;
+                $("#min").html(parseInt(timerc/60/10).toString()+parseInt(timerc/60%10));
+                // console.log(parseInt(timerc/60/10).toString()+parseInt(timerc/60%10))
+                $("#sec").html(Number(parseInt(timerc%60/10)).toString()+(timerc%10));
+                if(timerc == 0 && a ==0){
+                    func();
+                    return;
+                }
+            };
+            setTimeout(function () {
+                timer()
+            },1000)
+
+        };
+        timer();
+
+
+        function timetwo() {
+            if(timerc > 0 && i==4){
+                timerc--;
+                $("#min").html(parseInt(timerc/60/10).toString()+parseInt(timerc/60%10));
+                $("#sec").html(Number(parseInt(timerc%60/10)).toString()+(timerc%10));
+                if(timerc == 0 && b == 0){
+                    functwo();
+                    return;
+                }
+            };
+            setTimeout(function () {
+                timetwo()
+            },1000)
+        }
+
+        function timethree() {
+            if(timerc > 0 && i == 4){
+                timerc--;
+                $("#min").html(parseInt(timerc/60/10).toString()+parseInt(timerc/60%10));
+                $("#sec").html(Number(parseInt(timerc%60/10)).toString()+(timerc%10));
+                if(timerc == 0 && c == 0){
+                    functhree();
+                    return;
+                }
+            };
+            setTimeout(function () {
+                timethree();
+            },1000)
+        }
+
+
+        function timefour() {
+            if(timerc > 0 && i == 4){
+                timerc--;
+                $("#min").html(parseInt(timerc/60/10).toString()+parseInt(timerc/60%10));
+                $("#sec").html(Number(parseInt(timerc%60/10)).toString()+(timerc%10));
+                if(timerc == 0 && d == 0){
+                    funcfour();
+                    return;
+                }
+            };
+            setTimeout(function () {
+                timefour();
+            },1000)
+        }
+
+
+        function timefive() {
+            if(timerc > 0 && i == 4){
+                timerc--;
+                $("#min").html(parseInt(timerc/60/10).toString()+parseInt(timerc/60%10));
+                $("#sec").html(Number(parseInt(timerc%60/10)).toString()+(timerc%10));
+                if(timerc == 0 && e == 0){
+                    funcfive();
+                    return;
+                }
+            };
+            setTimeout(function () {
+                timefive();
+            },1000)
+        }
+
+
+        function timesix() {
+            if(timerc > 0 && i == 4){
+                timerc--;
+                $("#min").html(parseInt(timerc/60/10).toString()+parseInt(timerc/60%10));
+                $("#sec").html(Number(parseInt(timerc%60/10)).toString()+(timerc%10));
+                if(timerc == 0 && f == 0){
+                    funcsix();
+                    return;
+                }
+            };
+            setTimeout(function () {
+                timesix();
+            },1000)
+        }
+
+
+
+
+        function func() {
+            $(".box-close").css("display","none");
+            $(".box-open").css("display","block");
+            $(".room-task-item-1").find("p").addClass("keyi").html("可领取");
+            i=1;
+        }
+        function functwo() {
+            $(".box-close").css("display","none");
+            $(".box-open").css("display","block");
+            $(".room-task-item-2").find("p").addClass("keyi").html("可领取");
+        }
+
+
+        function functhree() {
+            $(".box-close").css("display","none");
+            $(".box-open").css("display","block");
+            $(".room-task-item-3").find("p").addClass("keyi").html("可领取");
+        }
+
+        function funcfour() {
+            $(".box-close").css("display","none");
+            $(".box-open").css("display","block");
+            $(".room-task-item-4").find("p").addClass("keyi").html("可领取");
+        }
+
+        function funcfive() {
+            $(".box-close").css("display","none");
+            $(".box-open").css("display","block");
+            $(".room-task-item-5").find("p").addClass("keyi").html("可领取");
+        }
+
+
+        function funcsix() {
+            $(".box-close").css("display","none");
+            $(".box-open").css("display","block");
+            $(".room-task-item-6").find("p").addClass("keyi").html("可领取");
+        }
+
+
+        function clickfunc() {
+            $(".room-task-item-1>p").bind("click",function() {
+                if(timerc == 0 && a==0){
+                    $(".box-close").css("display", "block");
+                    $(".box-open").css("display", "none");
+                    $(".room-task-item-1").find('p').removeClass('keyi').addClass('yiling')
+                            .html("已领取").parent().find('.small-box-close').css("display", "none")
+                            .next().css("display", "block");
+//                    console.log("000");
+//                    提示领取数额
+                    $(".m-successed").css("display","block")
+                    setTimeout(function () {
+                        $(".m-successed").fadeOut()
+                    },1500);
+
+                    timerc = 300;
+                    i = 4;
+                    a=1;
+                    timetwo();
+                    return;
+                }
+            })
+        }
+        clickfunc()
+
+
+
+        function clickfunctwo() {
+            $(".room-task-item-2>p").bind("click",function() {
+                if(timerc == 0 && b == 0 && a==1){
+                    $(".box-close").css("display", "block");
+                    $(".box-open").css("display", "none");
+                    $(".room-task-item-2").find('p').removeClass('keyi').addClass('yiling')
+                            .html("已领取").parent().find('.small-box-close').css("display", "none")
+                            .next().css("display", "block");
+//                    console.log("000");
+                    //                    提示领取数额
+                    $(".m-successed").css("display","block")
+                    setTimeout(function () {
+                        $(".m-successed").fadeOut()
+                    },1500);
+                    timerc = 600;
+                    i = 4;
+                    b=1;
+                    timethree()
+
+                    return;
+                }
+            })
+        }
+        clickfunctwo();
+
+
+        function clickfuncthree() {
+            $(".room-task-item-3>p").bind("click",function() {
+                if(timerc == 0 && c == 0 && b==1){
+                    $(".box-close").css("display", "block");
+                    $(".box-open").css("display", "none");
+                    $(".room-task-item-3").find('p').removeClass('keyi').addClass('yiling')
+                            .html("已领取").parent().find('.small-box-close').css("display", "none")
+                            .next().css("display", "block");
+//                    console.log("000");
+//                   提示领取数额
+                    $(".m-successed").css("display","block")
+                    setTimeout(function () {
+                        $(".m-successed").fadeOut()
+                    },1500);
+                    timerc = 15;
+                    i = 4;
+                    c=1;
+                    timefour();
+                    return;
+                }
+            })
+        }
+        clickfuncthree()
+
+
+        function clickfuncfour() {
+            $(".room-task-item-4>p").bind("click",function() {
+                if(timerc == 0 && d == 0 && c==1){
+                    $(".box-close").css("display", "block");
+                    $(".box-open").css("display", "none");
+                    $(".room-task-item-4").find('p').removeClass('keyi').addClass('yiling')
+                            .html("已领取").parent().find('.small-box-close').css("display", "none")
+                            .next().css("display", "block");
+//                    console.log("000");
+                    //                    提示领取数额
+                    $(".m-successed").css("display","block")
+                    setTimeout(function () {
+                        $(".m-successed").fadeOut()
+                    },1500);
+                    timerc = 18;
+                    i = 4;
+                    d=1;
+                    timefive();
+                    return;
+                }
+            })
+        }
+        clickfuncfour()
+
+
+        function clickfuncfive() {
+            $(".room-task-item-5>p").bind("click",function() {
+                if(timerc == 0 && e == 0 && d==1){
+                    $(".box-close").css("display", "block");
+                    $(".box-open").css("display", "none");
+                    $(".room-task-item-5").find('p').removeClass('keyi').addClass('yiling')
+                            .html("已领取").parent().find('.small-box-close').css("display", "none")
+                            .next().css("display", "block");
+//                    console.log("000");
+                    //                    提示领取数额
+                    $(".m-successed").css("display","block")
+                    setTimeout(function () {
+                        $(".m-successed").fadeOut()
+                    },1500);
+                    timerc = 900;
+                    i = 4;
+                    e=1;
+                    timesix();
+                    return;
+                }
+            })
+        }
+        clickfuncfive()
+
+        function clickfuncsix() {
+            $(".room-task-item-6>p").bind("click",function() {
+                if(timerc == 0 && f == 0 && e==1){
+                    $(".box-close").css("display", "block");
+                    $(".box-open").css("display", "none");
+                    $(".room-task-item-6").find('p').removeClass('keyi').addClass('yiling')
+                            .html("已领取").parent().find('.small-box-close').css("display", "none")
+                            .next().css("display", "block");
+//                    console.log("000");
+                    //                    提示领取数额
+                    $(".m-successed").css("display","block")
+                    setTimeout(function () {
+                        $(".m-successed").fadeOut()
+                    },1500);
+                    timerc = 1800;
+                    i = 4;
+                    f=1;
+                    timesix();
+                    return;
+                }
+            })
+        }
+        clickfuncsix()
+
+    })
+//点击显示余额不足
+$(function () {
+    //双修
+    $("#shuangxiu").click(function () {
+        $(".m-nomoney").css("display","block")
+        setTimeout(function () {
+            $(".m-nomoney").fadeOut()
+        },1500);
+    });
+    //女神
+    $("#nvshen").click(function () {
+        $(".m-nomoney").css("display","block")
+        setTimeout(function () {
+            $(".m-nomoney").fadeOut()
+        },1500);
+    });
+    //御姐
+    $("#yujie").click(function () {
+        $(".m-nomoney").css("display","block")
+        setTimeout(function () {
+            $(".m-nomoney").fadeOut()
+        },1500);
+    });
+    //萝莉
+    $("#luoli").click(function () {
+        $(".m-nomoney").css("display","block")
+        setTimeout(function () {
+            $(".m-nomoney").fadeOut()
+        },1500);
+    });
+    //正太
+    $("#zhengtai").click(function () {
+        $(".m-nomoney").css("display","block")
+        setTimeout(function () {
+            $(".m-nomoney").fadeOut()
+        },1500);
+    });
+    //兄贵
+    $("#xionggui").click(function () {
+        $(".m-nomoney").css("display","block")
+        setTimeout(function () {
+            $(".m-nomoney").fadeOut()
+        },1500);
+    });
+    //肥皂
+    $("#feizao").click(function () {
+        $(".m-nomoney").css("display","block")
+        setTimeout(function () {
+            $(".m-nomoney").fadeOut()
+        },1500);
+    });
+    $(".top-up .money").click(function () {
+        $(this).addClass("mo-active").siblings().removeClass("mo-active")
+    })
+
+    $(".top-up .giving").click(function () {
+
+        $(".m-nomoney").css("display","block")
+        setTimeout(function () {
+            $(".m-nomoney").fadeOut()
+        },1500)
+
+    })
+})
+
+//    点击关注
+$(function () {
+    $(".clearfix>a").on("click",function () {
+        if(document.getElementById("focus").style.display=='none'){
+            $(".r-com").css("display","block");
+            $(".yetbg").css("display","none");
+        }
+        else {
+            $(".yetbg").css("display","block");
+            $(".r-com").css("display","none");
+        }
+
+    })
+})
+</script>
+<script type="text/javascript">
+function nowattention(){
+	  var telphone="1";
+	 $.post(
+			'/Home/Anchors/attendata',
+			{"telphone":telphone},
+			function(data){
+				 alert(data);
+				if(data=="1"){
+					$(".r-com").css("display","block");
+					$(".yetbg").css("display","none");
+					return;
+				}
+				else if(data=="2"){
+					$(".yetbg").css("display","block");
+					$(".r-com").css("display","none");
+					return;
+				}
+		    },
+			   "html"
+		) 
+}
+window.setTimeout(nowattention,0.01); 
+</script>
+
+<script type="text/javascript">
+function attention(){
+	  //alert("sdzfad");
+}
+</script>
+
+<script type="text/javascript">
+function attentionreset(){
+	//alert("qwertyuqwerty");
+	var telephonperson= $("#tepl").attr("telephone");
+	 $.post(
+			'/Home/Anchors/attentions',
+			{"telephonperson":telephonperson},
+			function(data){
+			   // alert(data);
+				if(data=="1"){
+					//window.location.href="/Home/Home/add";
+				}
+		    },
+			   "html"
+		)
+}
+</script>
+</html>

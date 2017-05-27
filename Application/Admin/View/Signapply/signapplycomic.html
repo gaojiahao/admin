@@ -1,0 +1,174 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    <title>签约申请</title>
+    <link href="__PUBLIC__/Admin/Common/Css/page.css" rel="stylesheet" type="text/css"/>
+    <link href="__PUBLIC__/Admin/Common/Css/main.css" rel="stylesheet" type="text/css"/>
+    <link href="__PUBLIC__/Admin/Common/Css/webmallDialog.css" rel="stylesheet" type="text/css" />
+    <script type="text/javascript" src="__PUBLIC__/Admin/Common/Js/jquery-2.2.3.js"></script>
+</head>
+<style type="text/css">
+    .pilian{display:inline-block;cursor: pointer; background:#06c; border-radius:3px; height:20px;  text-align:center; padding:0 10px; margin-left:10px; color:#fff; line-height:20px;}
+    .sel{ height: 30px; width: 80px; margin-left:10px; background:#d7d7d7}
+    .tr_list_page{  font-size: 12px; height: 24px; background-color: #EBEBEB; border: 1px solid #FFF;}
+    .tr_list{font-size: 12px; height: 24px; background-color: #FFF; border: 1px solid #FFF;}
+    .inp{ width: 300px; height: 30px; border:1px solid #666; padding-left: 5px;}
+    .sub{background: #06c; padding:0 15px; height:30px; text-align: center; color: #fff; line-height: 30px; cursor: pointer; border-radius: 3px }
+    a.tui{ color:#f00}
+    .level-type {background: rgba(0, 0, 0, 0) none repeat scroll 0 0;border: 1px solid #ccc;padding: 5px;margin-right:20px }
+    .form{ float:left; margin-bottom: 10px }
+    .noticePop{
+        background: rgba(0,0,0,.8)no-repeat;
+    }
+
+</style>
+<body bgcolor="#F7F7F7">
+<!--主体内容开始-->
+<div class="content">
+
+    <div class="content_top">&nbsp;&nbsp;&nbsp;现在的位置为：签约申请-&gt;漫画</div>
+
+    <div class="m_content">
+
+        <div class="real_c">
+
+            <div class="s-space"></div>
+            <form action="" method="get" class="form" name="search" id="list-form">
+                <input type="text" class="inp" value="" name="keyword" placeholder="请输入搜索的作品名或者作者" />
+                <input type="button" class="sub" value="搜索" onclick="list_form_sub()"/>
+            </form>
+            <table class="table_content">
+                <form name="goodsForm" method="post" action="">
+                    <tr class="tr_top">
+                        <th>作品编号</th>
+                        <th>漫画名称</th>
+                        <th>作者ID</th>
+                        <th>最近更新时间</th>
+                        <th>封面</th>
+                        <th>申请理由</th>
+                        <th>操作</th>
+                    </tr>
+
+                    <!--<foreach name="tempsent" item="vo" key="k">-->
+
+                    <tr class="tr_list">
+                        <td>01</td>
+                        <td>
+                            <!--<volist name="vo" id="date" offset="0" length="1" >-->
+                            《我根本不是主角啊喂》
+                            <!--</volist>-->
+                        </td>
+
+                        <td>
+                            <!--<volist name="vo" id="date" offset="0" length="1" >-->
+                            呃酱
+                            <!--</volist>-->
+                        </td>
+
+                        <td>
+                            <!--<volist name="vo" id="date" offset="0" length="1" >-->
+                            　2017-04-17 13:38:55
+                            <!--</volist>-->
+                        </td>
+                        <td>
+                            <!--<volist name="vo" id="date">-->
+                            <!--<input id="lookphoto{$date.id}" type="hidden" value="{$date.path}">-->
+                            <img src="../Newcreasework/imgs/58d1fc4b1b0b9.jpg"  sb="{$date.id}" height="140" width="100">
+                            <!--</volist>-->
+                        </td>
+                        <!--<volist name="vo" id="date" offset="0" length="1" >-->
+
+                        <td>我想申请推荐位</td>
+
+                        <td align="center">
+                            <!--<input class="hiddenedid" type="hidden" value="{$date.id}">-->
+                            <!--<input class="hiddenedusername" type="hidden" value="{$date.username}">-->
+                            <!--<input class="hiddenedval" type="hidden" value="{$date.val}">-->
+                            <!--<input class="numbers" type="hidden" value="{$date.numbers}">-->
+                            <a href="javascript:;" onclick="checksure(this)" style="text-decoration:none;">同意</a>
+                            |
+                            <a href="javascript:;" onclick="checkno(this)" style="text-decoration:none;">驳回</a>
+
+                        </td>
+                        <!--</volist>-->
+                        <!--</volist>-->
+                    </tr>
+                    <!--</foreach>-->
+                    <!-- 操作按钮 -->
+                    <tr>
+                        <td colspan="9" style="padding-top:20px;">
+
+                        </td>
+                    </tr>
+                </form>
+            </table>
+        </div>
+    </div>
+    <div class="b_border"></div>
+</div>
+<!--主体内容结束-->
+
+<!--通过后弹出-->
+<div class="noticePop" style="display: none"></div>      <!--背景层-->
+<div class="agreePop" style="display: none">
+    <div class="headTitle tabLine">
+        同意
+        <i class="close-button"><img src="__PUBLIC__/Admin/Common/imgs/clsoe.png" alt=""></i>
+    </div>
+    <div class="textareaBox">
+        <div class="tipSendText">作者大大您好，恭喜您，您的作品《我根本不是主角啊喂》已通过签约申请，
+            请联系编辑【<i></i>】商讨签约事宜，并且请保持更新和创作，次元播动漫将与你同行！
+        </div>
+    </div>
+    <div class="sure-dele-btn">
+        <div class="bottomBtn">
+            <button type="button" id="surePop" class="sureBtn">发送给作者</button>
+            <button type="button" id="deleteBtn" class="deleteBtn">取消</button>
+        </div>
+    </div>
+</div>
+<!--驳回后弹出框-->
+<div class="disagreePop" style="display: none">
+    <div class="headTitle tabLine">
+        驳回
+        <i class="close-button"><img src="__PUBLIC__/Admin/Common/imgs/clsoe.png" alt=""></i>
+    </div>
+    <div class="textareaBox">
+        <div class="tipSendText">作者大大您好，很遗憾的通知您，您的作品《我根本不是主角啊喂》暂时未通过我们的签约申请，
+            原因是【<i></i> 】，请继续保持创作的激情，下次再申请，次元播动漫将与你同行！
+        </div>
+    </div>
+    <div class="sure-dele-btn">
+        <div class="bottomBtn">
+            <button type="button" class="sureBtn" id="sendAuthor">驳回给作者</button>
+            <button type="button" class="deleteBtn" id="deletepop">取消</button>
+        </div>
+    </div>
+</div>
+
+
+<script>
+    //同意
+    function checksure() {
+        $(".noticePop,.agreePop").show();
+    }
+    //    ×掉和取消
+    $(".agreePop .close-button,#deleteBtn").click(function () {
+        $(".noticePop,.agreePop") .hide();
+    });
+
+
+
+    //    驳回
+    function checkno() {
+        $(".noticePop,.disagreePop").show();
+    }
+    //    ×掉和取消
+    $(".disagreePop .close-button,#deletepop").click(function () {
+        $(".noticePop,.disagreePop") .hide();
+    });
+
+</script>
+</body>
+</html>

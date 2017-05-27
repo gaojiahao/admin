@@ -1,0 +1,1 @@
+a:9:{i:0;s:2:"id";i:1;s:8:"username";i:2;s:8:"nickname";i:3;s:9:"photopath";i:4;s:6:"valued";i:5;s:6:"ranged";i:6;s:3:"val";s:3:"_pk";s:2:"id";s:5:"_type";a:7:{s:2:"id";s:7:"int(11)";s:8:"username";s:11:"varchar(50)";s:8:"nickname";s:11:"varchar(50)";s:9:"photopath";s:11:"varchar(50)";s:6:"valued";s:7:"int(11)";s:6:"ranged";s:11:"varchar(50)";s:3:"val";s:7:"int(50)";}}

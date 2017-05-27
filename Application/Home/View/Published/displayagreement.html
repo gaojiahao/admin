@@ -1,0 +1,260 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta charset="UTF-8">
+<title>次元播</title>
+<link rel="stylesheet" href="/Public/Book/Static/Css/footer.css">
+<link rel="stylesheet" href="/Public/Book/Home/Css/home.css" />
+<script src="/Public/Book/Home/Js/home.js"></script>
+<style>
+	body{
+			background: #fff;
+		}
+		.main-contain{
+			position: relative;
+			top: 55px;
+			}
+	.w1200{
+		width: 1200px;
+		margin: auto;
+		}
+		.agreement{
+				margin-top: 30px;
+			}
+</style>
+</head>
+<body >
+
+<div class="scrollBack">
+	<a href="#" class="back"></a>
+	<a href="#" class="phoneCall"></a>
+</div>
+<div class= "main-contain">
+<div class="agreements w1200">
+
+<foreach name="dataone" item="vo">
+<div class="agreement" style="background:#fff;">{$vo.content}</div>
+</foreach>
+</div>
+</div>
+
+<div id="footer">
+        <div class="foot-content w1200">
+            <div class="fl ciyuan">
+                <h2>关于</h2>
+                <div class="links">
+                    <ul>
+                        <li>
+                            <a href="#">
+                                帮助我们
+                            </a>
+                        </li>
+                        <li>
+                            <a href="#">
+                                联系我们
+                            </a>
+                        </li>
+                    </ul>
+                    <ul>
+                        <li>
+                            <a href="#">
+                                友情链接
+                            </a>
+                        </li>
+                        <li>
+                            <a href="#">
+                                意见反馈
+                            </a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+            <div class="z-line"></div>
+            <div class="fl help">
+                <ul>
+                    <li>
+                        商务合作：bd@ciyuantv.cn
+                    </li>
+                    <li>
+                        官方投稿群：QQ &nbsp;482220431
+                    </li>
+                </ul>
+            </div>
+            <div class="social fr">
+                <a class="service" href="javascript:;"><p>联系客服</p></a>
+                <a class="downLoad" href="javascript:;"><p>下载次元</p></a>
+                <a class="weChat p-relative" href="javascript:;">
+                    <p>官方微信</p>
+                    <div class="erweima"><img src="/Public/Book/Static/images/erweima.png" alt=""></div>
+                </a>
+                <a class="weibo" href="javascript:;"><p>官方微博</p></a>
+            </div>
+            <div class="beian">
+                <p>© 2016-2017 深圳市次元时代网络科技有限公司 2ciyuan.tv All rights reserved.</p>
+                <p>
+                    <!--<i></i>粤公网安备 44030502000509 <i></i>-->
+                    <!--<i class="net-yue">粤网文【2016】4766-1157号</i>-->
+                    Aliyun.com 版权所有 ICP证:16119129号-1
+                </p>
+                <p>官方QQ群: 482220431业务合作、市场合作: bd@ciyuantv.cn</p>
+            </div>
+        </div>
+        </div>
+</body>
+<script type="text/javascript">
+ var timer = 60;
+<!--读秒-->
+function send(obj){
+	if(timer == 0){
+		$('#btn-captcha').val("点击重新获取");
+		timer = 60;
+		$("#btn-captcha").css('background', '#ccc');
+	}else{
+		timer--;
+		$('#btn-captcha').val("剩余"+timer+"秒" );
+		setTimeout("send()",1000);
+	}
+}
+function checknumber(){ //失去焦点
+var telphone = $("#reg-phone").val();
+var verify = /^1[358]\d{9}$/g;
+var check = verify.test(telphone);
+if(check ==true){
+	 $("#nummessage").html("");
+	 $("#btn-captcha").css('background', '#fdc051');
+	 $("#reg-phone").css('border', '1px solid #ccc');
+     }else{
+		$("#nummessage").html("请输入正确的手机号码！");
+		$("#btn-captcha").css('background', '#ccc');
+		$("#reg-phone").css('border', '1px solid #FFA500');
+    }
+	}
+function  submited(obj){
+	var telphone = $("#reg-phone").val();
+	var verify = /^1[358]\d{9}$/g;
+	var check = verify.test(telphone);
+	if(check ==true){
+			$.post(
+			'/Home/Home/checknumber',
+			{"telphone":telphone},
+			function(data){
+				//alert(data);
+				if(data=="1"){
+					$("#nummessage").html("此号码已经注册，请登录系统或找回密码！");
+				}
+				else if(data=="2"){
+					$("#nummessage").html("请于60秒后再获取验证码");
+				}
+				else if(data=="0"){
+					if(timer==60){
+					$("#btn-captcha").css('background', '#fdc051');
+					$(send());
+					}
+					$("#nummessage").html("短信发送成功，请注意查收!");
+				}
+				else{
+					  alert(data);
+				}
+				  },
+			  "html"
+			)
+    }
+}
+</script>
+
+<script type="text/javascript">
+ function checkregname(){
+	var regusername = $("#reg-username").val();//昵称
+	//昵称验证
+	var namevarify = /^(?!_)(?!.*?_$)[\u4e00-\u9fa5]{0,10}\S{3,15}$|^[\u4e00-\u9fa5]{1,10}$/g;
+	var checkname = namevarify.test(regusername);
+	if(checkname==false || regusername==""){
+		$(".namemessage").html("昵称不能小于3个字符或者大于30个字符");
+		$("#reg-username").css("border","1px solid #febf51");
+	}else{
+		$(".namemessage").html("");
+	    $("#reg-username").css("border","1px solid #f3f3f3");
+	    $.post(
+			'/Home/Home/checkregname',
+			{"regusername":regusername},
+			function(data){
+				if(data=="1"){
+					$(".namemessage").html("此用户名已有主人，换一个试试.");
+					$("#reg-username").css("border","1px solid #febf51");
+				}
+		    },
+			   "html"
+		)
+	    
+	    
+	}
+}
+</script>
+
+<script type="text/javascript">
+ function checkpass(){
+	var regpasswd = $("#reg-passwd").val();//密码
+	var passverify = /^[a-zA-Z]\w{6,12}/;
+	var checkpassed = passverify.test(regpasswd);
+	if(checkpassed==false || regpasswd==""){
+		$(".passmessage").html("请输入以字母开头的6到12为字符");
+		$("#reg-passwd").css("border","1px solid #febf51");
+	}else{
+		$(".passmessage").html("");
+		$("#reg-passwd").css("border","1px solid #f3f3f3");
+	}
+}
+</script>
+
+
+<script type="text/javascript">
+function regist(){
+	var telphone = $("#reg-phone").val();   //手机号码
+	var phonecaptcha = $("#phone-captcha").val();  //手机验证码
+	var regusername = $("#reg-username").val();//昵称
+	var regpasswd = $("#reg-passwd").val();//密码
+	
+	var namevarify = /^(?!_)(?!.*?_$)[\u4e00-\u9fa5]{0,10}\S{3,15}$|^[\u4e00-\u9fa5]{1,10}$/g;
+	var checkname = namevarify.test(regusername);
+	
+	var passverify = /^[a-zA-Z]\w{6,12}/;
+	var checkpassed = passverify.test(regpasswd);
+	
+	if(telphone=="" || phonecaptcha=="" || regusername =="" || regpasswd==""|| checkname==false|| checkpassed==false){
+		alert("请填写正确的用户信息！");
+	}else{
+		$.post(
+			'/Home/Home/subdata',
+			{"telphone":telphone,"phonecaptcha":phonecaptcha,"regusername":regusername, "regpasswd":regpasswd},
+			function(data){
+				alert(data);
+				$("#login-nomal").css('display','block');
+				$("#register-nomal").css('display','none');  
+				$("#active").css('border-bottom','3px solid #FFA500');
+				$("#active").css('color','#FFA500');
+				$("#act").css('border-bottom','0px solid #FFA500');
+				$("#act").css('color','#4D4D4D');
+			/*	if(data=="1"){
+					alert("请填写正确信息!");
+				}
+				else if(data=="2"){
+					 alert("验证码不正确，请重新获取验证码!");
+				}
+				else if(data=="3"){
+					 alert "注册成功，请您登录系统.";
+					 //window.location.href='/Shop/Home/add';重定向
+				}
+				else if(data=="4"){
+					 alert "注册失败，请重新注册.";
+				}*/
+		    },
+			   "html"
+		)
+		
+    }
+}
+</script>
+
+
+
+</html>

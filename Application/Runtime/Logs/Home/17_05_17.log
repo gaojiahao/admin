@@ -1,0 +1,20 @@
+[ 2017-05-17T09:15:44+08:00 ] 127.0.0.1 /
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000048s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002991s ]
+
+[ 2017-05-17T19:14:53+08:00 ] 127.0.0.1 /Home/Home/code?math=0.9564950199642366
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000021s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000322s ]
+
+[ 2017-05-17T20:22:25+08:00 ] 127.0.0.1 /Home/Home/code?math=0.07031207027343567
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000026s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000208s ]
+
+[ 2017-05-17T20:22:26+08:00 ] 127.0.0.1 /Home/Home/code?math=0.047697480558549055
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000022s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000151s ]
+

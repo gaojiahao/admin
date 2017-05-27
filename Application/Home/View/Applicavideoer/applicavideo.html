@@ -1,0 +1,619 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+	<meta name="viewport" content="width=device-width, initial-scale=1.0, minimum-scale=1.0, maximum-scale=1.0, user-scalable=no">
+	<meta http-equiv="Cache-control" content="max-age=3600">
+	<meta http-equiv="Expires" content="3600">
+   <link rel="stylesheet" href="/Public/Cy/Css/Public/public.css" />
+    <link rel="stylesheet" href="/Public/Cy/Css/Public/header.css">
+    <link rel="stylesheet" href="/Public/Cy/Css/Public/footer.css">
+    <link rel="stylesheet" href="/Public/Cy/Css/Applicavideoer/applicavideo.css">
+    <script src="/Public/Cy/Js/jquery-3.0.0.js"></script>
+    <script src="/Public/Cy/Js/loginreg.js"></script>
+    <script src="/Public/Cy/Js/applicavideo.js"></script>
+    
+	<script type="text/javascript" src="/Public/Js/jquery.js"></script>
+	<script language="javascript" src="/Public/Js/Ajax.class.js"></script>
+	<script language="javascript" src="/Public/Js/XHRUploader.class.js"></script>
+
+</head>
+<body>
+    <div class="mainContent">
+        <div class="applyVideo-content w1198">
+            <div class="apply-video">
+                 <span></span>
+                <i>申请主播</i>
+            </div>
+            
+            <div class="f-passwd-item item1" id = "passwdone" style="display:block">
+                <div class="pregress-steps p-relative clearfix">
+                        <span class="step-bar-ft">
+                            <div class="step-cicle-ft current-step">1</div>
+                        </span>
+                         <span class="pe-gress-bar p-row"></span>
+                         <span class="step-bar-ft step-two" >
+							 <div  id="secondbackground" style="overfollow:hidden;z-index:100;background:#f1bf55;width:0px;height:0px;border-radius:100%;position:absolute;margin-left:16px;margin-top:16px;text-align:center;line-height:40px;color:#fff;font-size:0px;">2</div>
+                            <div class="step-cicle-ft"  id="secondfont">2</div>
+                        </span>
+                        <span class="pe-gress-bar p-row"></span>
+                         <span class="step-bar-ft step-three not-first">
+							 <div  id="threebackground" style="overfollow:hidden;z-index:100;background:#f1bf55;width:0px;height:0px;border-radius:100%;position:absolute;margin-left:16px;margin-top:16px;text-align:center;line-height:40px;color:#fff;font-size:0px;">2</div>
+                            <div class="step-cicle-ft" id="stepcicleft">3</div>
+                        </span>
+                        <!--移动进度条-->
+                        <div class="move-bar" id="move-bar" ></div>
+                    </div>
+                <div class="step-text">
+                    <span class="nowCur">基础信息</span>
+                    <span  id="setsecrit">详情信息</span>
+                    <span id="setsuccess">申请成功</span>
+                </div>
+                
+                <!--第一步-->
+                <div   id="oneset" style="display:block;">
+                <div class="sv-input sv-row">
+                    <div class="inputNum">
+                        <label for="昵称">
+                            昵称
+                       <input id="sv-phoneNum"  type="text" onblur="nickname()">
+                        </label>
+                        <span class="yes-or-no yes" id="yesornoyes"><img src="/Public/Cy/Img/Applicavideoer/yes.png" alt=""></span>
+                        <span class="yes-or-no no" id="esornono"><img src="/Public/Cy/Img/Applicavideoer/no.png" alt="">请输入符合规则的昵称</span>
+                        <p class="text-tips tips" id="texttips">2~6个汉字、数字或英文字母组成，笔名申请后不可变更</p>
+                    </div>
+                    <div class="VIP-passwd">
+                        <label for="密码">
+                            VIP管理密码
+                            <input id="sv-vippasswd" onblur = "checkpwd()" type="password">
+                        </label>
+                        <span class="yes-or-no yes" id="pwdyes"><img src="/Public/Cy/Img/Applicavideoer/yes.png" alt=""></span>
+                        <span class="yes-or-no no" id="pwdno"><img src="/Public/Cy/Img/Applicavideoer/no.png" alt="">请正确输入您的VIP管理密码</span>
+                        <p class="tex-passwd tips" id="texpasswd">2~6个英文、数字或特殊字符组成，进入领域时需输入</p>
+                    </div>
+                    <div class="input-again">
+                        <label for=" 再次输入">
+                            再次输入
+                            <input id="sv-inputagain" onblur="againpwd()" type="password">
+                        </label>
+                        <span class="yes-or-no yes" id="againpwdyes"><img src="/Public/Cy/Img/Applicavideoer/yes.png" alt=""></span>
+                        <span class="yes-or-no no"   id="againpwdno"><img src="/Public/Cy/Img/Applicavideoer/no.png" alt="">两次输入的密码不一样</span>
+                        <p class="tex-again tips">请再次输入VIP管理密码</p>
+                    </div>
+                    <div class="E-mail">
+                        <label for="电子邮箱">
+                            电子邮箱
+                            <input id="E-mail" onblur="email()" type="text">
+                        </label>
+                        <span class="yes-or-no yes" id="emailyes"><img src="/Public/Cy/Img/Applicavideoer/yes.png" alt=""></span>
+                        <span class="yes-or-no no" id="emailno"><img src="/Public/Cy/Img/Applicavideoer/no.png" alt="">请输入正确的电子邮箱</span>
+                        <p class="text-E-mail tips">请填写常用的邮箱，便于编辑快速联系到您</p>
+                    </div>
+                    <div class="QQnum">
+                        <label for=" QQ号码">
+                            QQ号码
+                            <input id="QQnum"  onblur = "qqnumber()" type="text">
+                        </label>
+                        <span class="yes-or-no yes" id="qqyes"><img src="/Public/Cy/Img/Applicavideoer/yes.png" alt=""></span>
+                        <span class="yes-or-no no" id="qqno"><img src="/Public/Cy/Img/Applicavideoer/no.png" alt="">请填写正确的ＱＱ号码</span>
+                        <p class="text-QQnum tips">请填写常用的QQ号码，便于编辑快速联系到您</p>
+                    </div>
+                </div>
+                <div id="nextStep" class="nextStep stepbtn"  onclick="nextone()">
+                    下一步
+                </div>
+               </div>
+               
+               <!--第二步--> 
+               <div id="twoset" style="display:block">
+                <div class="sv-input sv-row2">
+                    <div class="really-name">
+                        <label for="真实姓名">
+                            真实姓名
+                            <input id="reallyName"  onblur="chinese()" type="text">
+                        </label>
+                        <span class="yes-or-no yes" id="reallyNameyes"><img src="/Public/Cy/Img/Applicavideoer/yes.png" alt=""></span>
+                        <span class="yes-or-no no"  id="reallyNameno"><img src="/Public/Cy/Img/Applicavideoer/no.png" alt="">请填写真实姓名</span>
+                        <p class="text-realname tips">真实姓名请使用2-10位汉字或英文</p>
+                    </div>
+                    <div class="radio row-step2" id="gendersex">
+                        <label for="性别">性别</label>
+                        <input class="nan" type="radio" value="M" name="gender">男 <input class="nv" type="radio" value="F" name="gender">女
+
+                    </div>
+                    <div class="certificate row-step2">
+                        <label for="证件">证件</label>
+                            <select name="idcard" id="idcard">
+                                <option>第二代身份证</option>
+                                <option>其他</option>
+                            </select>
+                            <input id="idNum" type="text">
+                            <p class="text-cert">请输入您的证件号码</p>
+
+                    </div>
+                    <div class="contact row-step2">
+                        <label for="联系手机">联系手机</label>
+                        <select name="conphone" id="iconphone">
+                            <option>中国 +86</option>
+                            <option>中国香港 +852</option>
+                            <option>中国澳门 +853</option>
+                            <option>中国台湾 +886</option>
+                        </select>
+                        <input id="telephonenumber" type="text">
+                        <p class="text-link">请输入您看的证件号码</p>
+                    </div>
+                    <div class="area row-step2 selectList">
+                        <label for="所在地区">所在地区</label>
+                        <select class="province" id="prov">
+                            <option></option>
+                        </select>
+                        <select class="city" id="city">
+                            <option></option>
+                        </select>
+                        <select class="district" id="dist">
+                            <option></option>
+                        </select>
+                    </div>
+                    <div class="address row-step2">
+                        <label for="详细地址">详细地址</label>
+                        <input class="detailaddress" id = "detailaddress" type="text" placeholder="请填写街道名称，门牌号码，楼层和房间号">
+                        <p class="text-address tips">地址必须在5-64个字之内</p>
+                    </div>
+                    <div class="file">
+                        <div class="file-pic">
+                            <span class="headOn">
+								 <div id="imageadd" style="position:absolute;width:230px;height:132px;border-radius:8px;overflow:hidden;">
+								 </div>
+                                <img src="/Public/Cy/Img/Applicavideoer/headon.png" alt="">
+                                
+                                <div class="choosefile">
+                                    <input  type="file" name="sortPicture"  id="sortPicture" onclick="uploadone()">上传手持身份证正面
+                                </div>
+
+                            </span>
+                            <span class="backOn">
+								 <div id="imageaddtwo" style="position:absolute;width:230px;height:132px;border-radius:8px;overflow:hidden;">
+								 </div>
+                                <img src="/Public/Cy/Img/Applicavideoer/backon.png" alt="">
+                                <div class="choosefile">
+                                    <input id="fileback" type="file" name="fileback" onclick="uploadtwo()">上传手持身份证背面
+                                </div>
+                            </span>
+                        </div>
+                    </div>
+                    <div class="intruduce-idcard">
+                        <p>身份证照将会进行人工审核，务必做到以下几点：</p>
+                        <p>1.需真实有效的身份证信息及联系方式;</p>
+                        <p>2.双手手持身份证正面和反面拍照，共两张(请摄像头聚焦于身份证上，保证身份证信息清晰);</p>
+                        <p>3.五官头像以及身份证照片文字清晰可见;</p>
+                        <p>4.本人于身份证照片无PS;</p>
+                        <p>5.照片大小需在1M以内</p>
+                    </div>
+                    <div class="read-and-agree">
+                        <input id="read-and-agree" name="read-and-agree" value="1" type="checkbox">
+                        <label>我已阅读同意</label>
+                        <a href="/Home/Anchorsagreement/add" target="_blank" > 《 次元播直播注册协议 》</a>
+                        <div class="botton-step2">
+                        <span id="submitapply" class="submitapply" onclick="apply()">
+                            申请提交
+                        </span>
+                            <span id="back-step" class="back-text" onclick = "lastapply()">返回上一步</span>
+                        </div>
+                     </div>
+                  </div>
+                </div>
+                
+                
+                  <!--第三步-->
+            <div id="threeset" style="display:none;">
+               
+                <div class="apply-success">
+
+                    <span class="yes-icon">
+                        <img src="/Public/Cy/Img/Applicavideoer/finaiy.png" alt="">
+                          <i>主播申请成功</i>
+                    </span>
+
+                    <p>恭喜，您已加入次元播大家庭</p>
+                    <a class="enter-video-center" href="/Home/Anchors/add">
+                        进入主播中心
+                    </a>
+                  </div>
+              </div>
+            </div>
+        </div>
+    </div>
+</body>
+<script type="text/javascript">  
+function advace(){
+	 if(document.getElementById("move-bar").style.width=="0px"){
+		     $("#secondbackground").animate({width:"0px",height:"0px",margin:"16px",},0);
+		     $("#secondbackground").css('font-size','0px');
+			//$("#secondfont").css('display','none');
+			//$("#secondbackground").show(0);
+	  }
+     if(document.getElementById("move-bar").style.width=="340px"){
+		     $("#secondbackground").animate({width:"40px",height:"40px",margin:"-2px",},400);
+		     $("#secondbackground").css('font-size','20px');
+			//$("#secondfont").css('display','none');
+			//$("#secondbackground").show(0);
+	  }    
+	    if(document.getElementById("move-bar").style.width=="688px"){
+			 $("#threebackground").animate({width:"40px",height:"40px",margin:"-2px",},200);
+		     $("#threebackground").css('font-size','20px');
+			//$("#stepcicleft").css('background','#f1bf55');
+			//$("#stepcicleft").css('color','#fff');
+			
+	  }    
+	   
+}
+window.setInterval(advace,500);  //调用函数
+</script> 
+
+<!--三级联动-->
+<script  type="text/javascript">
+    $(function(){
+        $(".selectList").each(function(){
+            var url = "/Public/Cy/Json/area.json";
+            var areaJson;
+            var temp_html;
+            var oProvince = $(this).find(".province");
+            var oCity = $(this).find(".city");
+            var oDistrict = $(this).find(".district");
+            //初始化省
+            var province = function(){
+                $.each(areaJson,function(i,province){
+                    temp_html+="<option value='"+province.p+"'>"+province.p+"</option>";
+                });
+                oProvince.html(temp_html);
+                city();
+            };
+            //赋值市
+            var city = function(){
+                temp_html = "";
+                var t = oProvince.get(0).selectedIndex;
+                $.each(areaJson[t].c,function(i,city){
+                    temp_html+="<option value='"+city.n+"'>"+city.n+"</option>";
+                });
+                oCity.html(temp_html);
+                district();
+            };
+            //赋值县
+            var district = function(){
+                temp_html = "";
+                var m = oProvince.get(0).selectedIndex;
+                var t = oCity.get(0).selectedIndex;
+                if(typeof(areaJson[m].c[t].a) == "undefined"){
+                    oDistrict.css("display","none");
+                }else{
+                    oDistrict.css("display","inline");
+                    $.each(areaJson[m].c[t].a,function(i,district){
+                        temp_html+="<option value='"+district.s+"'>"+district.s+"</option>";
+                    });
+                    oDistrict.html(temp_html);
+                };
+            };
+            //选择省改变市
+            oProvince.change(function(){
+                city();
+            });
+            //选择市改变县
+            oCity.change(function(){
+                district();
+            });
+            //获取json数据
+            $.getJSON(url,function(data){
+                areaJson = data;
+                province();
+            });
+        });
+    });
+</script>
+
+
+<script type="text/javascript">
+	var a="";
+	var b="";
+	var c="";
+	var d="";
+	var e="";
+function nickname(){								        
+	var nicknames = $("#sv-phoneNum").val();
+	var namevarify = /^[\u4E00-\u9FA5A-Za-z0-9]{2,6}$/;
+	var checkname = namevarify.test(nicknames);
+	if(checkname==false){
+		$("#esornono").css("display","inline-block");
+		$("#yesornoyes").css("display","none");
+		a="";
+	}else{
+		$("#esornono").css("display","none");
+		$("#yesornoyes").css("display","inline-block");
+		a="1";
+	}
+}
+function checkpwd(){
+	var svvippasswd=$("#sv-vippasswd").val();
+	var passverify =  /^([a-zA-Z0-9]|((?=[\x21-\x7e]+)[^A-Za-z0-9])){2,6}$/;
+	var checkpassed = passverify.test(svvippasswd);
+	if(checkpassed==false){
+		$("#pwdyes").css("display","none");
+		$("#pwdno").css("display","inline-block");
+		b="";
+	}else{
+		$("#pwdyes").css("display","inline-block");
+		$("#pwdno").css("display","none");
+		b="1";
+	}
+}
+
+function againpwd(){
+	var svvippasswd=$("#sv-vippasswd").val();
+	var svinputagain= $("#sv-inputagain").val();
+     if(svvippasswd!=svinputagain){
+			$("#againpwdyes").css("display","none");
+			$("#againpwdno").css("display","inline-block");
+			c="";
+	}else{
+			$("#againpwdno").css("display","none");
+			$("#againpwdyes").css("display","inline-block");
+			c="1";
+	}//exit();
+		//session_start();
+		//$loginphone =$_SESSION["telephone"];
+	  　　　//$Formanchors=M('anchorone');
+         //$oldata = $Formanchors->where(" telephone='$loginphone'")->delete();
+         //echo $loginphone;
+}
+function email(){
+	var Email=$("#E-mail").val();
+	var emailz =  /^\w+([-+.]\w+)*@\w+([-.]\w+)*\.\w+([-.]\w+)*$/ ;
+	var emailp = emailz.test(Email);
+     if(emailp==false){
+			$("#emailyes").css("display","none");
+			$("#emailno").css("display","inline-block");
+			d="";
+	}else{
+			$("#emailno").css("display","none");
+			$("#emailyes").css("display","inline-block");
+			d="1";
+	}
+}
+function qqnumber(){
+	var qqnum=$("#QQnum").val();
+	var qqnumber =/[1-9][0-9]{4,}/; 
+	var qqp = qqnumber.test(qqnum);
+	  if(qqp==false){
+			$("#qqyes").css("display","none");
+			$("#qqno").css("display","inline-block");
+			e="";
+	}else{
+			$("#qqyes").css("display","inline-block");
+			$("#qqno").css("display","none");
+			e="1";
+	}
+}
+
+function nextone(){
+	if(a=="1" && b=="1" && c=="1" && d=="1" && e=="1" ){
+	var nicknames = $("#sv-phoneNum").val();
+	var svvippasswd=$("#sv-vippasswd").val();
+	var Email=$("#E-mail").val();
+	var qqnum=$("#QQnum").val();
+      $.post(
+					'/Home/Applicavideoer/sbmitones',
+					{"nicknames":nicknames,"svvippasswd":svvippasswd,"Email":Email,"qqnum":qqnum},
+					function(data){
+						//alert(data);
+						if(data=="1"){
+							$("#login").css('display','block');
+							$("#login-nomal").css('display','block');
+							$("#register-nomal").css('display','none');  
+							$("#active").css('border-bottom','3px solid #FFA500');
+							$("#active").css('color','#FFA500');
+							$("#act").css('border-bottom','0px solid #FFA500');
+							$("#act").css('color','#4D4D4D');
+						}
+						if(data=="2"){
+							$("#oneset").css('display','none');
+							$("#twoset").css('display','block');
+							$("#threeset").css('display','none');
+							$("#move-bar").animate({width:"340px"},1000);
+							$("#setsecrit").css('color','#f1bf55'); 
+						}
+						if(data=="3"){
+							alert("提交失败，请重试!");
+						}
+						if(data=="4"){
+							alert("您已经是主播，请进入主播页面或者等待管理员确认,谢谢!");
+						}
+					},
+					   "html"
+				)
+		}else{
+		  alert("请正确填写相关信息!");
+		}
+}
+</script>
+
+<script type="text/javascript">
+var a="";
+function 	chinese(){
+	var reallyName=$("#reallyName").val();
+	var chinas = /([\u4e00-\u9fa5]){2,10}/;
+	var checkreally = chinas.test(reallyName);
+      if(checkreally==false){
+			$("#reallyNameyes").css("display","none");
+			$("#reallyNameno").css("display","inline-block");
+			a="";
+	}else{
+			$("#reallyNameyes").css("display","inline-block");
+			$("#reallyNameno").css("display","none");
+			a="1";
+	}
+    
+}
+function apply(){
+	var reallyName=$("#reallyName").val();  //真实姓名
+	var obj =document.getElementsByName("gender");  　//性别
+	for(var k=0;k<obj.length;k++){
+		if(obj[k].checked){
+			var sex=obj[k].value;
+		}
+	}
+	var idcard = $("#idcard").find("option:selected").val();   //身份证类型
+	var idNum = $("#idNum").val();　　//身份证号码
+	var iconphone = $("#iconphone").find("option:selected").val();　//电话号码地区
+	var telephonenumber =$("#telephonenumber").val();   //　电话号码
+	var	prov=$("#prov").find("option:selected").val(); //　省
+	var	city=$("#city").find("option:selected").val(); //　市
+	var  dist=$("#dist").find("option:selected").val(); //　区
+    var detailaddress =$("#detailaddress").val();//　　　详细地址
+    var apply_value =[];
+	    $("input[name='read-and-agree']:checked").each(function(){
+		apply_value.push($(this).val());
+	});
+	var applyvalue = parseInt(apply_value);    //申请协议
+	//alert(applyvalue);
+  　　 if(a=="1"){
+	     if(applyvalue==1){
+		  　　  $.post(
+							'/Home/Applicavideoer/sbmitwos',
+							{"reallyName":reallyName,"sex":sex,"idcard":idcard,"idNum":idNum,"iconphone":iconphone,"telephonenumber":telephonenumber,"prov":prov,"city":city,"dist":dist,"detailaddress":detailaddress},
+							function(data){
+								//alert(data);
+								if(data=="1"){
+									$("#oneset").css('display','none');
+									$("#twoset").css('display','none');
+									$("#threeset").css('display','block');
+									$("#move-bar").animate({width:"688px"},1000);
+									$("#setsuccess").css('color','#f1bf55'); 
+									alert("恭喜您成功实名认证，等待管理员确认后即可直播!");
+								}
+								else if(data=="2"){
+									
+									$("#oneset").css('display','none');
+									$("#twoset").css('display','block');
+									$("#threeset").css('display','none');
+									alert ("性别核实错误,请重新认证");
+			                    }
+								else if(data=="3"){
+									
+									$("#oneset").css('display','none');
+									$("#twoset").css('display','block');
+									$("#threeset").css('display','none');
+									alert ("姓名和证件号码核验不一致");
+			                    }
+								else if(data=="4"){
+									
+										$("#oneset").css('display','none');
+										$("#twoset").css('display','block');
+										$("#threeset").css('display','none');
+										alert("不存在此身份证号");
+			                    }
+			                    else{
+								        $("#oneset").css('display','block');
+										$("#twoset").css('display','none');
+										$("#threeset").css('display','none');
+										alert ("认证失败,请正确填写信息");
+			                    }
+							},
+							   "html"
+						)　　
+		}else{
+			alert("请阅读主播申请协议!");
+		}
+     }else{
+		alert("请填写正确的姓名!");
+	 }
+}
+</script>
+
+<script type="text/javascript">	
+function  uploadone(){
+	XHRUploader.init({
+		handlerUrl:'/Home/Applicavideoer/Upload',
+		input: '_imgs[]'
+	}).uploadFile('sortPicture', {
+		'partition'	: 'date',
+		'space'		: 'article.image',
+		'thumb'     : 2,
+		'width'     : 0,
+		'height'    : 0
+	},{
+		ready: function(ret){
+			//alert('zhengzai');正在上传
+		},
+		complete: function(ret){
+			//alert(ret.data);
+			if(ret.info=="1"){
+				//alert("上传成功!");
+			   var html = '<div style="width:231px;height:132px;;margin-left:0px;float:left;"><img src="'+ret.data+'" height="230" width="132";/><div>';
+			   $('#imageadd').prepend(html);
+			}else{
+				 alert("上传失败!");
+				}
+		}
+	});
+}
+</script>
+
+<script type="text/javascript">	
+function  uploadtwo(){
+	XHRUploader.init({
+		handlerUrl:'/Home/Applicavideoer/Uploadtwo',
+		input: '_imgs[]'
+	}).uploadFile('fileback', {
+		'partition'	: 'date',
+		'space'		: 'article.image',
+		'thumb'     : 2,
+		'width'     : 0,
+		'height'    : 0
+	},{
+		ready: function(ret){
+			//alert('zhengzai');正在上传
+		},
+		complete: function(ret){
+			//alert(ret.data);
+			if(ret.info=="1"){
+				//alert("上传成功!");
+			   var html = '<div style="width:231px;height:132px;;margin-left:0px;float:left;"><img src="'+ret.data+'" height="230" width="132";/><div>';
+			   $('#imageaddtwo').prepend(html);
+			}else{
+				 alert("上传失败!");
+				}
+		}
+	});
+}
+</script>
+<script type="text/javascript">	
+function lastapply(){
+
+	var apply="1";
+	//alert("成功");
+	  $.post(
+					'/Home/Applicavideoer/lastapples',
+					{"apply":apply},
+					function(data){
+						//alert(data);
+						if(data=="1"){
+							$("#oneset").css('display','block');
+							$("#twoset").css('display','none');
+							$("#threeset").css('display','none');
+							$("#move-bar").animate({width:"0px"},0);
+							$("#setsecrit").css('color','#4D4D4D'); 
+						}
+						else if(data=="0"){
+							alert("操作失败,请重新操作!");
+						}
+						else{
+							$("#oneset").css('display','block');
+							$("#twoset").css('display','none');
+							$("#threeset").css('display','none');
+						}
+					},
+					   "html"
+				)
+}
+</script>
+</html>

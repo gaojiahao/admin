@@ -1,0 +1,269 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+	<meta name="viewport" content="width=device-width, initial-scale=1.0, minimum-scale=1.0, maximum-scale=1.0, user-scalable=no">
+	<meta http-equiv="Cache-control" content="max-age=3600">
+	<meta http-equiv="Expires" content="3600">
+	  
+   <link rel="stylesheet" href="/Public/Cy/Css/Public/public.css" />
+
+    <link rel="stylesheet" href="/Public/Cy/Css/Public/footer.css">
+    <link rel="stylesheet" href="/Public/Cy/Css/Findpasswd/findpasswd.css">
+    <script src="/Public/Js/jquery.js"></script>
+    <script src="/Public/Cy/Js/jquery-3.0.0.js"></script>
+    <script src="/Public/Cy/Js/loginreg.js"></script>
+    <script src="/Public/Cy/Js/findpasswd.js"></script>
+</head>
+<body>
+   
+    <content>
+        <div id="mainBody">
+            <div class="banner w1200">
+                <span class="title-findpa">
+                    <img src="/Public/Cy/Img/Findpasswd/passwdmangeent.png" alt="">
+                    找回密码
+                </span>
+                <!--找回密码第一步-->
+                <div class="f-passwd-item item1">
+                    <div class="pregress-steps p-relative clearfix">
+                        <span class="step-bar-ft">
+                            <div class="step-cicle-ft current-step">1</div>
+                        </span>
+                         <span class="pe-gress-bar p-row"></span>
+                         <span class="step-bar-ft step-two" >
+							 <div  id="secondbackground" style="overfollow:hidden;z-index:100;background:#f1bf55;width:0px;height:0px;border-radius:100%;position:absolute;margin-left:16px;margin-top:16px;text-align:center;line-height:40px;color:#fff;font-size:0px;">2</div>
+                            <div class="step-cicle-ft"  id="secondfont">2</div>
+                        </span>
+                        <span class="pe-gress-bar p-row"></span>
+                         <span class="step-bar-ft step-three not-first">
+							 <div  id="threebackground" style="overfollow:hidden;z-index:100;background:#f1bf55;width:0px;height:0px;border-radius:100%;position:absolute;margin-left:16px;margin-top:16px;text-align:center;line-height:40px;color:#fff;font-size:0px;">3</div>
+                            <div class="step-cicle-ft" id="stepcicleft">3</div>
+                        </span>
+                        <!--移动进度条-->
+                        <div class="move-bar" id="move-bar"></div>
+                    </div>
+                    <div class="step-text">
+                        <span class="nowCur">手机验证</span>
+                        <span  id="setsecrit">设置新密码</span>
+                        <span id="setsuccess">设置成功</span>
+                    </div>
+                    <div class="fp-input fp-row" id="fpinputfprow" style="display:block;">
+                        <div class="inputNum">
+                            <input id="fp-phoneNum" type="text"  onblur="checknumber()" placeholder="请输入手机号码">
+                        </div>
+                        <p id="fp-inputphonenum" class="message"></p>
+                        <div class="input">
+                            <input id="fp-captcha" class="short" placeholder="请输入验证码" type="text">
+                            <img class="captcha-img"   src="/Home/Findpasswd/codes"  onclick="refreshCodes(this)" alt="点击刷新">
+                            <a class="replace" href="#">换一张</a>
+                            <p id="captchamessage" class="message" for="captcha"></p>
+                        </div>
+
+                        <div id="fp-sendToPhone" onclick="sentphone()" class="btn logreg-btn">
+                            <span class="text">发送到手机</span>
+                        </div>
+                    </div>
+                    
+                        <!--找回密码第二步-->
+                        <div class="fp-input fp-row" id="secondinput" style="display:none;">
+                        <div class="inputPasswd">
+                            <input id="fp-password" type="password" placeholder="请输入密码">
+                        </div>
+                        <p id="fp-passwordtext" class="message"></p>
+                        <div class="inputNumAgain">
+                            <input id="fp-passwordagin" type="password" placeholder="请再次输入密码">
+                        </div>
+                        <p id="fp-again-passwordtext" class="message"></p>
+                        <div class="input">
+                            <input id="fp-phone-captcha" class="short" placeholder="验证码" type="text">
+                        </div>
+                        <p id="phonecaptcha-again" class="message" for="captcha"></p>
+                        <div id="fp-surechange" onclick="fixed()"class="btn logreg-btn">
+                            <span class="text">确认修改</span>
+                        </div>
+                    </div>
+                    
+                      <!--第三步-->
+                    <div class="success"  id="change-success" style="display:none;">
+                        <span>
+                            <img src="/Public/Cy/Img/Findpasswd/success.png" alt="">
+                            <i>恭喜您,密码修改成功!</i>
+                            <p>请牢记您的密码，如果丢失可通过短信的方式找回</p>
+                        </span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </content>
+    <footer>
+        <div id="footer">
+            <div class="foot-content w1200">
+                <div class="fl ciyuan">
+                    <h2>次元直播</h2>
+                    <div class="links">
+                        <ul>
+                            <li>
+                                <a href="#">
+                                    关于我们
+                                </a>
+                            </li>
+                            <li>
+                                <a href="#">
+                                    联系我们
+                                </a>
+                            </li>
+                        </ul>
+                        <ul>
+                            <li>
+                                <a href="#">
+                                    友情链接
+                                </a>
+                            </li>
+                            <li>
+                                <a href="#">
+                                    加入我们
+                                </a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="z-line"></div>
+                <div class="fl help">
+                    <h2>主播帮忙</h2>
+                    <ul>
+                        <li>
+                            <a href="#">
+                                主播工具下载
+                            </a>
+                        </li>
+                        <li>
+                            <a href="#">
+                                主播工具教程
+                            </a>
+                        </li>
+                    </ul>
+                </div>
+                <div class="social fl">
+                    <a class="service" href="#"><p>联系客服</p></a>
+
+                    <a class="downLoad" href="#"><p>下载次元</p></a>
+                    <a class="weChat" href="#"><p>官方微信</p></a>
+                    <a class="weibo" href="#"><p>官方微博</p></a>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+<script type="text/javascript">  
+function advace(){
+	$("#fp-sendToPhone").click(function(){
+		  // $("#move-bar").animate({width:"340px",},600);
+		});
+     if(document.getElementById("move-bar").style.width=="340px"){
+		     $("#secondbackground").animate({width:"40px",height:"40px",margin:"-2px",},400);
+		     $("#secondbackground").css('font-size','20px');
+			//$("#secondfont").css('display','none');
+			//$("#secondbackground").show(0);
+	  }    
+	    if(document.getElementById("move-bar").style.width=="688px"){
+			 $("#threebackground").animate({width:"40px",height:"40px",margin:"-2px",},200);
+		     $("#threebackground").css('font-size','20px');
+			//$("#stepcicleft").css('background','#f1bf55');
+			//$("#stepcicleft").css('color','#fff');
+			return;
+	  }
+}
+window.setInterval(advace,500);  //调用函数
+</script> 
+<script type="text/javascript">
+	function refreshCodes(obj){
+	obj.src = '/Home/Findpasswd/codes?math='+Math.random();  //改路经。
+    }
+	function sentphone(){
+	var captchaimg = $("#fp-captcha").val();
+	var telphone = $("#fp-phoneNum").val();
+	var verify = /^1[3578]\d{9}$/g;
+	var check = verify.test(telphone);
+	if(check ==true){
+			$("#fp-inputphonenum").html("");
+			$("#captchamessage").html("");
+		$.post(
+			'/Home/Findpasswd/checknumbers',
+			{"telphone":telphone,"captchaimg":captchaimg},
+			function(data){
+				
+				if(data=="OK"){
+					$("#captchamessage").html("");
+					$("#fp-inputphonenum").html("");
+					$("#fpinputfprow").css('display','none'); 
+					$("#secondinput").css('display','block');
+					//alert("注意查收验证码!");
+					 $("#move-bar").animate({width:"340px"},500);
+					 $("#setsecrit").css('color','#f1bf55'); 
+				}
+				else if(data=="1"){
+					$("#captchamessage").html("验证码不正确,请重新获取!");
+				}
+				else if(data=="2"){
+					$("#fp-inputphonenum").html("此号码没有注册,请注册!");
+				}
+				else if(data=="3"){
+				   alert('请于60秒后，再获取验证码!');
+				}
+				else{
+					alert(data);
+				}
+				  },
+			  "html"
+			)
+		 }else{
+			$("#fp-inputphonenum").html("请输入正确的手机号码！");
+			$("#captchamessage").html("请输入验证码!");
+		}
+	}
+	
+		function fixed(){  //第二步
+			var fppassword = $("#fp-password").val();
+			var fppasswordagin = $("#fp-passwordagin").val();
+			var fpphonecaptcha = $("#fp-phone-captcha").val();
+			var passverify = /^[a-zA-Z]\w{6,12}/;
+			var checkpassed = passverify.test(fppassword);
+			if(checkpassed==false){
+				$("#fp-passwordtext").html("请输入以字母开头的6到12为字符");
+			}else{
+				if(fppassword==fppasswordagin){
+					$("#fp-passwordtext").html("");
+					$("#fp-again-passwordtext").html("");
+				    $.post(
+						'/Home/Findpasswd/changenumber',
+						{"fppassword":fppassword,"fppasswordagin":fppasswordagin,"fpphonecaptcha":fpphonecaptcha},
+						function(data){
+							if(data=="1" || data=="3"){
+								$("#fp-inputphonenum").html("");
+								$("#fp-passwordtext").html("");
+								$("#fp-again-passwordtext").html("");
+								$("#phonecaptcha-again").html("");
+								$("#fpinputfprow").css('display','none'); 
+								$("#secondinput").css('display','none'); 
+								$("#change-success").css('display','block'); 
+								 $("#move-bar").animate({width:"688px"},500);
+								 $("#setsuccess").css('color','#f1bf55'); 
+								 
+							}
+							if(data=="2"){
+								$("#phonecaptcha-again").html("验证码不正确,请重新获取!");
+							 } 
+							 },
+						  "html"
+					)
+				}else{
+					$("#fp-passwordtext").html("两次密码不一致，请重新输入");
+					$("#fp-again-passwordtext").html("两次密码不一致，请重新输入.");
+				}
+			}
+		}
+</script>
+</body>
+</html>

@@ -1,0 +1,573 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+		<title>次元播</title>
+		<meta name="viewport" content="width=device-width, initial-scale=1.0, minimum-scale=1.0, maximum-scale=1.0, user-scalable=no">
+		<meta http-equiv="Cache-control" content="max-age=3600">
+		<meta http-equiv="Expires" content="3600">
+		<link rel="stylesheet" href="/Public/Cy/Css/Public/public.css" />
+		<link rel="stylesheet" href="/Public/Cy/Css/Home/home.css" />
+		<link rel="stylesheet" href="/Public/Cy/Css/Home/headerfooter.css">
+		<script src="/Public/Cy/Js/jquery-3.0.0.js"></script>
+		<script src="/Public/Cy/Js/home.js"></script>
+	</head>
+	<body data-page-point='1'>
+		<!--登录与注册部分-->
+		<div id="login" class="login">
+			<div class="login-page">
+				<div id="close" class="close"></div>
+				<div class="tab-nav clearfix">
+					<div id="active" class="t activ" for="login">登录</div>
+					<div id="act" class="t " for="register">注册</div>
+				</div>
+				<!--登录-->
+				<div id="login-nomal" class="panel cur">
+					
+					<div class="row unmane-row">
+						<div class="input phoneNum">
+							<input id="login-phoneNum"  class="login-phoneNum" type="text" value="{$loginphone}"  placeholder="请输入您的手机号码" autocomplete="off">
+						    <div class="dblphone" id="dblphone"   ondblclick="dblphone(this)">{$loginphone}</div>
+						</div>
+						<p class="phonemessage message" for="username"></p>
+					</div>
+
+					<div class="row password-row">
+						<div class="input password">
+							<input id="login-passwd" type="password" value="{$loginpasswd}" placeholder="请输入密码">
+							<div class="dblpass"  id="dblpass" ondblclick="dblpass()">{$loginpasswd}</div>
+						</div>
+						<p class="passwdmessage message" for="passwd"></p>
+					</div>
+
+					<div class="row check-row">
+						<div class="input">
+							<input id="login-captcha" class="short" placeholder="请输入验证码" type="text">
+							<img class="captcha-img" src="/Home/Home/code" alt="" onclick="refreshCode(this)">
+						</div>
+						<p class="captchamessage message" for="captcha"></p>
+					</div>
+					<div id="keep-me-in" class="row checkbox-row">
+						<a id="forget-passwd" href="/Home/Findpasswd/add">忘记密码</a>
+						<input id="keep-login" name="keep-login" type="checkbox"  value="1" checked="checked">
+						<label for="keep-login">记住我</label>
+					</div>
+					
+					<div class="row">
+						<div id="login-enter" class="btn logreg-btn"  onclick = "logined()">
+							<span class="text" >登录</span>
+						</div>
+					</div>
+
+
+				</div>
+				<!--注册-->
+				<div id="register-nomal" class="panel">
+					<div class="row unmane-row">
+						<div class="input phoneNum">
+							<input id="reg-phone" type="text"  onblur = "checknumber()" placeholder="请输入您的手机号码" autocomplete="off">
+						</div>
+						<p class="nummessage message" id ="nummessage" for="reg-phone"></p>
+					</div>
+					<div class="row check-row">
+						<div class="input">
+							<input id="phone-captcha" class="short" placeholder="手机验证码" type="text">
+							<input id="btn-captcha" class="p-btn btn" type="button"  onclick="submited(this)" value="点击获取">
+						</div>
+						<p id="checkmessage" class="checkmessage message" for="phone-captcha"></p>
+					</div>
+					<div class="row unmane-row">
+						<div class="input phoneNum">
+							<input id="reg-username" type="text"  onblur="checkregname()" placeholder="昵称(3-30)个字符组成" autocomplete="off">
+						</div>
+						<p class="namemessage message" for="username"></p>
+					</div>
+					<div class="row password-row">
+						<div class="input password">
+							<input id="reg-passwd" type="password" onblur="checkpass()" placeholder="密码(6-16位字符组成，区分大小写)">
+						</div>
+						<p class="passmessage message" for="passwd"></p>
+					</div>
+					
+					<div class="row password-row">
+						<div class="input password">
+							<input id="reg-visit" type="text" onblur="checkvisit()" placeholder="输入邀请码">
+						</div>
+						<p class="visitmessage message" for="passwd"></p>
+					</div>
+					
+					<div id="agreeread" class="row checkbox-row">
+						<input id="agree" name="agree" value="1" type="checkbox" checked="checked">
+						<label for="keep-login">记住我</label>
+						<a id="agreement" href="/Home/Displayagreement/add">《用户注册协议》</a>
+					</div>
+					<div class="row">
+						<div id="register" class="btn logreg-btn" onclick="regist()">
+							<span class="text">注册</span>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+		<div id="container" class="container">
+			<!--头部部分-->
+			<header>
+				<div id="header">
+					<div class="head w1198">
+						<!--logo-->
+						<a class="head_logo fl" href="/"><img src="/Public/Cy/Img/logo.png" alt="" /></a>
+						<!--头部中间部分-->
+						<ul class="head_nav fl">
+							<li class="fl index current">
+								<a href="/Home/Home/add">首页</a>
+							</li>
+							<li class="fl all">
+								<a href="#">全部</a>
+							</li>
+							<li class="fl client">
+								<a href="#">客户端</a>
+							</li>
+						</ul>
+						<div class="head_r fr">
+							<div class="a-search fl  ">
+								<input class="fl search" type="text" autocomplete="off" placeholder="搜房间/主播">
+								<a class="a-icon fr" href="#">
+									<i class="iconfont s-icon"></i>
+								</a>
+							</div>
+							<!--历史-->
+							<div class="a-history fl a-hovhide">
+								<span class="iconfont h-icon"></span>
+								<span class="h-tex col">历史</span>
+								<div class="a-hismess-hide a-hide">
+									<volist name="newhistory" id="vol" offset="0" length="1" >
+									<i></i>
+									</volist>
+									<ul class="his-list">
+										
+								<volist name="newhistory" id="vol">
+									<eq name="vol.weather" value="已播">
+										<li class="list-item list-item-sup">
+											<img src="{$vol.personphoto}" alt="">
+											<div class="text-fr">
+												<h3>{$vol.anchors}</h3>
+												<span>
+													<a class="head-icon1"><img src="/Public/Cy/Img/head-icon_05.gif" alt="">{$vol.weather}</a>
+													<eq name="vol.after" value="今">
+													<a class="head-icon2">{$vol.after}天观看过</a>
+													<else />
+													<a class="head-icon2">{$vol.after}天前观看过</a>
+													</eq>
+												</span>
+											</div>
+										</li>
+									<else />
+										<li class="list-item list-item-sub">
+											<img src="{$vol.personphoto}" alt="">
+											<div class="text-fr">
+												<h3>{$vol.anchors}</h3>
+												<span>
+													<a class="head-icon1"><img src="/Public/Cy/Img/head-icon_04.gif" alt="">{$vol.weather}</a>
+													<a class="head-icon2">{$vol.after}天前观看过</a>
+												</span>
+											</div>
+										</li>
+									</eq>
+								</volist>
+								</ul>
+							</div>
+						</div>
+							
+							<!--关注-->
+							
+							<div class="a-follow fl a-hovhide" >
+								<span class="iconfont f-icon"></span>
+								<span class="f-tex col">关注</span>
+								
+							 <volist name="dataall" id="vol">
+					          <volist name="datattentionthree" id="vol" offset="0" length="1" >
+								<div id="a-hid" class="a-hismess-hide a-hid aftlog" >
+									
+										<i></i>
+								
+										<ul class="a-list">
+							         <foreach name="datattention" item="vo" key="k">
+											<li class="list-item list-item-sup" style="display:block">
+												<img src="{$vo.personphoto}" alt="">
+												<div class="text-fr">
+													<h3>{$vo.anchors}</h3>
+												<span>
+													<a class="head-icon1"><img src="/Public/Cy/Img/head-icon_01.gif" alt="">已播{$vo.playtime}分钟</a>
+													<a class="head-icon2"><img src="/Public/Cy/Img/head-icon_03.gif" alt="">{$vo.attention}人</a>
+												</span>
+												</div>
+											</li>
+										</foreach>
+										  <foreach name="datattentionthree" item="vo" key="k">
+											<li class="list-item list-item-sup supid" style="display:none" id="supid">
+												<img src="{$vo.personphoto}" alt="">
+												<div class="text-fr">
+													<h3>{$vo.anchors}</h3>
+												<span>
+													<a class="head-icon1"><img src="/Public/Cy/Img/head-icon_01.gif" alt="">已播{$vo.playtime}分钟</a>
+													<a class="head-icon2"><img src="/Public/Cy/Img/head-icon_03.gif" alt="">{$vo.attention}人</a>
+												</span>
+												</div>
+											</li>
+										  </foreach>
+										</ul>
+										<volist name="datattentionthree" id="val" offset="0" length="1" >
+										<div class="list-item-buttom">
+											<div class="a-alllook" id="a-alllook" onclick="lookall()" ondblclick="dispear()">查看全部</div>
+										</div>
+										</volist>
+										<script type="text/javascript">
+											function  lookall(){
+												$(".supid").css('display','block');
+												$("#a-alllook").html("双击隐藏");
+											}
+										</script>
+										<script type="text/javascript">
+											function  dispear(){
+												$(".supid").css('display','none');
+													$("#a-alllook").html("查看全部");
+											}
+										</script>
+										<script type="text/javascript">
+											function  displaies(){
+												var obj=document.getElementById('supid');
+												obj.style.display="block";
+											}
+										</script>
+								</div>
+								</volist>
+						</volist>
+					</div>
+				
+					
+				    <foreach name="cc" item="vo">
+							<!--未登录-->
+							<div class="a-unlogin fl prelogin">
+								<span class="iconfont p-icon fl"></span>
+								<a id="l-login" class="l-login fl col">登录</a>
+								<em class="fl">|</em>
+								<a id="r-register" class="r-reg fl col">注册</a>
+							</div>
+					 </foreach>
+							<!--登陆后-->
+					 <volist name="dataall" id="vol">
+					     <eq name="vol.val" value="">
+				          <else />
+							<div class="afterlogin fl aftlog" >
+								<span class="youravatar">
+									<img src="{$vol.personphoto}" alt="" style="border-radius:100%;"/>
+								</span>
+								<a class="username col-tex" href="#">{$vol.name}</a>
+								<i class="bigarrow"></i>
+								<div class="selfmessages hovshow">
+									<i></i>
+									<div class="avat-head">
+										<a href="#"><img src="{$vol.personphoto}" alt="" style="width:80px;height:80px;border-radius:100%;"></a>
+										<p class="name texcol col-tex">{$vol.name}</p>
+									</div>
+									<div class="middle-tex">
+										<div class="progress ">
+											<span class="user-level-text fl">UL.1</span>
+											<span class="progress-bar fl">
+												<span class="bar fl"></span>
+											</span>
+											<span class="user-level-text fr">UL.2</span>
+										</div>
+										<div class="gift">
+											<div class="gift-left fl">
+												<span><img src="/Public/Cy/Img/ciyuanbi.png" alt=""></span>
+												次元币:0
+											</div>
+											<div class="gift-right fr">
+												<span><img src="/Public/Cy/Img/ciyuanbi.png" alt=""></span>
+												肥皂:0
+											</div>
+										</div>
+									</div>
+									<div class="personcenter">
+										<a class="percen per-info fl" href="#">
+											<span></span>
+											<i>个人中心</i>
+										</a>
+										<a class="news per-info fr" href="#">
+											<span></span>
+											<i>消息</i>
+										</a>
+									</div>
+									<div class="exit" onclick="reseted()">退出</div>
+								</div>
+							</div>
+							</eq>
+					</volist>
+							<!--主播专区-->
+							<div class="a-spcial fl">
+								<a href="#">
+									<span class="iconfont v-icon"></span>
+									<span class="v-tex">主播专区
+									</span>
+								</a>
+							</div>
+						</div>
+					</div>
+				</div>
+			</header>
+	</body>
+	<script type="text/javascript">
+ var timer = 60;
+<!--读秒-->
+function send(obj){
+	if(timer == 0){
+		$('#btn-captcha').val("点击重新获取");
+		timer = 60;
+		$("#btn-captcha").css('background', '#ccc');
+	}else{
+		timer--;
+		$('#btn-captcha').val("剩余"+timer+"秒" );
+		setTimeout("send()",1000);
+	}
+}
+function checknumber(){ //失去焦点
+var telphone = $("#reg-phone").val();
+var verify = /^1[358]\d{9}$/g;
+var check = verify.test(telphone);
+if(check ==true){
+	 $("#nummessage").html("");
+	 $("#btn-captcha").css('background', '#fdc051');
+	 $("#reg-phone").css('border', '1px solid #ccc');
+     }else{
+		$("#nummessage").html("请输入正确的手机号码！");
+		$("#btn-captcha").css('background', '#ccc');
+		$("#reg-phone").css('border', '1px solid #FFA500');
+    }
+	}
+function  submited(obj){
+	var telphone = $("#reg-phone").val();
+	var verify = /^1[358]\d{9}$/g;
+	var check = verify.test(telphone);
+	if(check ==true){
+			$.post(
+			'/Home/Home/checknumber',
+			{"telphone":telphone},
+			function(data){
+				//alert(data);
+				if(data=="1"){
+					$("#nummessage").html("此号码已经注册，请登录系统或找回密码！");
+				}
+				else if(data=="2"){
+					$("#nummessage").html("请于60秒后再获取验证码");
+				}
+				else if(data=="0"){
+					if(timer==60){
+					$("#btn-captcha").css('background', '#fdc051');
+					$(send());
+					}
+					$("#nummessage").html("短信发送成功，请注意查收!");
+				}
+				else{
+					  alert(data);
+				}
+				  },
+			  "html"
+			)
+    }
+}
+</script>
+
+<script type="text/javascript">
+ function checkregname(){
+	var regusername = $("#reg-username").val();//昵称
+	//昵称验证
+	var namevarify = /^(?!_)(?!.*?_$)[\u4e00-\u9fa5]{0,10}\S{3,15}$|^[\u4e00-\u9fa5]{1,10}$/g;
+	var checkname = namevarify.test(regusername);
+	if(checkname==false || regusername==""){
+		$(".namemessage").html("昵称不能小于3个字符或者大于30个字符");
+		$("#reg-username").css("border","1px solid #febf51");
+	}else{
+		$(".namemessage").html("");
+	    $("#reg-username").css("border","1px solid #f3f3f3");
+	    $.post(
+			'/Home/Home/checkregname',
+			{"regusername":regusername},
+			function(data){
+				if(data=="1"){
+					$(".namemessage").html("此用户名已有主人，换一个试试.");
+					$("#reg-username").css("border","1px solid #febf51");
+				}
+		    },
+			   "html"
+		)
+	}
+}
+</script>
+
+<script type="text/javascript">
+ function checkpass(){
+	var regpasswd = $("#reg-passwd").val();//密码
+	var passverify = /^[a-zA-Z]\w{6,12}/;
+	var checkpassed = passverify.test(regpasswd);
+	if(checkpassed==false || regpasswd==""){
+		$(".passmessage").html("请输入以字母开头的6到12为字符");
+		$("#reg-passwd").css("border","1px solid #febf51");
+	}else{
+		$(".passmessage").html("");
+		$("#reg-passwd").css("border","1px solid #f3f3f3");
+	}
+}
+</script>
+
+
+<script type="text/javascript">
+function regist(){
+	var telphone = $("#reg-phone").val();   //手机号码
+	var phonecaptcha = $("#phone-captcha").val();  //手机验证码
+	var regusername = $("#reg-username").val();//昵称
+	var regpasswd = $("#reg-passwd").val();//密码
+	var regvisit =$("#reg-visit").val();
+	//alert(regvisit);
+	
+	var namevarify = /^(?!_)(?!.*?_$)[\u4e00-\u9fa5]{0,10}\S{3,15}$|^[\u4e00-\u9fa5]{1,10}$/g;
+	var checkname = namevarify.test(regusername);
+	
+	var passverify = /^[a-zA-Z]\w{6,12}/;
+	var checkpassed = passverify.test(regpasswd);
+	
+	var chk_value =[];
+	    $("input[name='agree']:checked").each(function(){
+		chk_value.push($(this).val());
+	});
+	var shopcart = chk_value;
+	
+	if(shopcart=="1"){
+	if(telphone=="" || phonecaptcha=="" || regusername =="" || regpasswd==""|| regvisit=="" || checkname==false|| checkpassed==false){
+		alert("请填写正确的用户信息！");
+	}else{
+		$.post(
+			'/Home/Home/subdata',
+			{"telphone":telphone,"phonecaptcha":phonecaptcha,"regusername":regusername, "regpasswd":regpasswd,"regvisit":regvisit},
+			function(data){
+				if(data=="1"){
+					alert(请填写正确信息);
+				}
+				else if(data=="2"){
+					alert("验证码不正确，请重新获取验证码");
+				}
+				else if(data=="3"){
+					$("#login-nomal").css('display','block');
+					$("#register-nomal").css('display','none');  
+					$("#active").css('border-bottom','3px solid #FFA500');
+					$("#active").css('color','#FFA500');
+					$("#act").css('border-bottom','0px solid #FFA500');
+					$("#act").css('color','#4D4D4D');
+					alert("注册成功，请您登录");
+				}
+				else if(data=="4"){
+					alert("注册失败,重新注册!");
+				}
+				else if(data=="5"){
+					alert("您的邀请码不正确,请联系管理员获取邀请码!");
+				}
+		    },
+			   "html"
+		)
+		
+    }
+}else{
+	alert("请阅读次元播协议!");
+	}
+}
+</script>
+
+<script type="text/javascript">
+function refreshCode(obj){
+	obj.src = '/Home/Home/code?math='+Math.random();  //改路经。
+}
+
+function logined(){ 
+	var loginphone = $("#login-phoneNum").val();
+	var loginpasswd = $("#login-passwd").val();
+	var logincaptcha = $("#login-captcha").val();
+	var chk_values =[];
+	    $("input[name='keep-login']:checked").each(function(){
+		chk_values.push($(this).val());
+	});
+	var checkboxs = chk_values;
+	
+	var verify = /^1[358]\d{9}$/g;
+	var checked = verify.test(loginphone);
+	
+	var passverify = /^[a-zA-Z]\w{6,12}/;
+	var checkpasses = passverify.test(loginpasswd);
+	
+	if(loginphone !="" && loginpasswd !="" && logincaptcha !=""){
+		if(checked==false){
+			alert("请输入正确的手机号码格式");
+		}else{
+			if(checkpasses==false){
+				alert("请输入正确的密码格式");
+		    }else{
+					$.post(
+					'/Home/Home/logined',
+					{"loginphone":loginphone,"loginpasswd":loginpasswd,"logincaptcha":logincaptcha,"checkboxs":checkboxs},
+					function(data){
+						if(data=="1"){
+							alert("电话号码或密码错误,请重新输入!");
+						}
+						else if(data=="2"){
+							alert("验证码错误，请重新输入!");
+						}
+						else if(data=="3"){
+							//alert("登录成功!");
+							window.location.href="/Home/Home/add";
+						}
+						else{
+							alert("登录失败,重新登录!");
+						}
+					},
+					   "html"
+				)
+			}
+		}
+	}else{
+		alert("信息不能为空!");
+	}
+}
+</script>
+<script type="text/javascript">
+$("#login-phoneNum").dblclick(function(){
+   // $("#dblphone").css('display','block');
+});
+</script>
+
+<script type="text/javascript">
+function dblphone(obj){
+	  var tel = $(obj).text();
+	  $(obj).siblings("#login-phoneNum").css('text-align','left');
+	  $(obj).siblings("#login-phoneNum").val(tel);
+	  $(obj).css('display','none');
+	
+	}
+</script>
+<script type="text/javascript">
+function reseted(){
+	var resetid="1";
+	 $.post(
+			'/Home/Home/resetid',
+			{"resetid":resetid},
+			function(data){
+				//alert(data);
+				if(data=="1"){
+					window.location.href="/Home/Home/add";
+				}
+		    },
+			   "html"
+		)
+	}
+</script>
+<script src="http://pv.sohu.com/cityjson?ie=utf-8">
+</script>  
+</html>

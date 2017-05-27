@@ -1,0 +1,155 @@
+[ 2017-05-21T22:23:06+08:00 ] 127.0.0.1 /admin/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000027s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000213s ]
+
+[ 2017-05-21T22:23:06+08:00 ] 127.0.0.1 /Admin/Admin/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000026s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000181s ]
+
+[ 2017-05-21T22:23:22+08:00 ] 127.0.0.1 /Admin/Admin/lg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000030s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000223s ]
+
+[ 2017-05-21T22:23:22+08:00 ] 127.0.0.1 /Admin/admin/top
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000026s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000188s ]
+
+[ 2017-05-21T22:23:22+08:00 ] 127.0.0.1 /Admin/admin/left
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000027s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000180s ]
+
+[ 2017-05-21T22:23:22+08:00 ] 127.0.0.1 /Admin/admin/right
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000026s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000178s ]
+
+[ 2017-05-21T22:23:22+08:00 ] 127.0.0.1 /Admin/admin/foot
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000026s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000183s ]
+
+[ 2017-05-21T22:23:26+08:00 ] 127.0.0.1 /admin/Authormanager/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000027s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000206s ]
+
+[ 2017-05-21T22:23:41+08:00 ] 127.0.0.1 /Admin/Authormanager/index/p/2.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000028s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000220s ]
+
+[ 2017-05-21T22:23:43+08:00 ] 127.0.0.1 /Admin/Authormanager/index/p/3.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000027s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000193s ]
+
+[ 2017-05-21T22:23:44+08:00 ] 127.0.0.1 /Admin/Authormanager/index/p/4.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000028s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000213s ]
+
+[ 2017-05-21T22:23:45+08:00 ] 127.0.0.1 /Admin/Authormanager/index/p/5.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000026s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000186s ]
+
+[ 2017-05-21T22:23:46+08:00 ] 127.0.0.1 /Admin/Authormanager/index/p/6.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000025s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000173s ]
+
+[ 2017-05-21T22:23:47+08:00 ] 127.0.0.1 /Admin/Authormanager/index/p/7.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000027s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000214s ]
+
+[ 2017-05-21T22:23:47+08:00 ] 127.0.0.1 /Admin/Authormanager/index/p/8.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000025s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000179s ]
+
+[ 2017-05-21T22:23:48+08:00 ] 127.0.0.1 /Admin/Authormanager/index/p/9.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000025s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000174s ]
+
+[ 2017-05-21T22:23:49+08:00 ] 127.0.0.1 /Admin/Authormanager/index/p/10.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000026s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000174s ]
+
+[ 2017-05-21T22:23:50+08:00 ] 127.0.0.1 /Admin/Authormanager/index/p/11.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000027s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000203s ]
+
+[ 2017-05-21T22:23:50+08:00 ] 127.0.0.1 /Admin/Authormanager/index/p/12.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000026s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000184s ]
+
+[ 2017-05-21T22:23:51+08:00 ] 127.0.0.1 /Admin/Authormanager/index/p/13.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000027s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000191s ]
+
+[ 2017-05-21T22:23:54+08:00 ] 127.0.0.1 /Admin/Authormanager/index/p/12.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000030s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000221s ]
+
+[ 2017-05-21T22:24:00+08:00 ] 127.0.0.1 /admin/address/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000029s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000217s ]
+
+[ 2017-05-21T22:24:05+08:00 ] 127.0.0.1 /admin/income/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000026s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000209s ]
+
+[ 2017-05-21T22:24:22+08:00 ] 127.0.0.1 /admin/money/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000028s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000279s ]
+
+[ 2017-05-21T22:24:29+08:00 ] 127.0.0.1 /Admin/Money/paied
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000027s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000202s ]
+
+[ 2017-05-21T22:24:31+08:00 ] 127.0.0.1 /admin/money/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000026s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000180s ]
+
+[ 2017-05-21T22:24:34+08:00 ] 127.0.0.1 /Admin/Money/paied
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000026s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000202s ]
+
+[ 2017-05-21T22:24:35+08:00 ] 127.0.0.1 /admin/money/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000027s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000183s ]
+
+[ 2017-05-21T22:24:37+08:00 ] 127.0.0.1 /admin/money/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000028s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000210s ]
+
+[ 2017-05-21T22:24:39+08:00 ] 127.0.0.1 /admin/income/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000026s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000181s ]
+
+[ 2017-05-21T22:24:40+08:00 ] 127.0.0.1 /admin/welfare/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000027s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000396s ]
+

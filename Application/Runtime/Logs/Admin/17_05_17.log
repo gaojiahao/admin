@@ -1,0 +1,15 @@
+[ 2017-05-17T19:35:23+08:00 ] 127.0.0.1 /Admin/Novel/Upload
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000022s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000159s ]
+
+[ 2017-05-17T19:56:03+08:00 ] 127.0.0.1 /Admin/Novel/Upload
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000021s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000152s ]
+
+[ 2017-05-17T20:03:33+08:00 ] 127.0.0.1 /Admin/Novel/Upload
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000019s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000134s ]
+

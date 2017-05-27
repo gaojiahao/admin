@@ -1,0 +1,285 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+
+    <link rel="stylesheet" href="/Public/Cy/Css/Public/Static/css/footer.css">
+   
+    
+    <link rel="stylesheet" href="/Public/Cy/Css/Public/public.css" />
+	<link rel="stylesheet" href="/Public/Cy/Css/Public/header.css" />
+	<link rel="stylesheet" href="/Public/Cy/Css/PersonalLive/personlive.css">
+	 <link rel="stylesheet" href="/Public/Cy/Css/Livezone/livezone.css">
+	<script src="/Public/Cy/Js/jquery-3.0.0.js"></script>
+	<script src="/Public/Cy/Js/loginreg.js"></script>
+    <script src="/Public/Cy/Js/livezone.js"></script>
+</head>
+<body>
+<!--登录注册-->
+<div id="login" class="login">
+    <div class="login-page">
+        <div id="close" class="close"></div>
+        <div class="tab-nav clearfix">
+            <div id="active" class="t activ" for="login">登录</div>
+            <div id="act" class="t " for="register">注册</div>
+        </div>
+        <!--登录-->
+        <div id="login-nomal" class="panel cur">
+            <div class="row unmane-row">
+                <div class="input phoneNum">
+                    <input id="login-phoneNum" type="text"  placeholder="请输入您的手机号码" autocomplete="off">
+                </div>
+                <p class="phonemessage message" for="username"></p>
+            </div>
+
+            <div class="row password-row">
+                <div class="input password">
+                    <input id="login-passwd" type="password" placeholder="请输入密码">
+                </div>
+                <p class="passwdmessage message" for="passwd"></p>
+            </div>
+
+            <div class="row check-row">
+                <div class="input">
+                    <input id="login-captcha" class="short" placeholder="请输入验证码" type="text">
+                    <img class="captcha-img" src="/Public/Cy/Img/Anchosrimg/captcha.jpg" alt="">
+                </div>
+                <p class="captchamessage message" for="captcha"></p>
+            </div>
+            <div id="keep-me-in" class="row checkbox-row">
+                <a id="forget-passwd" href="">忘记密码</a>
+                <input id="keep-login" type="checkbox" checked="checked">
+                <label for="keep-login">记住我</label>
+            </div>
+            <div class="row">
+                <div id="login-enter" class="btn logreg-btn">
+                    <span class="text">登录</span>
+                </div>
+            </div>
+
+
+        </div>
+        <!--  注册 -->
+        <div id="register-nomal" class="panel">
+            <div class="row unmane-row">
+                <div class="input phoneNum">
+                    <input id="reg-phone" type="text"  placeholder="请输入您的手机号码" autocomplete="off">
+                </div>
+                <p class="nummessage message" for="reg-phone"></p>
+            </div>
+            <div class="row check-row">
+                <div class="input">
+                    <input id="phone-captcha" class="short" placeholder="手机验证码" type="text">
+                    <input id="btn-captcha" class="p-btn btn" type="button" value="点击获取">
+                </div>
+                <p id="checkmessage" class="checkmessage message" for="phone-captcha"></p>
+            </div>
+            <div class="row unmane-row">
+                <div class="input phoneNum">
+                    <input id="reg-username" type="text"  placeholder="昵称(3-30)个字符组成" autocomplete="off">
+                </div>
+                <p class="namemessage message" for="username"></p>
+            </div>
+            <div class="row password-row">
+                <div class="input password">
+                    <input id="reg-passwd" type="password" placeholder="密码(6-16位字符组成，区分大小写)">
+                </div>
+                <p class="passmessage message" for="passwd"></p>
+            </div>
+            <div id="agreeread" class="row checkbox-row">
+
+                <input id="agree" type="checkbox" checked="checked">
+                <label for="keep-login">记住我</label>
+                <a id="agreement" href="#">《用户注册协议》</a>
+            </div>
+            <div class="row">
+                <div id="register" class="btn logreg-btn">
+                    <span class="text">注册</span>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+<div class="main-wrap room-info-main has-sidebar-left">
+    <div id="header">
+        <div class="head w1198">
+            <!--logo-->
+            <a class="head_logo fl" href="/"><img src="/Public/Cy/Img/Anchosrimg/logo.png" alt="" /></a>
+            <!--头部中间部分-->
+            <ul class="head_nav fl">
+                <li class="fl index">
+                    <a href="">首页</a>
+                </li>
+                <li class="fl all">
+                    <a href="#">全部</a>
+                </li>
+                <li class="fl client">
+                    <a href="#">客户端</a>
+                </li>
+            </ul>
+            <div class="head_r fr">
+                <div class="a-search fl  ">
+                    <input class="fl search" type="text" autocomplete="off" placeholder="搜房间/主播">
+                    <a class="a-icon fr" href="#">
+                        <i class="iconfont s-icon"></i>
+                    </a>
+                </div>
+                <!--历史-->
+                <div class="a-history fl a-hovhide">
+                    <span class="iconfont h-icon"></span>
+                    <span class="h-tex col">历史</span>
+                    <div class="a-hismess-hide a-hide">
+                        <i></i>
+                        <ul class="his-list">
+                            <li class="list-item list-item-sup">
+                                <img src="/Public/Cy/Img/Anchosrimg/per-avatar1.png" alt="">
+                                <div class="text-fr">
+                                    <h3>子恩、宇宙第一貂蝉</h3>
+												<span>
+													<a class="head-icon1"><img src="/Public/Cy/Img/Anchosrimg/head-icon_04.gif" alt="">已停播</a>
+													<a class="head-icon2">4小时前观看</a>
+												</span>
+                                </div>
+                            </li>
+                            <li class="list-item list-item-sub">
+                                <img src="/Public/Cy/Img/Anchosrimg/per-avatar2.png" alt="">
+                                <div class="text-fr">
+                                    <h3>简单，简简单单</h3>
+												<span>
+													<a class="head-icon1"><img src="/Public/Cy/Img/Anchosrimg/head-icon_04.gif" alt="">以停播</a>
+													<a class="head-icon2">4小时前观看</a>
+												</span>
+                                </div>
+                            </li>
+                            <li class="list-item list-item-sub">
+                                <img src="../Static/images/per-avatar2.png" alt="">
+                                <div class="text-fr">
+                                    <h3>简单，简简单单</h3>
+												<span>
+													<a class="head-icon1"><img src="/Public/Cy/Img/Anchosrimg/head-icon_05.gif" alt="">直播</a>
+													<a class="head-icon2">4天前观看</a>
+												</span>
+                                </div>
+                            </li>
+                            <li class="list-item list-item-sub">
+                                <img src="../Static/images/per-avatar2.png" alt="">
+                                <div class="text-fr">
+                                    <h3>简单，简简单单</h3>
+												<span>
+													<a class="head-icon1"><img src="/Public/Cy/Img/Anchosrimg/head-icon_05.gif" alt="">直播</a>
+													<a class="head-icon2">4天前观看</a>
+												</span>
+                                </div>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+                <!--关注-->
+                <div class="a-follow fl a-hovhide">
+                    <span class="iconfont f-icon"></span>
+                    <span class="f-tex col">关注</span>
+                    <div id="a-hid" class="a-hismess-hide a-hid aftlog">
+                        <i></i>
+                        <ul class="a-list">
+                            <li class="list-item list-item-sup">
+                                <img src="/Public/Cy/Img/Anchosrimg/per-avatar1.png" alt="">
+                                <div class="text-fr">
+                                    <h3>子恩、宇宙第一貂蝉</h3>
+												<span>
+													<a class="head-icon1"><img src="/Public/Cy/Img/Anchosrimg/head-icon_01.gif" alt="">已播233分钟</a>
+													<a class="head-icon2"><img src="/Public/Cy/Img/Anchosrimg/head-icon_03.gif" alt="">278人</a>
+												</span>
+                                </div>
+                            </li>
+                            <li class="list-item list-item-sub">
+                                <img src="../Static/images/per-avatar2.png" alt="">
+                                <div class="text-fr">
+                                    <h3>简单，简简单单</h3>
+												<span>
+													<a class="head-icon1"><img src="/Public/Cy/Img/Anchosrimg/head-icon_01.gif" alt="">已播233分钟</a>
+													<a class="head-icon2"><img src="/Public/Cy/Img/Anchosrimg/head-icon_03.gif" alt="">278人</a>
+												</span>
+                                </div>
+                            </li>
+                        </ul>
+                        <div class="list-item-buttom">
+                            <div class="a-alllook">查看全部</div>
+                        </div>
+                    </div>
+                </div>
+                <!--未登录-->
+                <div class="a-unlogin fl prelogin">
+                    <span class="iconfont p-icon fl"></span>
+                    <a id="l-login" class="l-login fl col">登录</a>
+                    <em class="fl">|</em>
+                    <a id="r-register" class="r-reg fl col">注册</a>
+                </div>
+                <!--登陆后-->
+                <div class="afterlogin fl aftlog">
+								<span class="youravatar">
+									<img src="/Public/Cy/Img/Anchosrimg/youavatar.png" alt="" />
+								</span>
+                    <a class="username col-tex" href="#">1sY仔</a>
+                    <i class="bigarrow"></i>
+                    <div class="selfmessages hovshow">
+                        <i></i>
+                        <div class="avat-head">
+                            <a href="#"><img src="/Public/Cy/Img/Anchosrimg/youavatar.png" alt=""></a>
+                            <p class="name texcol col-tex">1sY仔</p>
+                        </div>
+                        <div class="middle-tex">
+                            <div class="progress ">
+                                <span class="user-level-text fl">UL.1</span>
+											<span class="progress-bar fl">
+												<span class="bar fl"></span>
+											</span>
+                                <span class="user-level-text fr">UL.2</span>
+                            </div>
+                            <div class="gift">
+                                <div class="gift-left fl">
+                                    <span><img src="/Public/Cy/Img/Anchosrimg/ciyuanbi.png" alt=""></span>
+                                    次元币:0
+                                </div>
+                                <div class="gift-right fr">
+                                    <span><img src="/Public/Cy/Img/Anchosrimg/ciyuanbi.png" alt=""></span>
+                                    肥皂:0
+                                </div>
+                            </div>
+                        </div>
+                        <div class="personcenter">
+                            <a class="percen per-info fl" href="#">
+                                <span></span>
+                                <i>个人中心</i>
+                            </a>
+                            <a class="news per-info fr" href="#">
+                                <span></span>
+                                <i>消息</i>
+                            </a>
+                        </div>
+                        <div class="exit">退出</div>
+                    </div>
+                </div>
+                <!--主播专区-->
+                <div class="a-spcial fl">
+                    <a href="#">
+                        <span class="iconfont v-icon"></span>
+									<span class="v-tex">主创专区
+									</span>
+                    </a>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+    <div class="main-container ">
+        <div class="w1000 clearfix "></div>
+
+    </div>
+</div>
+
+
+
+</body>
+</html>
