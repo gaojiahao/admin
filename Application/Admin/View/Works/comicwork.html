@@ -1080,7 +1080,73 @@
                 alert("图片大小不符合请选择核实的大小上传!");
             }
         }
-    }); 
+    });
+    //插件截图
+    function fun(){
+        xsize = "225";   //控制截图区域的大小比例
+        ysize = "300";
+        $("#target").Jcrop({
+            onChange:showPreview,
+            onSelect:showPreview,
+            aspectRatio: xsize / ysize,
+            setSelect: [ 0, 0, 325, 416],          
+            boxWidth:400,
+            boxHeight:300
+        }); 
+        //简单的事件处理程序，响应自onChange,onSelect事件，按照上面的Jcrop调用
+        function showPreview(coords){
+            if(parseInt(coords.w) > 0){
+                //计算预览区域图片缩放的比例，通过计算显示区域的宽度(与高度)与剪裁的宽度(与高度)之比得到
+                var rx = $("#phototwo").width() / coords.w; 
+                var ry = $("#phototwo").height() / coords.h;
+                //通过比例值控制图片的样式与显示
+                $("#preview2").css({
+                    width:Math.round(rx * $("#target").width()) + "px", //预览图片宽度为计算比例值与原图片宽度的乘积
+                    height:Math.round(rx * $("#target").height()) + "px",   //预览图片高度为计算比例值与原图片高度的乘积
+                    marginLeft:"-" + Math.round(rx * coords.x) + "px",
+                    marginTop:"-" + Math.round(ry * coords.y) + "px"
+                });
+                $('#x').val(coords.x);
+                $('#y').val(coords.y);
+                $('#w').val(coords.w);
+                $('#h').val(coords.h);
+            }
+        }
+    } 
+    function confirmOk(){
+        var x = $("#x").val();
+        var y = $("#y").val();
+        var w = $("#w").val();
+        var h = $("#h").val();
+        var z = $("#z").val();
+           if(x!=""){
+                 $.post(
+                '/Book/Createnovel/cropsubmit',
+                {"x":x,"y":y,"w":w,"h":h,"z":z},
+                function(data){
+                    //alert(data);
+                    if(data !=""){
+                        $("#longpath").html("");  
+                        var imagepath = data;  
+                        var html = '<div><img src="'+data+'" style="width:157px;height:200px;"/><div>';
+                        var htmlone ='<input type="hidden" name="hidden" id="head_photo" value="'+data+'">';
+                            $("#longpath").prepend(html);  
+                            $("#button_up").prepend(htmlone); 
+                            $('#managepicture').css("display","none");
+                            $(".all-bg").css("display","none");
+                            $('#imageadd').html("");
+                            $('#phototwo').html("");
+                            $("#x").val("");
+                    }else{
+                        alert("截图失败,请换一张试试!");
+                    }
+                },
+                   "html"
+            )
+        } else {
+            alert("请上传图片!");
+        }
+    }
 </script>
 <script type="text/javascript">
     function inputed(obj){
