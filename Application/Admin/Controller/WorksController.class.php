@@ -253,7 +253,109 @@ class WorksController extends Controller{
 			$this->ajaxReturn(0);
 		}
 	}
-    /**
+	/**
+	 *查询漫画预览总数
+	 */
+	public function preLook(){
+		$val = $_GET['val'];
+		$Form = M('author');
+		$data = $Form
+				->field('video_three.path')
+				->join('video_three ON video_author.authornumber = video_three.numbers','LEFT')
+				->where("video_author.val = '$val'")
+				->order('video_three.ordered asc')
+				->order('video_three.id asc')
+				->select();
+
+		if(!empty($data)){
+			$this->ajaxReturn(array("status" => 1 ,"data" => $data ,"count" => count($data)));
+		} else {
+			$this->ajaxReturn(array("status" => 0));
+		}
+	}
+	/**
+	 *漫画预览分页
+	 *
+     */
+	public function getLook(){
+		$data = $_GET['data'];
+		$page = $data['page'] < 1 ? 1 : $data['page'];
+		$pagesize = $data['pagesize'];
+		$page = ($page-1)*$pagesize;
+		$val = $data['val'];
+		$Form = M('author');
+		$data = $Form
+				->field('video_three.path')
+				->join('video_three ON video_author.authornumber = video_three.numbers','LEFT')
+				->where("video_author.val = '$val'")
+				->order('video_three.ordered asc')
+				->order('video_three.id asc')
+				->limit($page.','.$pagesize)
+				->select();
+		if(!empty($data)){
+			$this->ajaxReturn(array("status" => 1 ,"data" => $data));
+		} else {
+			$this->ajaxReturn(array("status" => 0));
+		}	
+	}
+	/**
+	 *下载时获取章节
+	 */
+	public function getDownlist(){
+		$val = $_GET['val'];
+		$Form = M('author');
+		$data = $Form->field('section,authornumber')->where("val = '$val'")->order("ordered asc")->select();
+		if(!empty($data)){
+			$this->ajaxReturn(array('status' => 1 , 'data' => $data));
+		} else {
+			$this->ajaxReturn(array('status' => 0 ));
+		}
+	}
+	/**
+	 *批量下载图片压缩成zip
+	 */
+	public function downZipfile(){
+		$dfile =  tempnam('/tmp', 'tmp');//产生一个临时文件，用于缓存下载文件
+		$zip = new \Think\Zipfile();
+		//----------------------
+		$filename = 'image.zip'; //下载的默认文件名
+
+		//以下是需要下载的图片数组信息，将需要下载的图片信息转化为类似即可
+		$image = array(
+		    array('image_src' => 'pic1.jpg', 'image_name' => '图片1.jpg'),
+		    array('image_src' => 'pic2.jpg', 'image_name' => 'pic/图片2.jpg'),
+		);
+
+		foreach($image as $v){
+		    $zip->add_file(file_get_contents($v['image_src']),  $v['image_name']);
+		    // 添加打包的图片，第一个参数是图片内容，第二个参数是压缩包里面的显示的名称, 可包含路径
+		    // 或是想打包整个目录 用 $zip->add_path($image_path);
+		}
+		//----------------------
+		$zip->output($dfile);
+
+		// 下载文件
+		ob_clean();
+		header('Pragma: public');
+		header('Last-Modified:'.gmdate('D, d M Y H:i:s') . 'GMT');
+		header('Cache-Control:no-store, no-cache, must-revalidate');
+		header('Cache-Control:pre-check=0, post-check=0, max-age=0');
+		header('Content-Transfer-Encoding:binary');
+		header('Content-Encoding:none');
+		header('Content-type:multipart/form-data');
+		header('Content-Disposition:attachment; filename="'.$filename.'"'); //设置下载的默认文件名
+		header('Content-length:'. filesize($dfile));
+		$fp = fopen($dfile, 'r');
+		while(connection_status() == 0 && $buf = @fread($fp, 8192)){
+		    echo $buf;
+		}
+		fclose($fp);
+		@unlink($dfile);
+		@flush();
+		@ob_flush();
+		exit();
+	}
+	/**
      * 漫画处理 上下架
      */
     public function comicinputed(){

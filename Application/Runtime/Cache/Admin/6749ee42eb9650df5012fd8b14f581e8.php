@@ -10,11 +10,14 @@
     <link rel="stylesheet" href="/Public/Admin/Common/jedate/skin/jedate.css">
     <link rel="stylesheet" href="/Public/Admin/Common/Css/comicwork.css">
     <link rel="stylesheet" href="/Public/Admin/css/jquery.Jcrop.css" type="text/css" />
+    <link rel="stylesheet" href="/Public/Admin/css/pagination.css" type="text/css" />
     <script type="text/javascript" src="/Public/Admin/Common/Js/jquery-2.2.3.js"></script>
+    <script src="/Public/Admin/Js/jquery-1.7.1.min.js" type="text/javascript"></script>
     <script src="/Public/Admin/Common/jedate/jquery.jedate.js"></script>
     <script src="/Public/Admin/Js/jquery.Jcrop.js" type="text/javascript"></script>
     <script language="javascript" src="/Public/Admin/Js/Ajax.class.js"></script>
     <script language="javascript" src="/Public/Admin/Js/XHRUploader.class.js"></script>
+    <script language="javascript" src="/Public/Admin/Js/jquery.pagination.js"></script>
 </head>
 <style type="text/css">
     #check,.checkall-box label {cursor:pointer;}
@@ -155,15 +158,15 @@
                             <td align="center">
                                 <a href="javascript:;" id="<?php echo ($vol["val"]); ?>" onclick="putaway(this)" style="text-decoration:none;">上架</a>
                                 |
-                                <a href="javascript:;" onclick="freecharge(this)" style="text-decoration:none;">限免</a>
+                                <a data-val="<?php echo ($vol["val"]); ?>" href="javascript:;" onclick="freecharge(this)" style="text-decoration:none;">限免</a>
                                 |
                                 <a data-val="<?php echo ($vol["val"]); ?>" href="javascript:;" class="biaossi" style="text-decoration:none;">标签</a>
                                 |
                                 <a data-val="<?php echo ($vol["val"]); ?>" href="javascript:;" onclick="msgchange(this)" style="text-decoration:none;">信息修改</a>
                                 |
-                                <a href="javascript:;" onclick="prelook(this)" style="text-decoration:none;">预览</a>
+                                <a data-val="<?php echo ($vol["val"]); ?>" href="javascript:;" onclick="prelook(this)" style="text-decoration:none;">预览</a>
                                 |
-                                <a href="javascript:;" onclick="uploaddown(this)" style="text-decoration:none;">下载</a>
+                                <a data-val="<?php echo ($vol["val"]); ?>" href="javascript:;" onclick="uploaddown(this)" style="text-decoration:none;">下载</a>
                                 |
                                 <a data-val="<?php echo ($vol["val"]); ?>" href="javascript:;" onclick="intruduce(this)" style="text-decoration:none;">介绍</a>
                                 |
@@ -224,6 +227,7 @@
         <span class="wstxt">推荐时间：</span><input type="text" class="workinput wicon" id="inpstart" readonly>
         <span class="wstxt">至：</span><input type="text" class="workinput wicon" id="inpend" readonly>
         <span id="timeSure" class="timeSure">确定</span>
+        <input type="hidden" class="hideval" val=""/>
     </div>
 </div>
 
@@ -266,18 +270,21 @@
         <div class="work-control clearfix">
             <div class="m_left fl clearfix">
                 <div class="modify-work-face">
-                    <div class="modify-images">
+                    <div class="modify-images" id="longpath">
                         <img style="width:158px; height:200px" src="/Public/Admin/Common/imgs/comic-icon.png" alt="">
                     </div>
                     <div class="modify-face-btn anbtn">修改封面</div>
+                    <div id="button_up">
+                        <input type="hidden" name="hidden" id="head_photo" value="<?php echo ($vol["photopath"]); ?>">
+                    </div>
                 </div>
                 <div class="phonePic">
                     <div class="changePic">
                         <img src="/Public/Admin/Common/imgs/pictureicon.png" alt="">
                     </div>
-                    <div class="modify-phone-btn anbtn">
+                    <div class="modify-phone-btn anbtn" onclick="changeFace()">
                         修改封面
-                        <input type="file" name="changeFace" class="changeFace">
+                        <input name="changeFace" class="changeFace" id="changeFace" type="file">
                     </div>
                 </div>
             </div>
@@ -391,7 +398,7 @@
         </div>
     </div>
     <div class="lst clearfix">
-        <span class="lst-confirm anbtn fl">确定</span>
+        <span class="lst-confirm anbtn fl" onclick="nexted()">确定</span>
         <span class="lst-delete anbtn fr">取消</span>
         <input type="hidden" class="hideval" val=""/>
     </div>
@@ -406,18 +413,25 @@
             <i class="txt-r">预览225 x 288像素</i>
         </div>
         <div class="pictur-zone clearfix">
-            <div class="picture-l"></div>
-            <div class="picture-r">
+            <div class="picture-l" id="imageadd" style="overflow:hidden;"></div>
+            <div class="picture-r" id="phototwo" style="overflow:hidden;width:225px;height:300px;">
                 <div class="small-pic"></div>
                 <p>(请注意头像预览是否清晰)</p>
             </div>
+            <form action="" method="post" onsubmit="return checkCoords();">
+                <div id="formphoto"></div>
+                <input type="hidden" id="x" name="x" />
+                <input type="hidden" id="y" name="y" />
+                <input type="hidden" id="w" name="w" />
+                <input type="hidden" id="h" name="h" />
+            </form>
         </div>
         <div class="bot-btn">
             <span class="p-relative">
                 <label>选择本地图片</label>
-                <input class="loacl-file p-absolute" id="uploadpic" name="uploadpic" type="file">
+                <input class="loacl-file p-absolute" id="uploadpic" name="uploadpic" type="file" style="position: absolute; top: 0; left: 0;">
             </span>
-            <span>保存</span>
+            <span onclick="confirmOk()">保存</span>
             <span class="cutPicDelete">取消</span>
         </div>
     </div>
@@ -428,11 +442,13 @@
     <div class="picClose">
         <img src="/Public/Admin/Common/imgs/picclose.png" alt="">
     </div>
-    <div class="pictureContent">
+    <div class="pictureContent page-box">
         <ul>
             <li><img src="/Public/Admin/Common/imgs/58d1fc4b1b0b9.jpg" alt=""></li>
             <li><img src="/Public/Admin/Common/imgs/58d1fc4b1b0b9.jpg" alt=""></li>
         </ul>
+        <div class="M-box"></div>
+        <input type="hidden" class="hideval" val=""/>
     </div>
 </div>
 
@@ -461,6 +477,7 @@
             <div class="bottomBtn fl">
                 <button type="button" class="sureBtn" id="sendAuthor4" onclick="uploadSure(this)">确定</button>
                 <button type="button" class="deleteBtn" id="deletepop4">取消</button>
+                <input type="hidden" class="hideval" val=""/>
             </div>
         </div>
     </div>
@@ -543,7 +560,6 @@
     };
     $('#inpstart').jeDate(start);
     $('#inpend').jeDate(end);
-
 </script>
 
 <!--上架-->
@@ -586,6 +602,7 @@
 								alert("上架失败！");
 							} else if(data.status == 2){
 								alert("已经上架了！");
+                                $(".picturePop,.putAwayPop").hide();
 							}
 							$('.upbookSure').unbind("click"); 
 						},
@@ -610,13 +627,33 @@
 
 <!--限免-->
 <script>
-    function freecharge() {
+    function freecharge(ele) {
         $(".picturePop,.advicePop").show();
+        $('.advicePop .hideval').val('');
+        //把val放到隐藏域
+        $('.advicePop .hideval').val($(ele).attr('data-val'));
     }
     //        取消和x掉关闭弹框
     $(".close-button").click(function () {
         $(".picturePop,.advicePop").hide();
-    })
+    });
+    //增加限免
+    $('#sendAuthor3').click(function(){
+        $.ajax({
+            data : {
+                'val' : $('.tagPop .hideval').val(),
+                'labered' : tagArray,
+            },
+            url : "<?php echo U('Works/addLabered');?>",
+            type : 'POST',
+            success : function(data){
+                console.log(data);
+            },
+            error : function(){
+                alert("网络错误！");
+            }
+        });
+    });
 </script>
 
 <!--标签弹框-->
@@ -675,13 +712,10 @@
                 }else {
                     alert("标签不能重复")
                 }
-
             }else{
                 flag = true;
                 alert("不超过6个标签")
             }
-
-
             $(".titleBox .tag").each(function () {
                 $(this).find('a').click(function (e) {
                     e.stopPropagation();
@@ -690,7 +724,6 @@
                     rsObj[elem] = false;
                     $(this).parent().remove();
                 });
-
             })
         })
     });
@@ -739,7 +772,6 @@
 			url : "<?php echo U('Works/getComin');?>",
 			type : 'GET',
 			success : function(data){
-				console.log(data);
 				$('.m-l17').html(data.title);
 				$(".work-type").find("input[type='radio']").each(function(){
 					if($(this).val() == data.catidca){
@@ -779,7 +811,7 @@
 				var str = '';
 				$('.tagsinput2').html('');
 				$.each(data.totaltag,function(i,obj){
-					str += '<span class="tag2"> <span>' + obj + '</span> <a href="javascript:;">X</a> </span>';
+					str += '<span class="tag2"> <span>' + obj + '</span> <a href="javascript:;" onclick="remove(this)" >X</a> </span>';
 				});
 				$('.tagsinput2').append(str);
 				$('.comicintro').find("input").val(data.say);
@@ -802,7 +834,6 @@
     $(function () {
         var textinput2 = $(".tag2>span").html();
         var i=0;
-    //var array=[];
         $(".recommended_tag2 ul li").each(function () {
             var textli = $(this).find("a").html();
             var flag = false;
@@ -812,16 +843,12 @@
             $(this).find("a").on("click",function () {
                 var $li = $(".tag2").length-1;
                 elem=this[i];
-
                 if($li < 5 && !flag){
                     if(!rsObj[elem] && !t){
                         $('<span class="tag2"> <span> textinput </span> <a href="javascript:;">X</a> </span>').prependTo(".tagsinput2");
                         textinput2 = $(".tag2").eq(i).find('span').html(textli);
-
                         arr.push(elem);
-    //console.log(arr)
                         rsObj[elem] = true;
-
                     }else {
                         alert("标签不能重复")
                     }
@@ -830,7 +857,6 @@
                     flag = true;
                     alert("不超过6个标签")
                 }
-
 
                 $(".tagsinput2 .tag2").each(function () {
                     $(this).find('a').click(function (e) {
@@ -846,7 +872,6 @@
         });
 
     });
-
     $(function () {
         $(".tagsinput2").click(function () {
 
@@ -856,7 +881,6 @@
             $(".recommended_tag2").hide();
         })
     });
-
     //    修改封面图片剪切
     $(".modify-face-btn").click(function () {
         $(".all-bg").css("display","block");
@@ -882,8 +906,75 @@
 
 <!--预览-->
 <script>
+    var pageIndex = 0;
+    var pageCount = 0;
+    var pagesize = 10;
     //    图片预览
-    function prelook() {
+    function prelook(ele) {
+        $('.lookPop .hideval').val('');
+        $('.lookPop .hideval').val($(ele).attr('data-val'));
+        $('.lookPop ul').html('');
+        $.ajax({
+            data : {
+                'val' : $(ele).attr('data-val'),
+            },
+            url : "<?php echo U('Works/preLook');?>",
+            type : 'GET',
+            success : function(data){
+                console.log(data);
+                var str = '';
+                if(data.status == 1){
+                    pageCount = data.count;
+                    var data = {
+                        page:1,
+                        pagesize:pagesize,
+                        val:$(ele).attr('data-val'),
+                    };
+                    getPage(data);
+                    $('.page-box .M-box').pagination({
+                        totalData:pageCount,
+                        showData:10,
+                        coping:true,
+                        jump: true,
+                        callback:function(api){
+                            var data = {
+                                page: api.getCurrent(),
+                                pagesize:pagesize,
+                                val:$('.lookPop .hideval').val(),
+                            };
+                            getPage(data);
+                        }
+                    });
+                } else {
+                    str = 'data null!';
+                }
+                $('.lookPop ul').append(str);
+            },
+            error : function(){
+                alert("网络错误！");
+            }
+        });
+        //漫画预览分页
+        function getPage(data) {
+            $('.lookPop ul').html('');
+            $.ajax({
+                data : {'data' : data},
+                url : "<?php echo U('Works/getLook');?>",
+                type : 'GET',
+                success : function(data){
+                    console.log(data);
+                    var str = '';
+                    $.each(data.data,function(i,obj){
+                        str += '<li><img src="'+ obj.path +'" alt=""></li>';
+                    });
+                    $('.lookPop ul').append(str);
+                },
+                error : function(){
+                    alert("网络错误！");
+                }
+            });  
+        }
+
         $(".picturePop,.lookPop").show();
     }
     //  ×掉
@@ -894,8 +985,58 @@
 
 <!--下载-->
 <script>
-    function uploaddown() {
+    function uploaddown(ele) {
+        $('.uploadPop .hideval').val('');
+        $('.uploadPop .hideval').val($(ele).attr('data-val'));
+        $('.uploadPop .wrapBox').html('');
+        $.ajax({
+            data : {
+                'val' : $(ele).attr('data-val'),
+            },
+            url : "<?php echo U('Works/getDownlist');?>",
+            type : 'GET',
+            success : function(data){
+                console.log(data);
+                var str='';
+                if(data.status ==1 ){
+                    $.each(data.data,function(i,obj){
+                        str += '<li><a href="javascript: void(0);"><button type="button" value="'+ obj.authornumber +'">'+ obj.section +'</button></a></li>';
+                    });
+                } else {
+                    str = 'data null!';
+                }
+                $('.uploadPop .wrapBox').append(str);
+            },
+            error : function(){
+                alert("网络错误！");
+            }
+        });
         $(".picturePop,.uploadPop").show();
+    }
+    //全局定义下载列表数组
+    var downArray = new Array();
+    public function uploadSure(ele){
+        var val = $('.uploadPop .hideval').val();
+        var downArray = [];
+
+        $(".wrapBox li>a>button").each(function(i) {
+            downArray[i] = $(this).val();
+        });
+        console.log(downArray);
+        $.ajax({
+            data : {
+                'val' : val,
+                'data' : downArray,
+            },
+            url : "<?php echo U('Works/downZipfile');?>",
+            type : 'GET',
+            success : function(data){
+                console.log(data);
+            },
+            error : function(){
+                alert("网络错误！");
+            }
+        });
     }
     //  ×掉
     $("#deletepop4,.close-button").click(function () {
@@ -1045,12 +1186,234 @@
         $(".picturePop,.deletePop") .hide();
     });
 </script>
+
+<script type="text/javascript">
+    function nexted(){
+        var catidca = '';
+        var status = '';
+        var planed = '';
+        var firstpublish = '';
+        var exclusive = '';
+        var totaltag= [];
+        var say = '';
+        var description ='';
+        var announcement = '';
+        var photopath = '';
+        var applookphoto ='';
+
+        //作品类别
+        $(".work-type").find("input[type='radio']").each(function(){
+            if($(this).is(":checked")){
+                catidca = $(this).val();
+            }
+        });
+        //创作进程
+        $(".create-progress").find("input[type='radio']").each(function(){
+            if($(this).is(":checked")){
+                status = $(this).val();
+            }
+        });
+        //更新计划
+        $(".updataplan").find("input[type='radio']").each(function(){
+            if($(this).is(":checked")){
+                planed = $(this).val();
+            }
+        });
+        //首发状态
+        $(".published-state").find("input[type='radio']").each(function(){
+            if($(this).is(":checked")){
+                firstpublish = $(this).val();
+            }
+        });
+        //版权状态
+        $(".copyright-state").find("input[type='radio']").each(function(){
+            if($(this).is(":checked")){
+                exclusive = $(this).val();
+            }
+        });
+        //标签
+        $(".tagsinput2 .tag2").each(function(i) {
+            totaltag[i] = $(this).children('span').html();
+        });
+        //一句话介绍
+        say = $('.comicintro').find("input").val();
+        //作者公告
+        announcement = $('.author-notice').find("textarea").val();
+        //作品简介
+        description = $('.work-description').find("textarea").val();
+        //封面图片
+        photopath = $('.modify-work-face').find("img").attr('src');
+        //app封面图片
+        applookphoto = $('.phonePic').find("img").attr('src');
+            
+        if(say>23 || say==0){       
+            alert("一句话简介限23字以内!");
+            return false;
+        } else if(description < 10){
+            alert("作品简介请输入10-500个字!");
+            return false;
+        } else if(status==undefined){                                          
+            alert("请选择创作进程");
+            return false;
+        } else if(planed==undefined){                       
+            alert("请选择更新计划");
+            return false;
+        } else if(catidca==undefined){
+            alert("请选择作品类别");
+            return false;
+        } else if(totaltag==""){
+            alert("请选择作品标签.");
+            return false;
+        } else if(announcement==""){
+            alert("请填写作者公告.");
+            return false;
+        } else if(photopath==undefined){
+            alert("请上传封面图片.");
+            return false;
+        } else if(applookphoto==undefined){ 
+            alert("请上传封面图片，谢谢!");
+            return false;
+        } else {
+            $.ajax({
+                data : {
+                    'val' : $('.msgChangePop .hideval').val(),
+                    'catidca' : catidca,
+                    'status' : status,
+                    'planed' : planed,
+                    'firstpublish' : firstpublish,
+                    'exclusive' : exclusive,
+                    'totaltag' : totaltag,
+                    'say' : say,
+                    'description' : description,
+                    'announcement' : announcement,
+                    'photopath' : photopath,
+                    'applookphoto' : applookphoto,
+                },
+                url : "<?php echo U('Works/updateComin');?>",
+                type : 'POST',
+                success : function(data){
+                    if(data == 1){
+                        $(".picturePop,.msgChangePop").hide();
+                        alert("保存信息成功！");
+                    } else {
+                        alert("保存信息失败！");
+                    }
+                },
+                error : function(){
+                    alert("网络错误！");
+                }
+            });    
+        }
+    }                                                                      
+</script>
+
+<!-- 移除信息修改标签 -->
+<script type="text/javascript">
+    function remove(obj){
+        $(obj).parent(".tag2").remove();
+    }
+</script>
+
 </html>
 <!-- 图片上传 -->
 <script type="text/javascript">
+    function changeFace(){
+        XHRUploader.init({
+            handlerUrl:'/Api/Base/Uploadface',
+            input: '_imgs[]'
+        }).uploadFile('changeFace', {
+            'partition' : 'date',
+            'space'     : 'article.image',
+            'thumb'     : 2,
+            'width'     : 0,
+            'height'    : 0
+        },{
+            ready: function(ret){
+                //alert('zhengzai');正在上传
+            },
+            complete: function(ret){
+                //alert(ret.data);
+                if(ret.info=="1"){
+                    //alert(ret.data);
+                    $("#alertid").html("您的图片不符合规范,参数错误");
+                    $(".tipPop").css("display","block");
+                    $(myCount());
+                }
+                else if(ret.info=="2"){
+                    //alert(ret.data);
+                    $("#alertid").html("您的图片不符合规范,上传错误");
+                    $(".tipPop").css("display","block");
+                    $(myCount());
+                }
+                else if(ret.info=="3"){
+                    //alert(ret.data);
+                    var html = '<img  style="float:left;"  src="'+ret.data+'" width=250 height=141>';
+                    $("#appgraph").html("");
+                    $("#appgraph").prepend(html);
+                    var htmlone ='<input type="hidden" name="hidden" id="applookphoto" value="'+ret.data+'">';
+                    $("#fixphoto").html("");
+                    $("#fixphoto").html(htmlone);
+                }
+                else if(ret.info=="4"){
+                    //alert(ret.data);
+                    $("#alertid").html("您的图片不符合规范，图片尺寸为750*460像素");
+                    $(".tipPop").css("display","block");
+                    $(myCount());
+                }
+            }
+        });
+    }
+    var i = 5;
+    function myCount(){
+        i--;
+        if(i == 0){
+            $(".tipPop").fadeOut();
+            return;
+        }
+        if(i<0){
+            i=3;
+         }
+        setTimeout(myCount,900);
+    }
+</script>
+
+<!-- 图片上传+截图 -->
+<script type="text/javascript">
+    //插件截图
+    function fun(){
+        xsize = "225";   //控制截图区域的大小比例
+        ysize = "300";
+        $("#target").Jcrop({
+            onChange:showPreview,
+            onSelect:showPreview,
+            aspectRatio: xsize / ysize,
+            setSelect: [ 0, 0, 325, 416],          
+            boxWidth:400,
+            boxHeight:300
+        }); 
+        //简单的事件处理程序，响应自onChange,onSelect事件，按照上面的Jcrop调用
+        function showPreview(coords){
+            if(parseInt(coords.w) > 0){
+                //计算预览区域图片缩放的比例，通过计算显示区域的宽度(与高度)与剪裁的宽度(与高度)之比得到
+                var rx = $("#phototwo").width() / coords.w; 
+                var ry = $("#phototwo").height() / coords.h;
+                //通过比例值控制图片的样式与显示
+                $("#preview2").css({
+                    width:Math.round(rx * $("#target").width()) + "px", //预览图片宽度为计算比例值与原图片宽度的乘积
+                    height:Math.round(rx * $("#target").height()) + "px",   //预览图片高度为计算比例值与原图片高度的乘积
+                    marginLeft:"-" + Math.round(rx * coords.x) + "px",
+                    marginTop:"-" + Math.round(ry * coords.y) + "px"
+                });
+                $('#x').val(coords.x);
+                $('#y').val(coords.y);
+                $('#w').val(coords.w);
+                $('#h').val(coords.h);
+            }
+        }
+    } 
     //异步上传
     XHRUploader.init({
-        handlerUrl:'/Admin/Works/Upload',
+        handlerUrl:'/Api/Base/Upload',
         input: '_imgs[]'
     }).uploadFile('uploadpic', {
         'partition' : 'date',
@@ -1080,23 +1443,39 @@
                 alert("图片大小不符合请选择核实的大小上传!");
             }
         }
-    }); 
-</script>
-<script type="text/javascript">
-    function inputed(obj){
-        alert(321);return;
-        var did = $(obj).attr("did");
-        $.post(
-            '/admin/Works/comicinputed',
-            {"did":did},
-            function(data){
-                if(data=="1"){
-                    window.location.reload();
-                }else{
-                    alert("已经上架了!");
-                }
-            },
-            "html"
-        )
+    });
+    function confirmOk(){
+        var x = $("#x").val();
+        var y = $("#y").val();
+        var w = $("#w").val();
+        var h = $("#h").val();
+        var z = $("#z").val();
+           if(x!=""){
+                 $.post(
+                '/Api/Base/cropsubmit',
+                {"x":x,"y":y,"w":w,"h":h,"z":z},
+                function(data){
+                    //alert(data);
+                    if(data !=""){
+                        $("#longpath").html("");  
+                        var imagepath = data;  
+                        var html = '<div><img src="'+data+'" style="width:157px;height:200px;"/><div>';
+                        var htmlone ='<input type="hidden" name="hidden" id="head_photo" value="'+data+'">';
+                            $("#longpath").prepend(html);  
+                            $("#button_up").prepend(htmlone); 
+                            $('#managepicture').css("display","none");
+                            $(".all-bg").css("display","none");
+                            $('#imageadd').html("");
+                            $('#phototwo').html("");
+                            $("#x").val("");
+                    }else{
+                        alert("截图失败,请换一张试试!");
+                    }
+                },
+                   "html"
+            )
+        } else {
+            alert("请上传图片!");
+        }
     }
 </script>

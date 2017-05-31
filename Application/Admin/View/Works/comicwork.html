@@ -10,12 +10,14 @@
     <link rel="stylesheet" href="__PUBLIC__/Admin/Common/jedate/skin/jedate.css">
     <link rel="stylesheet" href="__PUBLIC__/Admin/Common/Css/comicwork.css">
     <link rel="stylesheet" href="__PUBLIC__/Admin/css/jquery.Jcrop.css" type="text/css" />
+    <link rel="stylesheet" href="__PUBLIC__/Admin/css/pagination.css" type="text/css" />
     <script type="text/javascript" src="__PUBLIC__/Admin/Common/Js/jquery-2.2.3.js"></script>
     <script src="__PUBLIC__/Admin/Js/jquery-1.7.1.min.js" type="text/javascript"></script>
     <script src="__PUBLIC__/Admin/Common/jedate/jquery.jedate.js"></script>
     <script src="__PUBLIC__/Admin/Js/jquery.Jcrop.js" type="text/javascript"></script>
     <script language="javascript" src="__PUBLIC__/Admin/Js/Ajax.class.js"></script>
     <script language="javascript" src="__PUBLIC__/Admin/Js/XHRUploader.class.js"></script>
+    <script language="javascript" src="__PUBLIC__/Admin/Js/jquery.pagination.js"></script>
 </head>
 <style type="text/css">
     #check,.checkall-box label {cursor:pointer;}
@@ -156,15 +158,15 @@
                             <td align="center">
                                 <a href="javascript:;" id="{$vol.val}" onclick="putaway(this)" style="text-decoration:none;">上架</a>
                                 |
-                                <a href="javascript:;" onclick="freecharge(this)" style="text-decoration:none;">限免</a>
+                                <a data-val="{$vol.val}" href="javascript:;" onclick="freecharge(this)" style="text-decoration:none;">限免</a>
                                 |
                                 <a data-val="{$vol.val}" href="javascript:;" class="biaossi" style="text-decoration:none;">标签</a>
                                 |
                                 <a data-val="{$vol.val}" href="javascript:;" onclick="msgchange(this)" style="text-decoration:none;">信息修改</a>
                                 |
-                                <a href="javascript:;" onclick="prelook(this)" style="text-decoration:none;">预览</a>
+                                <a data-val="{$vol.val}" href="javascript:;" onclick="prelook(this)" style="text-decoration:none;">预览</a>
                                 |
-                                <a href="javascript:;" onclick="uploaddown(this)" style="text-decoration:none;">下载</a>
+                                <a data-val="{$vol.val}" href="javascript:;" onclick="uploaddown(this)" style="text-decoration:none;">下载</a>
                                 |
                                 <a data-val="{$vol.val}" href="javascript:;" onclick="intruduce(this)" style="text-decoration:none;">介绍</a>
                                 |
@@ -225,6 +227,7 @@
         <span class="wstxt">推荐时间：</span><input type="text" class="workinput wicon" id="inpstart" readonly>
         <span class="wstxt">至：</span><input type="text" class="workinput wicon" id="inpend" readonly>
         <span id="timeSure" class="timeSure">确定</span>
+        <input type="hidden" class="hideval" val=""/>
     </div>
 </div>
 
@@ -439,11 +442,13 @@
     <div class="picClose">
         <img src="__PUBLIC__/Admin/Common/imgs/picclose.png" alt="">
     </div>
-    <div class="pictureContent">
+    <div class="pictureContent page-box">
         <ul>
             <li><img src="__PUBLIC__/Admin/Common/imgs/58d1fc4b1b0b9.jpg" alt=""></li>
             <li><img src="__PUBLIC__/Admin/Common/imgs/58d1fc4b1b0b9.jpg" alt=""></li>
         </ul>
+        <div class="M-box"></div>
+        <input type="hidden" class="hideval" val=""/>
     </div>
 </div>
 
@@ -472,6 +477,7 @@
             <div class="bottomBtn fl">
                 <button type="button" class="sureBtn" id="sendAuthor4" onclick="uploadSure(this)">确定</button>
                 <button type="button" class="deleteBtn" id="deletepop4">取消</button>
+                <input type="hidden" class="hideval" val=""/>
             </div>
         </div>
     </div>
@@ -554,7 +560,6 @@
     };
     $('#inpstart').jeDate(start);
     $('#inpend').jeDate(end);
-
 </script>
 
 <!--上架-->
@@ -622,13 +627,33 @@
 
 <!--限免-->
 <script>
-    function freecharge() {
+    function freecharge(ele) {
         $(".picturePop,.advicePop").show();
+        $('.advicePop .hideval').val('');
+        //把val放到隐藏域
+        $('.advicePop .hideval').val($(ele).attr('data-val'));
     }
     //        取消和x掉关闭弹框
     $(".close-button").click(function () {
         $(".picturePop,.advicePop").hide();
-    })
+    });
+    //增加限免
+    $('#sendAuthor3').click(function(){
+        $.ajax({
+            data : {
+                'val' : $('.tagPop .hideval').val(),
+                'labered' : tagArray,
+            },
+            url : "<?php echo U('Works/addLabered');?>",
+            type : 'POST',
+            success : function(data){
+                console.log(data);
+            },
+            error : function(){
+                alert("网络错误！");
+            }
+        });
+    });
 </script>
 
 <!--标签弹框-->
@@ -881,8 +906,75 @@
 
 <!--预览-->
 <script>
+    var pageIndex = 0;
+    var pageCount = 0;
+    var pagesize = 10;
     //    图片预览
-    function prelook() {
+    function prelook(ele) {
+        $('.lookPop .hideval').val('');
+        $('.lookPop .hideval').val($(ele).attr('data-val'));
+        $('.lookPop ul').html('');
+        $.ajax({
+            data : {
+                'val' : $(ele).attr('data-val'),
+            },
+            url : "<?php echo U('Works/preLook');?>",
+            type : 'GET',
+            success : function(data){
+                console.log(data);
+                var str = '';
+                if(data.status == 1){
+                    pageCount = data.count;
+                    var data = {
+                        page:1,
+                        pagesize:pagesize,
+                        val:$(ele).attr('data-val'),
+                    };
+                    getPage(data);
+                    $('.page-box .M-box').pagination({
+                        totalData:pageCount,
+                        showData:10,
+                        coping:true,
+                        jump: true,
+                        callback:function(api){
+                            var data = {
+                                page: api.getCurrent(),
+                                pagesize:pagesize,
+                                val:$('.lookPop .hideval').val(),
+                            };
+                            getPage(data);
+                        }
+                    });
+                } else {
+                    str = 'data null!';
+                }
+                $('.lookPop ul').append(str);
+            },
+            error : function(){
+                alert("网络错误！");
+            }
+        });
+        //漫画预览分页
+        function getPage(data) {
+            $('.lookPop ul').html('');
+            $.ajax({
+                data : {'data' : data},
+                url : "<?php echo U('Works/getLook');?>",
+                type : 'GET',
+                success : function(data){
+                    console.log(data);
+                    var str = '';
+                    $.each(data.data,function(i,obj){
+                        str += '<li><img src="'+ obj.path +'" alt=""></li>';
+                    });
+                    $('.lookPop ul').append(str);
+                },
+                error : function(){
+                    alert("网络错误！");
+                }
+            });  
+        }
+
         $(".picturePop,.lookPop").show();
     }
     //  ×掉
@@ -893,8 +985,58 @@
 
 <!--下载-->
 <script>
-    function uploaddown() {
+    function uploaddown(ele) {
+        $('.uploadPop .hideval').val('');
+        $('.uploadPop .hideval').val($(ele).attr('data-val'));
+        $('.uploadPop .wrapBox').html('');
+        $.ajax({
+            data : {
+                'val' : $(ele).attr('data-val'),
+            },
+            url : "<?php echo U('Works/getDownlist');?>",
+            type : 'GET',
+            success : function(data){
+                console.log(data);
+                var str='';
+                if(data.status ==1 ){
+                    $.each(data.data,function(i,obj){
+                        str += '<li><a href="javascript: void(0);"><button type="button" value="'+ obj.authornumber +'">'+ obj.section +'</button></a></li>';
+                    });
+                } else {
+                    str = 'data null!';
+                }
+                $('.uploadPop .wrapBox').append(str);
+            },
+            error : function(){
+                alert("网络错误！");
+            }
+        });
         $(".picturePop,.uploadPop").show();
+    }
+    //全局定义下载列表数组
+    var downArray = new Array();
+    public function uploadSure(ele){
+        var val = $('.uploadPop .hideval').val();
+        var downArray = [];
+
+        $(".wrapBox li>a>button").each(function(i) {
+            downArray[i] = $(this).val();
+        });
+        console.log(downArray);
+        $.ajax({
+            data : {
+                'val' : val,
+                'data' : downArray,
+            },
+            url : "<?php echo U('Works/downZipfile');?>",
+            type : 'GET',
+            success : function(data){
+                console.log(data);
+            },
+            error : function(){
+                alert("网络错误！");
+            }
+        });
     }
     //  ×掉
     $("#deletepop4,.close-button").click(function () {
