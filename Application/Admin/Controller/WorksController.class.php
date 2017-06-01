@@ -315,45 +315,51 @@ class WorksController extends Controller{
 	 *批量下载图片压缩成zip
 	 */
 	public function downZipfile(){
-		$dfile =  tempnam('/tmp', 'tmp');//产生一个临时文件，用于缓存下载文件
-		$zip = new \Think\Zipfile();
-		//----------------------
-		$filename = 'image.zip'; //下载的默认文件名
+		$data = $_GET['data'];
+		$data = explode(',',$data); 
+		if(!empty($data)){
+			$dfile =  tempnam('/tmp', 'tmp');//产生一个临时文件，用于缓存下载文件
+			$zip = new \Think\Zipfile();
+			//----------------------
+			$filename = 'image.zip'; //下载的默认文件名
 
-		//以下是需要下载的图片数组信息，将需要下载的图片信息转化为类似即可
-		$image = array(
-		    array('image_src' => 'pic1.jpg', 'image_name' => '图片1.jpg'),
-		    array('image_src' => 'pic2.jpg', 'image_name' => 'pic/图片2.jpg'),
-		);
-
-		foreach($image as $v){
-		    $zip->add_file(file_get_contents($v['image_src']),  $v['image_name']);
-		    // 添加打包的图片，第一个参数是图片内容，第二个参数是压缩包里面的显示的名称, 可包含路径
-		    // 或是想打包整个目录 用 $zip->add_path($image_path);
+			$Form = M('three');
+			foreach ($data as $key => $value) {
+				$temp[$key] = $Form->where("numbers = '$value'")->order("ordered asc")->order("id asc")->select();
+			}
+			foreach($temp as $k => $v){
+				foreach ($v as $key => $value) {
+					$zip->add_file(file_get_contents($value['path']),$value['section'].$key.'.jpg');
+				}
+			}
+			/*foreach($image as $v){
+			    $zip->add_file(file_get_contents($v['image_src']),  $v['image_name']);
+			    // 添加打包的图片，第一个参数是图片内容，第二个参数是压缩包里面的显示的名称, 可包含路径
+			    // 或是想打包整个目录 用 $zip->add_path($image_path);
+			}*/
+			$zip->output($dfile);
+			// 下载文件
+			ob_clean();
+			header('Pragma: public');
+			header('Last-Modified:'.gmdate('D, d M Y H:i:s') . 'GMT');
+			header('Cache-Control:no-store, no-cache, must-revalidate');
+			header('Cache-Control:pre-check=0, post-check=0, max-age=0');
+			header('Content-Transfer-Encoding:binary');
+			header('Content-Encoding:none');
+			Header ( "Content-type: application/octet-stream" );
+			Header ( "Accept-Ranges: bytes" );
+			header('Content-Disposition:attachment; filename="'.$filename.'"'); //设置下载的默认文件名
+			header('Content-length:'. filesize($dfile));
+			$fp = fopen($dfile, 'r');
+			while(connection_status() == 0 && $buf = @fread($fp, 8192)){
+			    echo $buf;
+			}
+			fclose($fp);
+			@unlink($dfile);
+			@flush();
+			@ob_flush();
+			exit();
 		}
-		//----------------------
-		$zip->output($dfile);
-
-		// 下载文件
-		ob_clean();
-		header('Pragma: public');
-		header('Last-Modified:'.gmdate('D, d M Y H:i:s') . 'GMT');
-		header('Cache-Control:no-store, no-cache, must-revalidate');
-		header('Cache-Control:pre-check=0, post-check=0, max-age=0');
-		header('Content-Transfer-Encoding:binary');
-		header('Content-Encoding:none');
-		header('Content-type:multipart/form-data');
-		header('Content-Disposition:attachment; filename="'.$filename.'"'); //设置下载的默认文件名
-		header('Content-length:'. filesize($dfile));
-		$fp = fopen($dfile, 'r');
-		while(connection_status() == 0 && $buf = @fread($fp, 8192)){
-		    echo $buf;
-		}
-		fclose($fp);
-		@unlink($dfile);
-		@flush();
-		@ob_flush();
-		exit();
 	}
 	/**
      * 漫画处理 上下架

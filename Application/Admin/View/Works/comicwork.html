@@ -99,11 +99,8 @@
 <body bgcolor="#F7F7F7">
 <!--主体内容开始-->
 <div class="content">
-
     <div class="content_top">&nbsp;&nbsp;&nbsp;现在的位置为：作品信息-&gt;漫画作品</div>
-
     <div class="m_content">
-
         <div class="real_c">
 
             <div class="s-space"></div>
@@ -479,6 +476,10 @@
                 <button type="button" class="deleteBtn" id="deletepop4">取消</button>
                 <input type="hidden" class="hideval" val=""/>
             </div>
+            <form action="" method="get" target="_blank" id="formId">
+                <iframe name="downloadFrame" style="display: none;" frameborder="0"></iframe>
+                <input type="hidden" name="data" class="data" value="" />
+            </form>
         </div>
     </div>
 </div>
@@ -1015,28 +1016,21 @@
     }
     //全局定义下载列表数组
     var downArray = new Array();
-    public function uploadSure(ele){
+    function uploadSure(ele) {
         var val = $('.uploadPop .hideval').val();
-        var downArray = [];
+        downArray = [];
 
         $(".wrapBox li>a>button").each(function(i) {
             downArray[i] = $(this).val();
         });
-        console.log(downArray);
-        $.ajax({
-            data : {
-                'val' : val,
-                'data' : downArray,
-            },
-            url : "<?php echo U('Works/downZipfile');?>",
-            type : 'GET',
-            success : function(data){
-                console.log(data);
-            },
-            error : function(){
-                alert("网络错误！");
-            }
-        });
+        
+        var str = downArray.toString(); 
+        var url = "<?php echo U('Works/downZipfile');?>";
+        console.log(url);
+        $("#formId").attr("action",url);
+        $("#formId .data").val(str);
+        $("#formId").attr("target","downloadFrame");//iframe的名字
+        $("#formId").submit();
     }
     //  ×掉
     $("#deletepop4,.close-button").click(function () {
